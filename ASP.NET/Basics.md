@@ -9,7 +9,7 @@
 - %windir%\Microsoft.NET\Framework64\[version]\config\machine.config – global configuration
 - site_root\web.config – site-specific configuration
 - site_root\Views\web.config - Views-specific configuration (MVC)
-- Configuration file skeleton
+- Configuration file skeleton is shown below:
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <configuration>
@@ -36,9 +36,16 @@
 <identity impersonate="true" username="admin" password="test1" />
 ```
 - `<membership .../>` – enables users of the web site to create accounts (logins/passwords)
-
-![ASP.NET membership configuration](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/asp.net2.png)
-
+```xml
+<membership defaultProvider="SqlMembershipProvider">
+ <providers>
+  <add name="SqlMembershipProvider"
+       type="System.Web.Security.SqlMembershipProvider"
+       connectionStringName="MyConnection1"
+       applicationName="MyApp" />
+ </providers>
+</membership>
+```
 - `<compilation .../>` – to specify which compilers to use and which assemblies to include into the package
 ```xml
 <complication debug="false" defaultLanguage="CS">
