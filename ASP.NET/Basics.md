@@ -90,7 +90,7 @@ msdeploy.exe [siteName].deploy.cmd
              [/U:userName]
              [/P:password]
 ```
-Where `/T` - trial run, `/Y` - production run. This command deploys website into default location which is `%windir%\inetpub\wwwroot\%sitename%`
+Where `/T` - trial run, `/Y` - production run. This command deploys website into default location which is `%windir%\inetpub\wwwroot\%sitename%`.
 
 - Typical deployment tasks
  - Re-configure production version of `web.config` file
@@ -113,3 +113,55 @@ Where `/T` - trial run, `/Y` - production run. This command deploys website into
  - **Non-updatable full compilation**
  - **Updatable compilation** (it is possible to modify view files, css styles, etc.)
 
+#### ASP.NET Directives
+- `<%@ Application ... %>` – to define application-specific data used for `global.asax`
+- `<%@ Assembly ... %>` – to include specified assembly
+- `<%@ Control ... %`> – to define user control
+- `<%@ Implements ... %>` – to indicate that this page should implement specified interface
+- `<%@ Import ... %>` – to import namespace
+- `<%@ Master ... %>` – to define Master Page
+- `<%@ OutputCache ... %>` – to control output caching
+- `<%@ Page ... %>` – to define page-specific data and code behind for this page
+- `<%@ Reference ... %>` – to include another page or control
+- `<%@ Register ... %>` – to register a control on the page
+
+#### ASP.NET Controls
+###### Control Types
+- HTML Controls – native HTML controls
+- HTML Server Controls – native HTML controls with `runat="server"` option
+- ASP.NET Server Controls – such as `<asp:Button />`
+- ASP.NET Ajax Server Controls – such as `<asp:UpdatePanel />`
+- ASP.NET User Controls – combination of existing controls located in `.ascx` file with `@Control` directive
+- ASP.NET Custom Controls – custom implementation of `WebControl` class; can be included into a page using `@Register` directive
+
+###### Standard Controls
+- `Button`, `LinkButton`, `ImageButton`
+- `Calendar`
+- `CheckBox`, `CheckBoxList`
+- `DropDownList`, `ListBox`
+- `TextBox`, `Label`
+- `Image`, `ImageMap`
+- `RadioButton`, `RadioButtonList`
+- `FileUpload`, `HiddenField`, `HyperLink`
+- Other: `AdRotator`, `BulletedList`, `Localize`, `MultiView`, `PlaceHolder`, `Panel`, `Wizard`, etc.
+- Typical controls’ properties: `ID`, `runat="server"`, `Width`, `Height`, `CssClass`, `Visible`, `BackColor`, `Tooltip`, etc.
+
+###### Validation & Data Source Controls
+- There are two types of validation:
+ - Client Side (js)
+ - Server Side (code behind)
+- ASP.NET Validation Controls – used to validate other controls
+ - `RequiredFieldValidator`, `RangeVaidator`, `ReqularExpressionValidator`, `CustomValidator`, `ValidationSummary`
+ - Those controls use `ControlToValidate` property to specify the `ID` of the control they want to apply validation for
+- ASP.NET Data Source Controls – allow binding to specified data source (file, database, xml)
+ - Table-based Data Source Controls: `SqlDataSource`, `ObjectDataSource`, `LinqDataSource`, `AccessDataSource`
+ - Hierarchical Data Source Controls: `XmlDataSource`, `SiteMapDataSource`
+- Data-Bound Controls – the controls, which are bound to specified data source controls
+ - `AdRotator` can be bound to table-based data sources via `AdvertisementFile` property
+ - List controls (`ListBox`, `CheckBoxList`, `DropDownList`, etc.) and View controls (`GridView`, `FormView`, `DetailView`) can be bound to table-based data sources via `DataSourceID` property
+ - `Menu`, `TreeView` and `SiteMapPath` controls can be bound to hierarchical data sources via `DataSourceID` property
+- `Bind` and `Eval` methods – allow to bind data to controls
+ - `Eval` – one-way binding, `Bind` – two-way binding
+```asp
+<asp:Label Text='<%# Eval("ProductID") %>' />
+```
