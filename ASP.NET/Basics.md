@@ -1,10 +1,10 @@
 # ASP.NET General
 
 #### Navigation
-- [ASP.NET Building Blocks](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-configuration-file)
+- [ASP.NET Building Blocks](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-building-blocks)
 - [ASP.NET Configuration File](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-configuration-file)
 - [ASP.NET Application Deployment](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-application-deployment)
-- [ASP.NET Configuration](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-configuration)
+- [ASP.NET IIS & Compiler](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-configuration)
 - [ASP.NET Directives](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-directives)
 - [ASP.NET Controls](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-controls)
 
@@ -107,7 +107,7 @@ Where `/T` - trial run, `/Y` - production run. This command deploys website into
  - Set the permissions to specified files/folders
  - Precompile the project, etc.
 
-#### ASP.NET Configuration
+#### ASP.NET IIS & Compiler
 - IIS/Application pool configuration
  - **Classic** pipeline mode (IIS 6): Client request -> IIS 6 -> aspnet_isapi.dll -> CLR
  - **Integrated** pipeline mode (IIS 7+): Client request -> IIS 7+ -> CLR
