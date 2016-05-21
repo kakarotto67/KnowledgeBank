@@ -1,9 +1,18 @@
-# General
-- ASP.NET building blocks
- - Web Forms (aspx)
- - MVC  (aspx, razor/.cshtml)
- - Web Pages (razor/.cshtml)
- - Single Page Application (WebAPI, js/ajax)
+# ASP.NET General
+
+#### Navigation
+- [ASP.NET Building Blocks](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-configuration-file)
+- [ASP.NET Configuration File](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-configuration-file)
+- [ASP.NET Application Deployment](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-application-deployment)
+- [ASP.NET Configuration](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-configuration)
+- [ASP.NET Directives](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-directives)
+- [ASP.NET Controls](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-controls)
+
+#### ASP.NET Building Blocks
+- Web Forms (aspx)
+- MVC  (aspx, razor/.cshtml)
+- Web Pages (razor/.cshtml)
+- Single Page Application (WebAPI, js/ajax)
 
 #### ASP.NET Configuration File
 - %windir%\Microsoft.NET\Framework64\[version]\config\machine.config – global configuration
