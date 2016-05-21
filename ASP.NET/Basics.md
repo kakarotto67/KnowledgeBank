@@ -7,6 +7,7 @@
 - [ASP.NET IIS & Compiler](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-iis--compiler)
 - [ASP.NET Directives](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-directives)
 - [ASP.NET Controls](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-controls)
+- [ASP.NET Intrinsic Objects](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-intrinsic-objects)
 
 #### ASP.NET Building Blocks
 - Web Forms (aspx)
@@ -196,3 +197,31 @@ ViewState.LoadViewState(); // load saved View State
 ```
 - `ControlState` – stores internal control specific data (e.g., active control’s tab, etc.)
 
+#### ASP.NET Common Features
+###### Storing of Data
+
+| Object | Details |
+| --- | --- |
+| Application | Application-specific data; data is shared between all users; data is stored permanently |
+| Session | User-specific data; data is available only during specific user session |
+| Cookies | User-specific data; data is stored in user browser permanently until expiration date |
+| Profile | User-specific data; data is stored in SQL Server; ASP.NET feature |
+| Cache | Cached data; available to all users; stored on a Web Server |
+
+###### Special Folders
+- `Bin` folder – stores .dll files
+- `App_Code` folder – stores sources, that will be automatically compiled
+
+###### Error Handling
+- Tracing	- allows to add specific information into tracing page
+ - Enable tracing in web.config file - `<%@ Page ... Trace="true">`
+ - Use `Trace.Write()` method to add extra information into tracing page
+- Debugging
+ - Enable debugging in web.config file - `<compilation debug="true" />`
+- Custom redirect pages
+```xml
+<customErrors defaultRedirects="errors\DefaultError.aspx" mode="On">
+ <error statusCode="400" redirect="errors\ClientError.aspx" />
+ <error statusCode="500" redirect="errors\ServerError.aspx" />
+</customErrors>
+```
