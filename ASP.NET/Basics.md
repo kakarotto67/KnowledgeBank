@@ -174,3 +174,25 @@ Where `/T` - trial run, `/Y` - production run. This command deploys website into
 ```asp
 <asp:Label Text='<%# Eval("ProductID") %>' />
 ```
+
+#### ASP.NET Intrinsic Objects
+- `Page.Context` property of `System.Web.HttpContext` type
+ - `Request` (`HttpRequest` type)
+ - `Response` (`HttpResponse` type)
+ - `Server` (`HttpServerUtility` type)
+ - `Application` (`HttpApplicationState` type)
+ - `Session` (`HttpSessionState` type)
+ - `Profile` (`ProfileBase` type)
+ - `Cache` (`Cache` type)
+- `Control.ViewState` property of `System.Web.UI.StateBag` type
+ - `ViewState` serializes and deserializes data into/from hidden fields (`__ViewState`, `base64` format)
+ - `ViewState` uses `LosFormatter` and `ObjectStateFormatter` classes for serialization/deserialization
+```cs
+ViewState.TrackViewState(); // enable View State
+ViewState["key1"] = 1; // add new key-value pair into View State
+ViewState.IsItemDirty("key1"); // true, because key1 has been initialized after enabling of the View State
+ViewState.SetItemDirty("key1", true); // mark item as dirty
+ViewState.LoadViewState(); // load saved View State
+```
+- `ControlState` – stores internal control specific data (e.g., active control’s tab, etc.)
+
