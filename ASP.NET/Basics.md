@@ -4,7 +4,7 @@
  - MVC  (aspx, razor/.cshtml)
  - Web Pages (razor/.cshtml)
  - Single Page Application (WebAPI, js/ajax)
- 
+
 #### ASP.NET Configuration File
 - %windir%\Microsoft.NET\Framework64\[version]\config\machine.config – global configuration
 - site_root\web.config – site-specific configuration
@@ -56,10 +56,13 @@
  - `mode` values: **SQLServer** (in database), **InProc** (in memory of web server), **StateServer** (in separate process), **Custom** (custom provider), **Off** (session state is disabled)
 
 #### ASP.NET Application Deployment
-- XCopy tool commands (direct copy of PE files)
-- VS->Build->`Publish %MyWebApp%` option (for `Web Application` project type)
-- VS->`Copy Website` option (for `Web Site` project type)
-- VS->`ClickOnce Deployment` tool
+- `XCopy` tool commands (direct copy of PE files)
+- `VS->Build->Publish %MyWebApp%` option (for `Web Application` project type)
+- `VS->Copy Website` option (for `Web Site` project type)
+- `VS->ClickOnce Deployment` tool
+ - Setup an account with a hosting company
+ - Create publish profile
+ - Start the deployment via `ClickOnce`
 - `MSBuild.exe` tool (direct command):
 
 ```
@@ -73,7 +76,7 @@ msdeploy.exe -source:package="siteName.mvc.zip"
              -setParamFile:"...\...SetParameters.xml
 ```
 
- - `MSBuild.exe` tool (usage via `.deploy.cmd` file). `VS2015->Right-click on project->Publish->Connection->Web Deploy Package->OK` flow creates the following files in specified location:
+ - `MSBuild.exe` tool (usage via `.deploy.cmd` file). `VS2015->Project Properties->Publish->Connection->Web Deploy Package->OK` flow creates the following files in specified location:
   - [siteName].deploy.cmd
   - [siteName].zip
   - [siteName].SetParameters.xml
