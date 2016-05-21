@@ -10,9 +10,20 @@
 - site_root\web.config – site-specific configuration
 - site_root\Views\web.config - Views-specific configuration (MVC)
 - Configuration file skeleton
-
-![ASP.NET configuration file skeleton](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/asp.net1.png)
-
+```xml
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+ <configSections> ... </configSections>
+ <appSettings> ... </appSettings>
+ <connectionStrings> ... </connectionStrings>
+ 
+ <!-- Web configurations (legacy IIS) -->
+ <system.web> ... </system.web>
+ 
+ <!-- Web configurations (IIS 7+ ) -->
+ <system.webServer> ... </system.webServer>
+</configuration>
+```
 - `<authentication mode="..." />` - to configure authentication
  - `mode` values: **Windows**, **Forms**, **Passport**, **Federated**, **None**
 - `<authorization .../>` - to configure authorization
