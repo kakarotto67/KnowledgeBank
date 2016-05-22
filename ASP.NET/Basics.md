@@ -87,7 +87,7 @@ msdeploy.exe -source:package="siteName.mvc.zip"
              -setParamFile:"...\...SetParameters.xml
 ```
 
- - `MSBuild.exe` tool (usage via `.deploy.cmd` file). `VS2015->Project Properties->Publish->Connection->Web Deploy Package->OK` flow creates the following files in specified location:
+ - `MSBuild.exe` tool (usage via `.deploy.cmd` file). `VS2015->Right-click on Project->Publish->Connection->Web Deploy Package->OK` flow creates the following files in specified location:
   - [siteName].deploy.cmd
   - [siteName].zip
   - [siteName].SetParameters.xml
@@ -219,7 +219,7 @@ ViewState.LoadViewState(); // load saved View State
  - Use `Trace.Write()` method to add extra information into tracing page
 - Debugging
  - Enable debugging in web.config file - `<compilation debug="true" />`
-- Custom redirect pages
+- Custom error redirects
 ```xml
 <customErrors defaultRedirects="errors\DefaultError.aspx" mode="On">
  <error statusCode="400" redirect="errors\ClientError.aspx" />
