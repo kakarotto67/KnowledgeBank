@@ -226,3 +226,23 @@ ViewState.LoadViewState(); // load saved View State
  <error statusCode="500" redirect="errors\ServerError.aspx" />
 </customErrors>
 ```
+
+###### Caching Options
+- Output caching (rendered html pages caching)
+- Data caching (caching the data from data source)
+- Object caching (caching the objects on a page, such as data-bound controls)
+- Class caching (caching the assembly in the server)
+- Configuration caching (saving configuration information in the server memory)
+
+###### Localization in ASP.NET
+- Global Resources – stored in `App_GlobalResources` folder. Example – WebResources.resx, WebResources.de.resx, WebResources.fr.resx
+- Local Resources – stored in `App_LocalResources` folder
+ - Implicit resources (`<asp:Button ... meta:resourceKey = "button1" />`)
+ - Explicit resources (`<asp:Button ... Text = "<%$ Resource:WebResources, button1 %>" />`)
+ - Localize static text (`<asp:Localize ... />`)
+
+###### Pass Values Between Pages
+- GET method (from query string): `Request.QueryString["field1"];`
+- POST method: `Request.Form.AllKeys[i];`
+- Via `Session` object
+
