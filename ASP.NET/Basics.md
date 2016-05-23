@@ -280,13 +280,6 @@ ViewState.LoadViewState(); // load saved View State
 - Class caching (caching the assembly in the server)
 - Configuration caching (saving configuration information in the server memory)
 
-###### Localization in ASP.NET
-- Global Resources – stored in `App_GlobalResources` folder. Example – WebResources.resx, WebResources.de.resx, WebResources.fr.resx
-- Local Resources – stored in `App_LocalResources` folder
- - Implicit resources (`<asp:Button ... meta:resourceKey = "button1" />`)
- - Explicit resources (`<asp:Button ... Text = "<%$ Resource:WebResources, button1 %>" />`)
- - Localize static text (`<asp:Localize ... />`)
-
 ###### Pass Values Between Pages
 - GET method (from query string): `Request.QueryString["field1"];`
 - POST method: `Request.Form.AllKeys[i];`
@@ -377,6 +370,16 @@ void OnBeginRequest(...)
 - Theme can be applied to the website via `<pages />` element in `web.config` file
 - `<pages theme="BlueTheme" />` – own controls’ styles will be overridden
 - `<pages stylesheettheme="BlueTheme"/>` – own controls’ styles will no be overridden
+
+#### Globalization in ASP.NET
+###### Localization
+- Global Resources – stored in `App_GlobalResources` folder. Example – WebResources.resx, WebResources.de.resx, WebResources.fr.resx
+- Local Resources – stored in `App_LocalResources` folder
+ - Implicit resources (`<asp:Button ... meta:resourceKey = "button1" />`)
+ - Explicit resources (`<asp:Button ... Text = "<%$ Resource:WebResources, button1 %>" />`)
+ - Localize static text (`<asp:Localize ... />`)
+
+TBD
 
 #### Application (`System.Web.HttpApplication`) Class
 - `System.Web.HttpApplication` class defines ASP.NET application
