@@ -246,3 +246,75 @@ ViewState.LoadViewState(); // load saved View State
 - POST method: `Request.Form.AllKeys[i];`
 - Via `Session` object
 
+#### Application (`System.Web.HttpApplication`) Class
+- `System.Web.HttpApplication` class defines ASP.NET application
+ - Properties
+    - `Application` (`HttpApplicationState`)
+    - `Context`, `Events`, `Modules`, `Request`, `Response`, `Server`, `Session`, etc.
+ - Events (in global.asax)
+    - `Application_Start`, `Application_End`
+    - `Session_Start`, `Session_End`
+
+###### Application Life Cycle
+1. Request from Browser
+2. ASP.NET AppDomain is created for the first time (`ApplicationManager` class)
+3. Some top-level items are compiled (e.g., any stuff in `App_Code` folder). Such objects as `HttpContext`, `HttpRequest`, and `HttpResponse` are created
+4. `HttpApplication` instance is created (it might be reused). `Global.asax` is initialized (if exists)
+5. Request is processed by `HttpApplication`
+ 1. Validate request
+ 2. Perform URL mapping
+ 3. `HttpApplication` events (see below)
+ 4. Error event - occurs in case of any errors
+
+###### Application Events
+1. `BeginRequest` event
+2. `AuthenticateRequest` event
+3. `PostAuthenticateRequest` event
+4. `AuthorizeRequest` event
+5. `PostAuthorizeRequest` event
+6. `ResolveRequestCache` event (if caching is enabled & caching page can be retrieved - go to event 21)
+7. `PostResolveRequestCache` event
+8. `MapRequestHandler` event
+9. `PostMapRequestHandler` event
+10. `AquireRequestState` event (`Application` and `Session` sates)
+11. `PostAquireRequestState` event
+12. `PreRequestHandlerExecute` event
+13. `ExecuteRequestHandler` (execute `HttpHandler`, it’s time for **Page Life Cycle** events which are shown below)
+14. `PostRequestHandlerExecute` event
+15. `ReleaseRequestState` event
+16. `PostReleaseRequestState` event
+17. `UpdateRequestCache` event
+18. `PostUpdateRequestCache` event
+19. `LogRequest` event
+20. `PostLogRequest` event
+21. `EndRequest` event
+22. `PreSendRequestHeader` event
+23. `PreSendRequestContent` event
+
+#### Page (`System.Web.UI.Page`) Class
+- `System.Web.UI.Page` class defines main control, which processes a page
+ - Properties
+    - `Application` (`HttpApplicationState`)
+    - `Cache`, `Context`, `EnableViewState`, `Events`
+    - `Form`, `IsPostBack`, `IsCallback`, `IsCrossPagePostBack`
+    - `Page`, `Response`, `Request`
+
+###### Page Life Cycle Events
+I. Setup Stage
+ 1. `PreInit` event
+ 2. `Init` event
+ 3. `InitComplete` event
+ 4. `ViewState` restoration and processing posted data
+ 5. `PreLoad` event
+ 6. `Load` event
+
+II. Handling the PostBack Stage
+ 1. Detecting control state changes and executing the server-side postback event
+ 2. `LoadComplete` event
+
+III. Page Finalization Stage
+ 1. `PreRender` event
+ 2. `PreRenderComplete` event
+ 3. `SaveStateComplete` event
+ 4. Generating the markup
+ 5. `Unload` event (free unmanaged resources, etc.)
