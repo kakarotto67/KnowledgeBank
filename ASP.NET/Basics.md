@@ -290,6 +290,65 @@ ViewState.LoadViewState(); // load saved View State
 - POST method: `Request.Form.AllKeys[i];`
 - Via `Session` object
 
+###### Add JavaScript Dynamically
+- To add JS into a page dynamically use `ClientScriptManager` class’ methods:
+ - `RegisterClientScriptBlock()`
+ - `RegisterClientScriptInclude()`
+ - `RegisterStartupScript()`
+ - `RegisterOnSubmitStatement()`
+
+#### HTTP Handler (`HttpHandler` class)
+- HTTP Handler - attached to specified requests of specified file extensions
+- To create
+ - Derive from `IHttpHandler` interface
+ - Implement `ProcessRequest(HttpContext context)` method of that interface
+ - Add handler into configuration file (see below)
+- Usage: RSS feeds, image server, image water marks, etc.
+
+```xml
+<httpHandlers>
+ <!-- This handler will be attached to each GET request of file with extension .jpg, .png or .gif -->
+ <add verb="GET" path="*.jpg, *.png, *.gif" type="ImageHandler, MyApp.Common.Handlers" />
+</httpHandlers>
+```
+
+###### Generic Handler
+- Generic Handler should be called explicitly
+- To create
+ - Create .ashx file with `<%@ WebHandler ... >` header
+ - Develop code behind similarly to common handlers
+- Usage: Dynamic image generation (`src="Icon.ashx?username=roman"`), to return REST-base XML as JSON data, custom HTML, etc.
+
+#### HTTP Module (`HttpModule` class)
+- HTTP Module – attached to some specified event of each request
+- To create
+ - Derive from `IHttpModule` interface
+ - Implement `Init()` method of that interface, then attach handler to event you want to change behavior of
+ - Implement event handler
+
+```cs
+// Init() method
+void Init(HttpApplication app)
+{
+    app.BeginRequest += OnBeginRequest;
+}
+
+// Custom event handler
+void OnBeginRequest(...)
+{
+    // custom code
+}
+```
+
+```xml
+<httpModules>
+ <!-- Registration of the module -->
+ <add name="AuthModule" type="MyApp.Common.Modules.AuthModule" />
+</httpModules>
+```
+
+- Usage: Security (e.g., authenticate user on `AuthenticateRequest` event), statistics, logging, custom handlers, footers, URL routing (on `BeginRequest` event), etc.
+
 #### Application (`System.Web.HttpApplication`) Class
 - `System.Web.HttpApplication` class defines ASP.NET application
  - Properties
