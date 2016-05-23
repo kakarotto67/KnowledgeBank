@@ -7,7 +7,9 @@
 - [ASP.NET Directives](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-directives)
 - [ASP.NET Controls](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-controls)
 - [ASP.NET Intrinsic Objects](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-intrinsic-objects)
-- [ASP.NET Common](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-common-features)
+- [ASP.NET Common](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-common)
+- [HTTP Handler (HttpHandler class)](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#http-handler-httphandler-class)
+- [HTTP Module (HttpModule class)](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#http-module-httpmodule-class)
 - [Application (System.Web.HttpApplication) Class](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#application-systemwebhttpapplication-class)
 - [Page (System.Web.UI.Page) Class](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#page-systemwebuipage-class)
 
