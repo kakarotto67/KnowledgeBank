@@ -4,11 +4,10 @@
 - [ASP.NET Building Blocks](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-building-blocks)
 - [ASP.NET Configuration File](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-configuration-file)
 - [ASP.NET Application Deployment](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-application-deployment)
-- [ASP.NET IIS & Compiler](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-iis--compiler)
 - [ASP.NET Directives](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-directives)
 - [ASP.NET Controls](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-controls)
 - [ASP.NET Intrinsic Objects](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-intrinsic-objects)
-- [ASP.NET Common Features](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-common-features)
+- [ASP.NET Common](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-common-features)
 - [Application (System.Web.HttpApplication) Class](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#application-systemwebhttpapplication-class)
 - [Page (System.Web.UI.Page) Class](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#page-systemwebuipage-class)
 
@@ -111,21 +110,6 @@ Where `/T` - trial run, `/Y` - production run. This command deploys website into
  - Set the permissions to specified files/folders
  - Precompile the project, etc.
 
-#### ASP.NET IIS & Compiler
-- IIS/Application pool configuration
- - **Classic** pipeline mode (IIS 6): Client request -> IIS 6 -> aspnet_isapi.dll -> CLR
- - **Integrated** pipeline mode (IIS 7+): Client request -> IIS 7+ -> CLR
-
-| IIS 6 | IIS 7+ |
-| --- | --- |
-| ISAPI filter (aspnet_filter.dll) | HttpModule |
-| ISAPI extension (aspnet_isapi.dll) | HttpHandler |
-
-- `aspnet_compiler.exe` tool - allows to compile web application
- - **In-place compilation** (if site already deployed to production)
- - **Non-updatable full compilation**
- - **Updatable compilation** (it is possible to modify view files, css styles, etc.)
-
 #### ASP.NET Directives
 - `<%@ Application ... %>` – to define application-specific data used for `global.asax`
 - `<%@ Assembly ... %>` – to include specified assembly
@@ -179,6 +163,22 @@ Where `/T` - trial run, `/Y` - production run. This command deploys website into
 <asp:Label Text='<%# Eval("ProductID") %>' />
 ```
 
+###### User Controls
+- `<%@ Control ... %>` – define a user control in .ascx file (combination of any controls + code behind)
+- `<%@ Register TagPrefix="MyControl1" Src="~/MyControl.ascx" %>` – register control on some page
+
+###### Custom Controls
+- Derive from `WebControl` class and implement its properties
+- Override `RenderControl()` method
+- Use `@Register` to add the control to some page
+
+###### MS Ajax Controls
+- `ScriptManager`
+- `UpdatePanel`
+- `UpdateProgress`
+- `Timer`
+- Ajax Control Toolkit
+
 #### ASP.NET Intrinsic Objects
 - `Page.Context` property of `System.Web.HttpContext` type
  - `Request` (`HttpRequest` type)
@@ -200,7 +200,13 @@ ViewState.LoadViewState(); // load saved View State
 ```
 - `ControlState` – stores internal control specific data (e.g., active control’s tab, etc.)
 
-#### ASP.NET Common Features
+#### ASP.NET Common
+###### File Types
+- .ascx - user control
+- .aspx - page
+- .asmx - XML web service
+- .ashx - generic handler
+
 ###### Storing of Data
 
 | Object | Details |
@@ -228,6 +234,42 @@ ViewState.LoadViewState(); // load saved View State
  <error statusCode="500" redirect="errors\ServerError.aspx" />
 </customErrors>
 ```
+
+###### ASP.NET IIS
+- IIS/Application pool configuration
+ - **Classic** pipeline mode (IIS 6): Client request -> IIS 6 -> aspnet_isapi.dll -> CLR
+ - **Integrated** pipeline mode (IIS 7+): Client request -> IIS 7+ -> CLR
+
+| IIS 6 | IIS 7+ |
+| --- | --- |
+| ISAPI filter (aspnet_filter.dll) | HttpModule |
+| ISAPI extension (aspnet_isapi.dll) | HttpHandler |
+
+###### ASP.NET Compiler
+- `aspnet_compiler.exe` tool - allows to compile web application
+ - **In-place compilation** (if site already deployed to production)
+ - **Non-updatable full compilation**
+ - **Updatable compilation** (it is possible to modify view files, css styles, etc.)
+
+###### Environment Configuration
+- Precompilation
+- Recycling policies of pool
+- Unexpected restarts
+- Output caching
+- Application warm-up and preloading
+
+###### Monitoring
+- Health Monitoring – monitor the status of the application, errors, etc.
+
+```xml
+<healthMonitoring enabled="true"> ... </healthMonitoring>
+```
+
+- Performance Monitoring
+ - System Performance Counters (Performance Monitor window)
+    - Requests disconnected, applications running, etc.
+ - Application Performance Counters
+    - Requests per second, number of hits from cache, etc.
 
 ###### Caching Options
 - Output caching (rendered html pages caching)
