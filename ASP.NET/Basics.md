@@ -351,6 +351,33 @@ void OnBeginRequest(...)
 
 - Usage: Security (e.g., authenticate user on `AuthenticateRequest` event), statistics, logging, custom handlers, footers, URL routing (on `BeginRequest` event), etc.
 
+#### Master Pages, Themes and Skins
+###### Master Pages
+- Creation
+ - Create a file with `<%@ Master ... >` header
+ - Add HTML skeleton into it (`<html>`, `<head>`, etc.)
+ - Add `<asp:ContentPlaceHolder ID="MainBlock" runat="server" >` into all places, where you need to insert specific content
+- Usage
+ - Place `<%@ Page MasterPageFile="Common.Master">` header into some page to use the Master Page
+ - Use `<asp:Content ContentPlaceHolderId="MainBlock" runat="server"> ... </asp:Content>` to specify the data which should be inserted instead of corresponding `ContentPlaceHolder` control from Master Page
+
+###### Skins
+- Skin file (.skin) contains styles for controls
+- Default style – for all controls
+- Named style – applied to a control via `SkinID`
+
+###### Themes
+- `App_Themes` folder contains all themes. Each theme has its separate folder
+ - BlueTheme
+    - BlueTheme.css
+    - Controls.skin
+ - PinkTheme
+    - PinkTheme.css
+    - PinkTheme.skin
+- Theme can be applied to the website via `<pages />` element in `web.config` file
+- `<pages theme="BlueTheme" />` – own controls’ styles will be overridden
+- `<pages stylesheettheme="BlueTheme"/>` – own controls’ styles will no be overridden
+
 #### Application (`System.Web.HttpApplication`) Class
 - `System.Web.HttpApplication` class defines ASP.NET application
  - Properties
