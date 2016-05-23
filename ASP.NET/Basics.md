@@ -9,6 +9,8 @@
 - [ASP.NET Controls](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-controls)
 - [ASP.NET Intrinsic Objects](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-intrinsic-objects)
 - [ASP.NET Common Features](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-common-features)
+- [Application (System.Web.HttpApplication) Class](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#application-systemwebhttpapplication-class)
+- [Page (System.Web.UI.Page) Class](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#page-systemwebuipage-class)
 
 #### ASP.NET Building Blocks
 - Web Forms (aspx)
