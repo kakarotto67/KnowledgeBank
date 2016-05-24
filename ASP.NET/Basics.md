@@ -14,6 +14,7 @@
 - [Globalization in ASP.NET](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#globalization-in-aspnet)
 - [Application (System.Web.HttpApplication) Class](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#application-systemwebhttpapplication-class)
 - [Page (System.Web.UI.Page) Class](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#page-systemwebuipage-class)
+- [MobileCapabilities API (obsolete)](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#mobilecapabilities-api-obsolete)
 
 #### ASP.NET Building Blocks
 - Web Forms (aspx)
