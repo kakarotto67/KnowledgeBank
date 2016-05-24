@@ -374,9 +374,9 @@ void OnBeginRequest(...)
 - `<pages stylesheettheme="BlueTheme"/>` – own controls’ styles will no be overridden
 
 #### Globalization in ASP.NET
-- **Globalization** - the code is separated from data, so it is possible to localize the application
-- **Localizability** - how easy is it to localize the application
-- **Localization** - the process of translation
+- Globalization - the code is separated from data, so it is possible to localize the application
+- Localizability - how easy is it to localize the application
+- Localization - the process of translation
 
 ###### Issues
 - Language issues
@@ -482,3 +482,35 @@ III. Page Finalization Stage
  3. `SaveStateComplete` event
  4. Generating the markup
  5. `Unload` event (free unmanaged resources, etc.)
+
+#### `MobileCapabilities` API (`obsolete`)
+- `System.Web.Mobile.MobileCapabilities` class - provides information about browser making the request
+- To define new capability:
+ - Create a method that returns `bool` and takes `MobileCapabilities` type as a parameter
+ - Add `<filter>` element into `<deviceFilters>` section of `web.config` file
+ - Use `((MobileCapabilities) Request.Browser).HasCapability("GpsEnabled", String.Empty);` method to check that new capability
+
+```cs
+public static bool IsGpsEnabled(MobileCapabilities mc, string someArg)
+{
+    // implementation details
+}
+```
+
+```xml
+<deviceFilters>
+ <filter name="GpsEnabled"
+         type="MyType, MyAssembly"
+         method="IsGpsEnabled" />
+</deviceFilters>
+```
+
+###### Built-in Capabilities of `MobileCapabilities` Class
+- `CanInitiateVoiceCall`
+- `CanSendMail`
+- `HasBackButton`
+- `IsMobileDevice`
+- `MobileDeviceManufacturer`, `MobileDeviceModel`
+- `ScreenCharactersHeight`, `ScreenCharactersWidth`
+- `ScreenPixelsHeight`, `ScreenPixelsWidth`
+- `SupportCss`, etc.
