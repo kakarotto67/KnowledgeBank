@@ -10,6 +10,8 @@
 - [ASP.NET Common](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-common)
 - [HTTP Handler (HttpHandler class)](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#http-handler-httphandler-class)
 - [HTTP Module (HttpModule class)](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#http-module-httpmodule-class)
+- [Master Pages, Themes and Skins](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#master-pages-themes-and-skins)
+- [Globalization in ASP.NET](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#globalization-in-aspnet)
 - [Application (System.Web.HttpApplication) Class](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#application-systemwebhttpapplication-class)
 - [Page (System.Web.UI.Page) Class](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#page-systemwebuipage-class)
 
