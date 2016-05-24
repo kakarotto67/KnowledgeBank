@@ -372,14 +372,41 @@ void OnBeginRequest(...)
 - `<pages stylesheettheme="BlueTheme"/>` – own controls’ styles will no be overridden
 
 #### Globalization in ASP.NET
-###### Localization
+- **Globalization** - the code is separated from data, so it is possible to localize the application
+- **Localizability** - how easy is it to localize the application
+- **Localization** - the process of translation
+
+###### Issues
+- Language issues
+- String-related issues
+- UI-related issues
+- Formatting issues
+
+###### Accessibility
+- Flexbile input & output
+- Flexible UI
+- Simplicity & intuitiveness
+- Keyboard navigation support
+- Less use of CSS
+- Image use, standard fonts, controls, etc.
+
+###### Helper Classes in .NET/C#
+- `System.Globalization.CultureInfo` class
+ - `CurrentCulture` property - the culture of the machine, time, currency and date format, etc.
+ - `CurrentUICulture` property - language which is preferred by the application
+- `System.Globalization.RegionInfo` class (properties: `CurrentRegion`, `CurrencySymbol`, etc.)
+- `System.DateTime` class - date formatting options (examples for `en-US` culture)
+ - `ToShortDateString` method (`M/d/yyyy` => `5/16/2016`)
+ - `ToLongDateString` method (`dddd, MMMM dd, yyyy` => `Wednesday, May 16, 2016`)
+ - `ToShortTimeString` method (`h:mm tt` => `3:02 AM`)
+ - `ToLongTimeString` method (`h:mm:ss tt` => `3:02:15 AM`)
+
+###### Localization Resources in ASP.NET
 - Global Resources – stored in `App_GlobalResources` folder. Example – WebResources.resx, WebResources.de.resx, WebResources.fr.resx
 - Local Resources – stored in `App_LocalResources` folder
  - Implicit resources (`<asp:Button ... meta:resourceKey = "button1" />`)
  - Explicit resources (`<asp:Button ... Text = "<%$ Resource:WebResources, button1 %>" />`)
  - Localize static text (`<asp:Localize ... />`)
-
-TBD
 
 #### Application (`System.Web.HttpApplication`) Class
 - `System.Web.HttpApplication` class defines ASP.NET application
