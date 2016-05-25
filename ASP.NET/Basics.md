@@ -484,6 +484,35 @@ III. Page Finalization Stage
  4. Generating the markup
  5. `Unload` event (free unmanaged resources, etc.)
 
+#### Control Adapters
+- Control adapter allows to render specific control differently in different browsers
+- Standard control adapters for modern browsers are located in `%windir%\Microsoft.net\Framework\%version%\Config\Browsers\` folder
+ - `blackberry.browser`
+ - `chrome.browser`
+ - `default.browser`
+ - `firefox.browser`
+ - `ie.browser`
+ - `safari.browser`
+ - `opera.browser`
+ - `iphone.browser`, etc.
+- To implement custom control adapter:
+ - Inherit from `System.Web.UI.Adapters.ControlAdapter` class (it is `abstract`, also you can inherit from these classes - `WebControlAdapter`, `MenuAdapter`, `DataBoundControlAdapter`, `HierarchicalDataBoundControlAdapter`, etc.)
+ - Implement `void Render(HtmlTextWriter writer)` method
+ - Apply your custom adapter
+    - Create `*.browser` file in `App_Browsers` directory
+    - Add the following snippet into `web.config` file:
+
+```xml
+<browsers>
+ <browser id="Default">
+  <controlAdapter>
+   <adapter controlType="System.Web.UI.WebControls.Menu"
+            adapterType="MyAssembly.Adapters.MyMenuAdapter" />
+  </controlAdapter>
+ </browser>
+</browsers>
+```
+
 #### `MobileCapabilities` API (`obsolete`)
 - `System.Web.Mobile.MobileCapabilities` class - provides information about browser making the request
 - To define new capability:
