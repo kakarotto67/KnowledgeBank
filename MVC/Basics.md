@@ -95,13 +95,112 @@
 
 ![MVC project structure](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/mvc-structure.png)
 
-#### Interaction between MVC Parts
-TBD
-- action methods, passing data from controller to view, using data on a view
+###### Passing Model to a View
+- You can pass data between controller and view by using of view constructor
+
+```cs
+        public ActionResult Details(int id)
+        {
+            // Some implementation details
+            Movie movie = database.Movies.Find(id);
+            return View(movie); // Pass movie model into `Details` view
+        }
+```
+
+- In this case, you can then use the model on a view via `@model` keyword. Note, how `@model` is initialized in the 1st line of the view
+
+```
+@model MvcMovie.Models.Movie
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Movie</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <dd>
+            @Html.DisplayFor(model => model.ReleaseDate)
+        </dd>
+        <dd>
+            @Html.DisplayFor(model => model.Genre)
+        </dd>
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+    </dl>
+</div>
+```
+
+###### Passing Data via Dynamic Properties
+- Typically you use `@ViewBag` dynamic property to pass some data between view and controller, e.g., you set `@ViewBag.Title` on your page
+- Also you can use `@ViewData` and `@TempData` properties
+
+###### Special Views
+- There is `_ViewStart.cshtml` view in the root of the `Views` folder. It is loaded before each your view, so typically you use it to set default layout for all views, as shown below
+
+```
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+```
+
+- You place all general views into `Views\Shared` folder. E.g., `Views\Shared\_Layout.cshtml` typically plays role of default layout page for all views (aka `master page`)
+- You start all `.cshtml` files with underscore (`_`) which you want to prevent browsing of
+- You place sensitive infromation into `_AppStart.cshtml` file into the following structure:
+
+```
+@{
+    // Sensitive code here
+}
+```
+
+###### Layout Page
+- Layout page plays role of master page in ASP.NET MVC
+- Typically, you set default layout page in `Views\_ViewStart.cshtml` file
+- Typically, you call default layout page as `_Layout.cshtml` and place it into `Views\Shared` folder
+- Typically, your default layout page looks like this one:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title> <!-- Application title -->
+    @Styles.Render("~/Content/css") <!-- Add CSS styles -->
+    @Scripts.Render("~/bundles/modernizr") <!-- Add JS scripts -->
+</head>
+<body>
+    <!-- Any HTML here -->
+    <div class="body-content">
+        @RenderBody() <!-- Add body of particular view here -->
+    </div>
+    <!-- Any HTML here -->
+</body>
+</html>
+```
 
 #### Razor View Engine
-TBD
-- razor, common rules, helper methods, layout page
+- Razor is a modern view engine for ASP.NET MVC
+- Razor uses `@` (`at`) character to add some dynamic code into views
+- There is `System.Web.Mvc.HtmlHelper` (`@Html`) class which has a lot of useful methods
+ - `BeginForm`
+ - `EndForm`
+ - `TextArea`, `TextAreaFor`
+ - `CheckBox`, `CheckBoxFor`
+ - `DropDownList`, `DropDownListFor`
+ - `Hidden`, etc.
+ - `ActionLink` - to create a link
+ - `Partial` - to insert partial view (partial views  stored in `Views\Shared` folder)
+- Layou-related helpers
+ - `@RenderSection` - to insed a section into layout page
+ - `@section MySection { ... }` - to create a section
+ - `@RenderBody` - to insert view's body into layout page
 
 #### MVC Routing
 - Routing allows you to use friendly and logical and URLs
