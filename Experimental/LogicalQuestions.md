@@ -7,6 +7,6 @@
 4. Try to build some equation (with x and y, for example) which represents the problem and then find the solution
 5. Try to find some alternatives. For example, sometimes you do not need to try to calculate next number in some numerical
 sequence directly, but try to represent existing items as english words, or calculate number of holes in each digit, etc.
-6. Use science. A lot of logical questions can be answered using physical, mathematical, statistical or theory of probability rules.
+6. Use science. A lot of logical questions can be answered using physical, mathematical, statistical or theory of probability rules, etc.
 
 TBD
