@@ -1,14 +1,87 @@
 #ASP.NET/MVC General
 
 #### Navigation
+- [MVC Overview]()
+ - [The Model]()
+ - [The View]()
+ - [The Controller]()
+
 - [MVC Routing](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#mvc-routing)
 - [Deployment](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#deployment)
  - [Deployment to Azure - General Steps](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#deployment-to-azure---general-steps)
 
 #### MVC Overview
-TBD
-- MVC general (model, view, controller)
-- general schema, conventions, shared views
+###### The Model
+- Model - a class with some business logic
+- All models are located in `Models` folder in any ASP.NET MVC project
+- Model class can contain different properties
+- You can use different attributes from `System.ComponentModel.DataAnnotations` namespace to give some characteristics to each property of the model. Some of them are:
+ - `StringLength` - specifies minimum and maximum length of the field's value
+ - `Display` - specifies the alias name for the field
+ - `DisplayFormat` - specifies how field's value is displayed and formatted
+ - `DataType` - specifies additional type of the field
+ - `RegularExpression` - specifies that field's value must match the specified regular expression
+ - `Required` - specifies that field's value is required
+- Typical model class is shown below
+
+```cs
+    public class Movie
+    {
+        public int ID { get; set; }
+        
+        [StringLength(60, MinimumLength = 3)]
+        public string Title { get; set; }
+        
+        [Display(Name = "Release Date"), DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:d}", ApplyFormatInEditMode = true)]
+        public DateTime ReleaseDate { get; set; }
+        
+        [RegularExpression(@"^[A-Z]+[a-zA-Z''-'\s]*$")]
+        [Required]
+        [StringLength(30)]
+        public string Genre { get; set; }
+        
+        [Range(1, 100), DataType(DataType.Currency)]
+        public decimal Price { get; set; }
+        
+        [RegularExpression(@"^[A-Z]+[a-zA-Z''-'\s]*$")]
+        [StringLength(5)]
+        public string Rating { get; set; }
+    }
+```
+
+###### The View
+- View - an .aspx (Aspx engine) or, more commonly, .cshtml (Razor engine) page with HTML markup, scripts and styles that defines the HTML page, basically, the UI of any web application
+- All views are located in `Views` folder in any ASP.NET MVC project
+
+###### The Controller
+- Controller - controls any type of interaction between views and business logic (models, etc.)
+- All controllers are located in `Controllers` folder in any ASP.NET MVC project\
+- Each controller implements `System.Web.Mvc.Controller` class
+- Each controller has **action methods** which typically return `System.Web.Mvc.ActionResult` instances and (in this case) associated with corresponding views
+
+###### Controllers, Views and Action Methods
+- Each view is tied with its parent controller, so it is located under controller's subfolder inside `Views` folder. For example, if you have `MoviesController` controller, then all its views are located under `\Views\Movies\` folder
+- Each view is tied with some **action method** from its parent controller. They are tied by name, e.g., `About` view under `\Views\Home` folder is tied with action method `About` from `HomeController` class
+- Each action method which returns `ActionResult` (actually, `ViewResult`, which is implementation of abstract `ActionResult` class) is associated with some view (view name is exactly the same as action method name, e.g., if action method name is `About`, then view name is also `About`)
+
+```cs
+        public ActionResult About()
+        {
+            // Returns `ViewResult` instance which represents `About` view
+            // If you return something else here, e.g., `EmptyResult`, then you do not need a view
+            return View();
+        }
+```
+
+- Some `ActionResult` implementations:
+ - `ViewResult` (mentioned above)
+ - `RedirectResult`
+ - `JsonResult`
+ - `JavaScriptResult`
+ - `FileResult`
+ - `EmptyResult`, etc.
+- All relations mentioned above are illustrated at the image below. There is `MoviesController` controller inside `Controllers` folder. It has some action methods, such as `Index`, `Create`, `Delete`, etc. All those methods represent appropriate views from corresponding `Views\Movies` folder.
 
 #### Interaction between MVC Parts
 TBD
