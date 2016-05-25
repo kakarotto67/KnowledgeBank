@@ -1,7 +1,7 @@
 #ASP.NET/MVC General
 
 #### Navigation
-- [MVC Overview (`System.Web.MVC`)](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#mvc-overview)
+- [MVC Overview (`System.Web.MVC`)](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#mvc-overview-systemwebmvc)
  - [The Model](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#the-model)
  - [The View](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#the-view)
  - [The Controller](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#the-controller)
