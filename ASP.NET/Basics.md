@@ -14,8 +14,7 @@
 - [Globalization in ASP.NET](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#globalization-in-aspnet)
 - [Application (System.Web.HttpApplication) Class](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#application-systemwebhttpapplication-class)
 - [Page (System.Web.UI.Page) Class](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#page-systemwebuipage-class)
-- [Control Adapters](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#control-adapters)
-- [MobileCapabilities API (obsolete)](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#mobilecapabilities-api-obsolete)
+- [Other ASP.NET Features]()
 
 #### ASP.NET Building Blocks
 - Web Forms (aspx)
@@ -485,7 +484,8 @@ III. Page Finalization Stage
  4. Generating the markup
  5. `Unload` event (free unmanaged resources, etc.)
 
-#### Control Adapters
+#### Other ASP.NET Features
+###### Control Adapters
 - Control adapter allows to render specific control differently in different browsers
 - Standard control adapters for modern browsers are located in `%windir%\Microsoft.net\Framework\%version%\Config\Browsers\` folder
  - `blackberry.browser`
@@ -514,7 +514,28 @@ III. Page Finalization Stage
 </browsers>
 ```
 
-#### `MobileCapabilities` API (`obsolete`)
+###### ASP.NET Web Parts
+- Allows to
+ - Dynamically personalize page content
+ - Dynamically personalize page layout
+ - Export & import controls
+ - Create connetions
+ - Manage site-level settings
+- Web parts are typically used in SharePoint
+- To create simple page with web parts:
+ - Create `.aspx` page
+ - Add *zones* to it (see below)
+ - Use the page with the web parts
+
+```xml
+<!-- ... -->
+<asp:WebPartManager id="manager1" runat="server" />
+<!-- ... -->
+<asp:WebPartZone id="zone1" runat="server" />
+<!-- ... -->
+```
+
+###### `MobileCapabilities` API (`obsolete`)
 - `System.Web.Mobile.MobileCapabilities` class - provides information about browser making the request
 - To define new capability:
  - Create a method that returns `bool` and takes `MobileCapabilities` type as a parameter
@@ -536,12 +557,12 @@ public static bool IsGpsEnabled(MobileCapabilities mc, string someArg)
 </deviceFilters>
 ```
 
-###### Built-in Capabilities of `MobileCapabilities` Class
-- `CanInitiateVoiceCall`
-- `CanSendMail`
-- `HasBackButton`
-- `IsMobileDevice`
-- `MobileDeviceManufacturer`, `MobileDeviceModel`
-- `ScreenCharactersHeight`, `ScreenCharactersWidth`
-- `ScreenPixelsHeight`, `ScreenPixelsWidth`
-- `SupportCss`, etc.
+- Built-in capabilities of `MobileCapabilities` class
+ - `CanInitiateVoiceCall`
+ - `CanSendMail`
+ - `HasBackButton`
+ - `IsMobileDevice`
+ - `MobileDeviceManufacturer`, `MobileDeviceModel`
+ - `ScreenCharactersHeight`, `ScreenCharactersWidth`
+ - `ScreenPixelsHeight`, `ScreenPixelsWidth`
+ - `SupportCss`, etc.
