@@ -194,18 +194,57 @@
 - Razor is a modern view engine for ASP.NET MVC
 - Razor uses `@` (`at`) character to add some dynamic code into views
 - There is `System.Web.Mvc.HtmlHelper` (`@Html`) class which has a lot of useful methods
- - `BeginForm`
- - `EndForm`
+ - `BeginForm`, `EndForm`
  - `TextArea`, `TextAreaFor`
  - `CheckBox`, `CheckBoxFor`
  - `DropDownList`, `DropDownListFor`
- - `Hidden`, etc.
+ - `Hidden`
+ - `LabelFor`
+ - `EditorFor`
+ - `ValidationMessageFor`, `ValidationSummary`
+ - `AntiForgeryToken`
  - `ActionLink` - to create a link
  - `Partial` - to insert partial view (partial views  stored in `Views\Shared` folder)
 - Layou-related helpers
  - `@RenderSection` - to insed a section into layout page
  - `@section MySection { ... }` - to create a section
  - `@RenderBody` - to insert view's body into layout page
+- Other helpers
+ - `@Styles.Render` - to load CSS file
+ - `@Scripts.Render` - to load JS file
+- You can use different control flow elements via Razor, for example to go through each `@model` elements use the code below. Note, how the `@model` is initialized and `@foreach` statement construction
+
+```
+@model IEnumerable<MvcMovie.Models.Movie>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<table class="table">
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ReleaseDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Genre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Price)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Rating)
+        </td>
+    </tr>
+}
+</table>
+```
 
 #### MVC Routing
 - Routing allows you to use friendly and logical and URLs
@@ -256,7 +295,71 @@
 ```
 
 #### MVC Filtering
-TBD
+- Filters allow you to add pre- and post-actions to the *action methods* of the controller
+- Action filter types
+ - `Authorization` filters (e.g., `OnAuthorization()`)
+ - `Action` filters (e.g., `OnActionExecuting()`, `OnActionExecuted()`)
+ - `Result` filters (e.g., `OnResultExecuting()`, `OnResultExecuted()`)
+ - `Exception` filters (e.g., `OnException()`)
+- Examples of existing filters
+ - `[Authorize(Roles="Administrators", Users="SuperAdmin, Admin")]` (`Authorization` filter) - specify roles and users that can access the action method(s)
+ - `[HandleError]` (`Exception` filter) - specify the view to display when exception is occurred
+ - `[OutputCache(Duration=10)]` (Action` filter) - enable caching
+ - `[RequireHttps]` (`Authorization` filter) - specify that action method(s) can be accessed only via https protocol
+- Filters run in the following order:
+ - `Authorization` filters
+ - `Action` filters
+ - `Result` filters
+ - `Exception` filters
+- You can create a filter in one of the following ways:
+ - Override one or more of the controller's `On<Filter>` methods
+ - Create an attribute class that derives from `ActionFilterAttribute` and apply the attribute to a controller or an action method
+ - Register a filter using the `FilterProviders` class
+ - Register a global filter using the `GlobalFilterCollection` class
+- Here is the example of custom `Authorization` filter which is intended to provide custom forms authentication:
+
+```cs
+    internal class RegisteredUsersAttribute : AuthorizeAttribute
+    {
+        protected override bool AuthorizeCore(HttpContextBase httpContext)
+        {
+            return base.AuthorizeCore(httpContext) && AuthHelper.IsUserAuthenticated(httpContext);
+        }
+
+        protected override void HandleUnauthorizedRequest(AuthorizationContext filterContext)
+        {
+            if (filterContext.HttpContext.User.Identity.IsAuthenticated)
+            {
+                base.HandleUnauthorizedRequest(filterContext);
+                return;
+            }
+
+            filterContext.Result = new RedirectToRouteResult(new RouteValueDictionary
+            {
+                {"Controller", "Account"},
+                {"Action", "Login"}
+            });
+            filterContext.HttpContext.Response.StatusCode = 403;
+        }
+    }
+```
+
+- Here is the usage of the custom filter from above:
+
+```cs
+    [RegisteredUsers]
+    public class PrivateAccountController : Controller
+    {
+        public ActionResult AccountPage()
+        {
+            return View();
+        }
+    }
+```
+
+- Extra details
+ - `Action` filter has `Order` property to specify when that filter should be executed
+ - `[NonAction]` attribute specifies that the method is not an action method
 
 #### Deployment
 - Check [this link](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-application-deployment) to get more information
