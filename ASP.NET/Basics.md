@@ -566,3 +566,18 @@ public static bool IsGpsEnabled(MobileCapabilities mc, string someArg)
  - `ScreenCharactersHeight`, `ScreenCharactersWidth`
  - `ScreenPixelsHeight`, `ScreenPixelsWidth`
  - `SupportCss`, etc.
+
+###### XHTML Standard
+- XHTML - is a W3C standard which guarantees that page is well-formed and will be parsed correctly by any browser
+- XHTML types:
+ - XHTML 1.0 Transitional
+ - XHTML 1.0 Frameset
+ - XHTML 1.0 Strict
+ - XHTML 1.1
+ - HTML5
+- Add `!doctype` element to your page to specify XHTML version your page is compliant to
+- For HTML5 use the following snippet:
+
+```xml
+<!doctype html>
+```
