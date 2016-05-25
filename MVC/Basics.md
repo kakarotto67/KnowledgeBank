@@ -1,9 +1,9 @@
 #ASP.NET/MVC General
 
 #### Navigation
-- [ASP.NET MVC Routing](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#deployment)
+- [ASP.NET MVC Routing](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#aspnet-mvc-routing)
 - [Deployment](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#deployment)
- - [Deployment to Azure - General Steps]()
+ - [Deployment to Azure - General Steps](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#deployment-to-azure---general-steps)
 
 #### ASP.NET MVC Routing
 - Routing allows you to use friendly and logical and URLs
