@@ -14,7 +14,7 @@
 #### MVC Overview
 ###### The Model
 - Model - a class with some business logic
-- All models are located in `Models` folder in any ASP.NET MVC project
+- All models are located under `Models` folder in any ASP.NET MVC project
 - Model class can contain different properties
 - You can use different attributes from `System.ComponentModel.DataAnnotations` namespace to give some characteristics to each property of the model. Some of them are:
  - `StringLength` - specifies minimum and maximum length of the field's value
@@ -52,14 +52,23 @@
 ```
 
 ###### The View
-- View - an .aspx (Aspx engine) or, more commonly, .cshtml (Razor engine) page with HTML markup, scripts and styles that defines the HTML page, basically, the UI of any web application
-- All views are located in `Views` folder in any ASP.NET MVC project
+- View - an .aspx (Aspx engine) or, more commonly, .cshtml (Razor engine) page with HTML markup, scripts and styles that defines the HTML page. Basically, views represent the UI of any web application
+- All views are located under `Views` folder in any ASP.NET MVC project
+- Here is the example of simple Razor view (`Index.cshtml`)
+
+```
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+```
 
 ###### The Controller
 - Controller - controls any type of interaction between views and business logic (models, etc.)
-- All controllers are located in `Controllers` folder in any ASP.NET MVC project\
+- All controllers are located under `Controllers` folder in any ASP.NET MVC project
 - Each controller implements `System.Web.Mvc.Controller` class
-- Each controller has **action methods** which typically return `System.Web.Mvc.ActionResult` instances and (in this case) associated with corresponding views
+- Each controller has **action methods** which typically return `System.Web.Mvc.ActionResult` instances and (if they return `ViewResult`, which is implementation of `ActionResult`) associated with corresponding views
 
 ###### Controllers, Views and Action Methods
 - Each view is tied with its parent controller, so it is located under controller's subfolder inside `Views` folder. For example, if you have `MoviesController` controller, then all its views are located under `\Views\Movies\` folder
@@ -82,7 +91,9 @@
  - `JavaScriptResult`
  - `FileResult`
  - `EmptyResult`, etc.
-- All relations mentioned above are illustrated at the image below. There is `MoviesController` controller inside `Controllers` folder. It has some action methods, such as `Index`, `Create`, `Delete`, etc. All those methods represent appropriate views from corresponding `Views\Movies` folder.
+- All relations mentioned above are illustrated at the image below. There is `MoviesController` controller inside `Controllers` folder. It has some action methods, such as `Index`, `Create`, `Delete`, etc. All those methods represent appropriate views from corresponding `Views\Movies` folder. The image also represents typical MVC project structure
+
+![MVC project structure](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/mvc-structure.png)
 
 #### Interaction between MVC Parts
 TBD
