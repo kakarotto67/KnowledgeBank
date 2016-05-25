@@ -13,6 +13,7 @@
 - [Razor View Engine](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#razor-view-engine)
 - [MVC Routing](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#mvc-routing)
 - [MVC Filtering](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#mvc-filtering)
+- [MVC Security Notes](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#mvc-filtering)
 - [Deployment](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#deployment)
  - [Deployment to Azure - General Steps](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#deployment-to-azure---general-steps)
 
@@ -360,6 +361,12 @@
 - Extra details
  - `Action` filter has `Order` property to specify when that filter should be executed
  - `[NonAction]` attribute specifies that the method is not an action method
+ - `[ValidateAntiForgeryToken]` - is an `Authorization` filter which saves action method(s) from CSRF attacks
+
+#### MVC Security Notes
+- Use `@Html.AntiForgeryToken()` method to save views from CSRF attacks
+- Use `[ValidateAntiForgeryToken]` filter to save action methods from CSRF attacks
+- Do not use `Get` action methods for inserts, updates and deletes
 
 #### Deployment
 - Check [this link](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-application-deployment) to get more information
