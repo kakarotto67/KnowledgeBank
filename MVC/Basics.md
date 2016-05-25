@@ -13,7 +13,7 @@
 - [Razor View Engine](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#razor-view-engine)
 - [MVC Routing](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#mvc-routing)
 - [MVC Filtering](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#mvc-filtering)
-- [MVC Security Notes](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#mvc-filtering)
+- [MVC Security Notes](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#mvc-security-notes)
 - [Deployment](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#deployment)
  - [Deployment to Azure - General Steps](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#deployment-to-azure---general-steps)
 
