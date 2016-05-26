@@ -257,7 +257,7 @@ ViewState.LoadViewState(); // load saved View State
 - `Bin` folder – stores .dll files
 - `App_Code` folder – stores sources, that will be automatically compiled
 - `App_Data` folder - stores different data, for example, .mdf database files, etc.
-- `App_Start` folder - stores different classes, such as `RouteConfig`, `FilterConfig`, `BundleConfig`, `IdentityConfig`, etc.
+- `App_Start` folder - stores different classes which are initialized at the start of the web application (e.g., `RouteConfig`, `FilterConfig`, `BundleConfig`, `IdentityConfig`, etc.)
 - `App_Themes` folder - contains web site [themes](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#themes)
 - `App_GlobalResources` folder - contains web site [global resources](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#localization-resources-in-aspnet)
 - `App_LocalResources` folder - contains web site [local resources](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#localization-resources-in-aspnet)
