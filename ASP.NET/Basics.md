@@ -6,15 +6,46 @@
 - [ASP.NET Application Deployment](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-application-deployment)
 - [ASP.NET Directives](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-directives)
 - [ASP.NET Controls](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-controls)
+ - [Control Types](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#control-types)
+ - [Standard Controls](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#standard-controls)
+ - [Validation & Data Source Controls](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#validation--data-source-controls)
+ - [User Controls](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#user-controls)
+ - [Custom Controls](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#custom-controls)
+ - [MS Ajax Controls](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#ms-ajax-controls)
 - [ASP.NET Intrinsic Objects](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-intrinsic-objects)
 - [ASP.NET Common](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-common)
+ - [File Types](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#file-types)
+ - [Storing of Data](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#storing-of-data)
+ - [Special Folders](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#special-folders)
+ - [Error Handling](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#error-handling)
+ - [ASP.NET IIS](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-iis)
+ - [ASP.NET Compiler](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-compiler)
+ - [Monitoring](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#monitoring)
+ - [Caching Options](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#caching-options)
+ - [Pass Values Between Pages](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#pass-values-between-pages)
+ - [Add JavaScript Dynamically](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#add-javascript-dynamically)
 - [HTTP Handler (HttpHandler class)](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#http-handler-httphandler-class)
+ - [Generic Handler](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#generic-handler)
 - [HTTP Module (HttpModule class)](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#http-module-httpmodule-class)
-- [Master Pages, Themes and Skins](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#master-pages-themes-and-skins)
+- [Master Pages, Skins and Themes](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#master-pages-skins-and-themes)
+ - [Master Pages](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#master-pages)
+ - [Skins](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#skins)
+ - [Themes](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#themes)
 - [Globalization in ASP.NET](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#globalization-in-aspnet)
+ - [Issues](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#issues)
+ - [Accessibility](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#accessibility)
+ - [Helper Classes in .NET](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#helper-classes-in-net)
+ - [Localization Resources in ASP.NET](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#localization-resources-in-aspnet)
 - [Application (System.Web.HttpApplication) Class](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#application-systemwebhttpapplication-class)
+ - [Application Life Cycle](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#application-life-cycle)
+ - [Application Events](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#application-events)
 - [Page (System.Web.UI.Page) Class](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#page-systemwebuipage-class)
+ - [Page Life Cycle Events](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#page-life-cycle-events)
 - [Other ASP.NET Features](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#other-aspnet-features)
+ - [Control Adapters](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#control-adapters)
+ - [ASP.NET Web Parts](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-web-parts)
+ - [MobileCapabilities API (obsolete)](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#mobilecapabilities-api-obsolete)
+ - [XHTML Standards](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#xhtml-standards)
 
 #### ASP.NET Building Blocks
 - Web Forms (aspx)
@@ -225,6 +256,12 @@ ViewState.LoadViewState(); // load saved View State
 ###### Special Folders
 - `Bin` folder – stores .dll files
 - `App_Code` folder – stores sources, that will be automatically compiled
+- `App_Data` folder - stores different data, for example, .mdf database files, etc.
+- `App_Start` folder - stores different classes, such as `RouteConfig`, `FilterConfig`, `BundleConfig`, `IdentityConfig`, etc.
+- `App_Themes` folder - contains web site [themes](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#themes)
+- `App_GlobalResources` folder - contains web site [global resources](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#localization-resources-in-aspnet)
+- `App_LocalResources` folder - contains web site [local resources](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#localization-resources-in-aspnet)
+- `App_Browsers` folder - contains custom [control adapters](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#control-adapters)
 
 ###### Error Handling
 - Tracing	- allows to add specific information into tracing page
@@ -250,18 +287,18 @@ ViewState.LoadViewState(); // load saved View State
 | ISAPI filter (aspnet_filter.dll) | HttpModule |
 | ISAPI extension (aspnet_isapi.dll) | HttpHandler |
 
+- Environment Configuration
+ - Precompilation
+ - Recycling policies of pool
+ - Unexpected restarts
+ - Output caching
+ - Application warm-up and preloading
+
 ###### ASP.NET Compiler
 - `aspnet_compiler.exe` tool - allows to compile web application
  - **In-place compilation** (if site already deployed to production)
  - **Non-updatable full compilation**
  - **Updatable compilation** (it is possible to modify view files, css styles, etc.)
-
-###### Environment Configuration
-- Precompilation
-- Recycling policies of pool
-- Unexpected restarts
-- Output caching
-- Application warm-up and preloading
 
 ###### Monitoring
 - Health Monitoring – monitor the status of the application, errors, etc.
@@ -347,7 +384,7 @@ void OnBeginRequest(...)
 
 - Usage: Security (e.g., authenticate user on `AuthenticateRequest` event), statistics, logging, custom handlers, footers, URL routing (on `BeginRequest` event), etc.
 
-#### Master Pages, Themes and Skins
+#### Master Pages, Skins and Themes
 ###### Master Pages
 - Creation
  - Create a file with `<%@ Master ... >` header
@@ -393,7 +430,7 @@ void OnBeginRequest(...)
 - Less use of CSS
 - Image use, standard fonts, controls, etc.
 
-###### Helper Classes in .NET/C#
+###### Helper Classes in .NET
 - `System.Globalization.CultureInfo` class
  - `CurrentCulture` property - the culture of the machine, time, currency and date format, etc.
  - `CurrentUICulture` property - language which is preferred by the application
@@ -567,7 +604,7 @@ public static bool IsGpsEnabled(MobileCapabilities mc, string someArg)
  - `ScreenPixelsHeight`, `ScreenPixelsWidth`
  - `SupportCss`, etc.
 
-###### XHTML Standard
+###### XHTML Standards
 - XHTML - is a W3C standard which guarantees that page is well-formed and will be parsed correctly by any browser
 - XHTML types:
  - XHTML 1.0 Transitional
