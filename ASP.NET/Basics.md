@@ -32,8 +32,6 @@
  - [Skins](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#skins)
  - [Themes](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#themes)
 - [Globalization in ASP.NET](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#globalization-in-aspnet)
- - [Issues](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#issues)
- - [Accessibility](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#accessibility)
  - [Helper Classes in .NET](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#helper-classes-in-net)
  - [Localization Resources in ASP.NET](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#localization-resources-in-aspnet)
 - [Application (System.Web.HttpApplication) Class](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#application-systemwebhttpapplication-class)
@@ -412,23 +410,21 @@ void OnBeginRequest(...)
 - `<pages stylesheettheme="BlueTheme"/>` – own controls’ styles will no be overridden
 
 #### Globalization in ASP.NET
-- Globalization - the code is separated from data, so it is possible to localize the application
-- Localizability - how easy is it to localize the application
-- Localization - the process of translation
-
-###### Issues
-- Language issues
-- String-related issues
-- UI-related issues
-- Formatting issues
-
-###### Accessibility
-- Flexbile input & output
-- Flexible UI
-- Simplicity & intuitiveness
-- Keyboard navigation support
-- Less use of CSS
-- Image use, standard fonts, controls, etc.
+- *Globalization* - the code is separated from data, so it is possible to localize the application
+- *Localizability* - how easy is it to localize the application
+- *Localization* - the process of translation
+- Typical Issues:
+ - Language issues
+ - String-related issues
+ - UI-related issues
+ - Formatting issues
+- Accessibility factors:
+ - Flexbile input & output
+ - Flexible UI
+ - Simplicity & intuitiveness
+ - Keyboard navigation support
+ - Less use of CSS
+ - Image use, standard fonts, controls, etc.
 
 ###### Helper Classes in .NET
 - `System.Globalization.CultureInfo` class
