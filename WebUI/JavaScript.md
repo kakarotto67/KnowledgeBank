@@ -13,6 +13,8 @@
  - [Typical Loops](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#typical-loops)
  - [JS Events](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#js-events)
 - [JSON, AJAX](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#json-ajax)
+ - [JSON](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#json)
+ - [AJAX](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#ajax)
 - [JS Regular Expressions](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#js-regular-expressions)
 - [Function, Class, Object, Prototype and Closure](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#function-class-object-prototype-and-closure)
  - [Function, Class and Object Example](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#function-class-and-object-example)
