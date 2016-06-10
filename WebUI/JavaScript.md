@@ -12,7 +12,14 @@
  - [Date Object](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#date-object)
  - [Typical Loops](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#typical-loops)
  - [JS Events](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#js-events)
+- [JSON, AJAX](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#json-ajax)
+- [JS Regular Expressions](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#js-regular-expressions)
 - [Functions, Closures, Objects, Prototypes](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#functions-closures-objects-prototypes)
+- [JS Classes and Modules](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#js-classes-and-modules)
+- [JS Security](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#js-security)
+- [JS Performance and Memory Management](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#js-performance-and-memory-management)
+- [JS Code Quality](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#js-code-quality)
+- [JQuery Basics](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#jquery-basics)
 
 #### Basics
 - JavaScript is case-sensitive
