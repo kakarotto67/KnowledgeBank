@@ -130,6 +130,55 @@ document.getElementById("myDiv").removeEventListener("mousemove", myFunction);
 
 #### JSON, AJAX
 
+###### JSON
+- JSON example:
+
+```js
+{"employees":[
+    {"firstName":"John", "lastName":"Doe"},
+    {"firstName":"Anna", "lastName":"Smith"},
+    {"firstName":"Peter", "lastName":"Jones"}
+]}
+```
+
+- JSON construction,  parsing and usage:
+
+```js
+// construct JSON object
+var text = '{ "employees" : [' +
+'{ "firstName":"John" , "lastName":"Doe" },' +
+'{ "firstName":"Anna" , "lastName":"Smith" },' +
+'{ "firstName":"Peter" , "lastName":"Jones" } ]}';
+// convert JSON into JavaScript object
+var obj = JSON.parse(text);
+// use the new JavaScript object in your page
+document.getElementById("myDiv").innerHTML = obj.employees[1].firstName +
+                                             " " + obj.employees[1].lastName; 
+```
+
+###### AJAX
+- AJAX (Asynchronous JavaScript and XML) is a technology which allows you to reload some parts of your page after page has been loaded by making async requests and receiving async responses
+- XMLHttpRequest object is used to make AJAX requests and receive responses
+
+```js
+var asyncRequest = new XMLHttpRequest();
+// attach response handler
+asyncRequest.onreadystatechange = handler();
+// prepare and send request
+asyncRequest.open("post", "https://mysite.com/api/");
+asyncRequest.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+asyncRequest.send();
+
+// the handler which receives async response
+function handler() {
+ var readyState = asyncRequest.readyState;
+ if (readyState === 4) {
+  var response = asyncRequest.responseText;
+  // do something with response here...
+ }
+};
+```
+
 #### JS Regular Expressions
 
 #### Function, Class, Object, Prototype and Closure
@@ -177,7 +226,7 @@ var myFather = new person("David", "Joe");
 person.prototype.fullName = function() {
  return this.firstName + " " + this.lastName; // here we can access existing class' properties or methods
 };
-// here we access new method from early instantiated instance
+// here we access new method from earlier instantiated instance
 myFather.fullName();
 ```
 
