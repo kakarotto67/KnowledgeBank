@@ -129,7 +129,70 @@ document.getElementById("myDiv").removeEventListener("mousemove", myFunction);
 
 #### JS Regular Expressions
 
-#### Functions, Closures, Objects, Prototypes
+#### Function, Class, Object, Prototype and Closure
+
+###### Function, Class and Object Example
+
+```js
+// 1. Function example
+function myFunction() {
+ // any code here...
+};
+myFunction(); // call the function
+
+// 2. Class example
+var person = function(name, age) {
+ this.name = name;
+ this.age = age;
+};
+var david = new person("David Wolf", 26); // instantiate person class
+var name = david.name; // access class' property
+
+// 3. Object example
+var person = {
+ firstName: "David",
+ lastName: "Wolf"
+};
+var fn = person.firstName; // access object's property
+person.Age = 26; // add new property to that particular object
+```
+
+###### Prototype
+- Every object has a prototype
+- Prototype is also an object
+- You can add more functionality to existing classes via their prototypes
+
+```js
+// this is person class
+var person = function(firstName, lastName) {
+ this.firstName = firstName;
+ this.lastName = lastName;
+};
+// here we instantiate person class
+var myFather = new person("David", "Joe");
+// here we add new method to this class via its prototype
+person.prototype.fullName = function() {
+ return this.firstName + " " + this.lastName; // here we can access existing class' properties or methods
+};
+// here we access new method from early instantiated instance
+myFather.fullName();
+```
+
+###### Closure
+- Closure can be used to create private variables inside a function
+
+```js
+// create add() closure with private counter
+var add = (function() {
+ var counter = 0; // this is private variable, which can be accessed via add() call only
+ return function() {
+  return counter += 1;
+ };
+})();
+add(); // counter = 1
+add(); // counter = 2
+add(); // counter = 3
+```
 
 #### JS Classes and Modules
 
