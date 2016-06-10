@@ -1,5 +1,19 @@
 # Java Script
 
+#### Navigation
+- [Basics](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#basics)
+ - [Fundamental Examples](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#fundamental-examples)
+ - [JS Types](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#js-types)
+ - [Undefined and Null Types](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#undefined-and-null-types)
+ - [NaN Value](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#nan-value)
+ - [JS Arrays](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#js-arrays)
+ - [Specific Operators](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#specific-operators)
+ - [Conversion Methods](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#conversion-methods)
+ - [Date Object](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#date-object)
+ - [Typical Loops](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#typical-loops)
+ - [JS Events](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#js-events)
+- [Functions, Closures, Objects, Prototypes](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#functions-closures-objects-prototypes)
+
 #### Basics
 - JavaScript is case-sensitive
 - JavaScript is based on ECMAScript standard. Latest version of this standard (ECMAScript6, ES6, ES 2015) includes new capabilities such as classes, modules, iterators, arrow functions, collections, etc. Other realizations of ECMAScript: ActionScript, JScript, etc.
@@ -104,4 +118,18 @@ document.getElementById("myDiv").addEventListener("mousemove", myFunction, false
 document.getElementById("myDiv").removeEventListener("mousemove", myFunction);
 ```
 
+#### JSON, AJAX
+
+#### JS Regular Expressions
+
 #### Functions, Closures, Objects, Prototypes
+
+#### JS Classes and Modules
+
+#### JS Security
+
+#### JS Performance and Memory Management
+
+#### JS Code Quality
+
+#### JQuery Basics
