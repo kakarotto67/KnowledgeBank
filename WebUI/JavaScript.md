@@ -16,6 +16,8 @@
  - [JSON](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#json)
  - [AJAX](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#ajax)
 - [JS Regular Expressions](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#js-regular-expressions)
+ - [Regular Expression Patters](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#regular-expression-patters)
+ - [Regular Expression Methods](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#regular-expression-methods)
 - [Function, Class, Object, Prototype and Closure](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#function-class-object-prototype-and-closure)
  - [Function, Class and Object Example](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#function-class-and-object-example)
  - [Prototype](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#prototype)
