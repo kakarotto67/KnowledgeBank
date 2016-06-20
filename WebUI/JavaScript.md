@@ -205,14 +205,18 @@ function handler() {
 | \D | Not a digit |
 | \s | A whitespace |
 | \S | Not a whitespace |
-| \b | Beginning or end of a  word |
+| \b | Beginning and end of a word |
 | \B | Not beginning or end of a word |
 | \0 | Null character |
+| ^ | Beginning of an expression |
+| $ | End of an expression |
 | [0-9] | Any digit from a range |
 | [a-z] | Any letter from a range |
+| n(5) | Repeat `n` five times |
+| m(3, 7) | Repeat `m` from three to seven times |
 | (x`|`y) | Any alternative separated with `|` |
 
-###### Regular Expression Methods
+###### RegExp Object Methods
 - `test()` method returns `true` or `false`
 
 ```js
@@ -225,6 +229,8 @@ var res = patt.test("The best things in life are free!"); // res === true
 ```js
 var res = /life/.exec("The best things in life are free!"); // res === "life"
 ```
+
+- `toString()` method returns the string value of the regular expression
 
 #### Function, Class, Object, Prototype and Closure
 
