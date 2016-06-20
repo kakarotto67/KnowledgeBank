@@ -238,10 +238,18 @@ var res = /life/.exec("The best things in life are free!"); // res === "life"
 
 ```js
 // 1. Function example
-function myFunction() {
- // any code here...
+function myFunction(a, b) {
+ // any code here
+ return a * b;
 };
-myFunction(); // call the function
+myFunction(3, 4); // call the function (result is 12)
+
+// 1.1. Call the function via `call` method
+var myObject = myFunction.call(myObject, 10, 2); // myObject = 20
+
+// 1.2. Call the function via `apply` method
+var myArray = [10, 2];
+var myObject = myFunction.apply(myObject, myArray);  // myObject = 20
 
 // 2. Class example
 var person = function(name, age) {
