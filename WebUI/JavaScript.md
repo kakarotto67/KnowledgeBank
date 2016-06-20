@@ -298,3 +298,46 @@ add(); // counter = 3
 #### JS Code Quality
 
 #### JQuery Basics
+- Basic jQuery script
+
+```js
+$(document).ready(function()() {
+    // any jQuery code here
+});
+```
+
+- Compatibility issues with other JS libraries
+
+```js
+// Option 1 (standard)
+$.noConflict(); // use `jQuery` instead of `$
+// Option 2 (named)
+var jq = $.noConflict(); //  use `jq` instead of `$
+```
+
+- Common jQuery selectors (examples)
+ - `*` - select all
+ - `this` - select current HTML element
+ - `p.intro` - select all `<p class="intro">` elements
+ - `ul li:first-child` - select first `<li>` element of every `<ul>` list
+ - `tr:even` - select all even `<tr>` blocks, `tr:odd` - select all odd `<tr>` blocks
+- Common jQuery events
+ - `ready`
+ - `mouseenter`
+ - `focus`
+ - `click`
+ - `blur`
+ - `hover`
+ - `on`, etc.
+
+###### Common JQuery Functions
+- Effects
+ - `hide()`, `show()`, `animate()`, `fadein()`, `fadeout()`, `stop()`
+- HTML/DOM
+ - `text()`, `val()`, `attr()`, `html()`, `append()`, `after()`, `before()`, `addClass()`, `removeClass()`, `css()`
+- Dimensions
+ - `width()`, `height()`, `innerWidth()` (includes padding), `outherWidth()` (includes border), `outherWidth(true)` (includes margin), and similar for height
+- Ancestors
+ - `parent()`, `childer()`, `find()`, `siblings()`, `next()`, `prev()`, `first()`, `last()`
+- Ajax
+ - `$.ajax()`, `$.get()`, `$.post()`
