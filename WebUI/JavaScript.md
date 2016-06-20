@@ -27,6 +27,7 @@
 - [JS Performance and Memory Management](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#js-performance-and-memory-management)
 - [JS Code Quality](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#js-code-quality)
 - [JQuery Basics](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#jquery-basics)
+ - [Common JQuery Functions](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#common-jquery-functions)
 
 #### Basics
 - JavaScript is case-sensitive
@@ -336,7 +337,7 @@ var jq = $.noConflict(); //  use `jq` instead of `$
 - HTML/DOM
  - `text()`, `val()`, `attr()`, `html()`, `append()`, `after()`, `before()`, `addClass()`, `removeClass()`, `css()`
 - Dimensions
- - `width()`, `height()`, `innerWidth()` (includes padding), `outherWidth()` (includes border), `outherWidth(true)` (includes margin), and similar for height
+ - `width()`, `height()`, `innerWidth()` (includes padding), `outherWidth()` (includes border), `outherWidth(true)` (includes margin), and the same functions for height
 - Ancestors
  - `parent()`, `childer()`, `find()`, `siblings()`, `next()`, `prev()`, `first()`, `last()`
 - Ajax
