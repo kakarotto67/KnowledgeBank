@@ -182,6 +182,45 @@ function handler() {
 ```
 
 #### JS Regular Expressions
+- Pattern example: `var regExp1 = /ab[a-zA-Z]+/i`
+- Regular expression modifiers:
+ - `i` - case insensitivity
+ - `g` - global match
+ - `m` - multiline
+
+###### Regular Expression Patters
+
+| Pattern | Description |
+| --- | --- |
+| . | Any character |
+| * | 0+ repeats |
+| + | 1+ repeats |
+| ? | 0 or 1 repeats |
+| \w | A word |
+| \W | Not a word |
+| \d | A digit |
+| \D | Not a digit |
+| \s | A whitespace |
+| \S | Not a whitespace |
+| \b | Beginning or end of a  word |
+| \B | Not beginning or end of a word |
+| \0 | Null character |
+| [0-9] | Any digit from a range |
+| [a-z] | Any letter from a range |
+
+###### Regular Expression Methods
+- `test()` method returns `true` or `false`
+
+```js
+var patt = /life/;
+var res = patt.test("The best things in life are free!"); // res === true
+```
+
+- `exec()` method returns matched object
+
+```js
+var res = /life/.exec("The best things in life are free!"); // res === "life"
+```
 
 #### Function, Class, Object, Prototype and Closure
 
