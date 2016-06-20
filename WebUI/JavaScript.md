@@ -51,6 +51,8 @@ var lastName = "Johnson"; // String
 var cars = [ "Saab", "Volvo", "BMW" ]; // Array
 var x = { firstName: "John", lastName: "Doe" }; // Object
 var flag = true; // Boolean
+var a; // Undefined
+var b = null; // Null
 ```
 
 ###### Undefined and Null Types
