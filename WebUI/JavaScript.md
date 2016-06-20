@@ -210,6 +210,7 @@ function handler() {
 | \0 | Null character |
 | [0-9] | Any digit from a range |
 | [a-z] | Any letter from a range |
+| (x`|`y) | Any alternative separated with `|` |
 
 ###### Regular Expression Methods
 - `test()` method returns `true` or `false`
