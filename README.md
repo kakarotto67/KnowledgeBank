@@ -2,6 +2,10 @@
 This project contains .NET/Web stack knowledge base. Different knowledge items are split by folders.
 
 ## Navigation
+
+#### Process Planning, Estimation & Requirements
+- [SDLC Basics](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md)
+
 #### Web
 - Web Server Applications
   - [ASP.NET Basics](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md)
