@@ -1,4 +1,4 @@
-#Logical Questions
+# Logical Questions
 
 #### Common Strategies
 1. Start from simpler version of the problem, try to find some logic/trend and then project the solution to the original problem
