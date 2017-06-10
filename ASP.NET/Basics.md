@@ -6,44 +6,44 @@
 - [ASP.NET Application Deployment](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-application-deployment)
 - [ASP.NET Directives](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-directives)
 - [ASP.NET Controls](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-controls)
- - [Control Types](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#control-types)
- - [Standard Controls](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#standard-controls)
- - [Validation & Data Source Controls](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#validation--data-source-controls)
- - [User Controls](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#user-controls)
- - [Custom Controls](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#custom-controls)
- - [MS Ajax Controls](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#ms-ajax-controls)
+  - [Control Types](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#control-types)
+  - [Standard Controls](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#standard-controls)
+  - [Validation & Data Source Controls](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#validation--data-source-controls)
+  - [User Controls](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#user-controls)
+  - [Custom Controls](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#custom-controls)
+  - [MS Ajax Controls](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#ms-ajax-controls)
 - [ASP.NET Intrinsic Objects](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-intrinsic-objects)
 - [ASP.NET Common](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-common)
- - [File Types](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#file-types)
- - [Storing of Data](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#storing-of-data)
- - [Special Folders](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#special-folders)
- - [Error Handling](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#error-handling)
- - [ASP.NET IIS](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-iis)
- - [ASP.NET Compiler](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-compiler)
- - [Monitoring](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#monitoring)
- - [Caching Options](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#caching-options)
- - [Pass Values Between Pages](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#pass-values-between-pages)
- - [Add JavaScript Dynamically](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#add-javascript-dynamically)
+  - [File Types](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#file-types)
+  - [Storing of Data](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#storing-of-data)
+  - [Special Folders](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#special-folders)
+  - [Error Handling](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#error-handling)
+  - [ASP.NET IIS](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-iis)
+  - [ASP.NET Compiler](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-compiler)
+  - [Monitoring](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#monitoring)
+  - [Caching Options](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#caching-options)
+  - [Pass Values Between Pages](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#pass-values-between-pages)
+  - [Add JavaScript Dynamically](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#add-javascript-dynamically)
 - [HTTP Handler (HttpHandler class)](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#http-handler-httphandler-class)
- - [Generic Handler](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#generic-handler)
+  - [Generic Handler](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#generic-handler)
 - [HTTP Module (HttpModule class)](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#http-module-httpmodule-class)
 - [Master Pages, Skins and Themes](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#master-pages-skins-and-themes)
- - [Master Pages](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#master-pages)
- - [Skins](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#skins)
- - [Themes](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#themes)
+  - [Master Pages](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#master-pages)
+  - [Skins](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#skins)
+  - [Themes](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#themes)
 - [Globalization in ASP.NET](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#globalization-in-aspnet)
- - [Helper Classes in .NET](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#helper-classes-in-net)
- - [Localization Resources in ASP.NET](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#localization-resources-in-aspnet)
+  - [Helper Classes in .NET](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#helper-classes-in-net)
+  - [Localization Resources in ASP.NET](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#localization-resources-in-aspnet)
 - [Application (System.Web.HttpApplication) Class](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#application-systemwebhttpapplication-class)
- - [Application Life Cycle](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#application-life-cycle)
- - [Application Events](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#application-events)
+  - [Application Life Cycle](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#application-life-cycle)
+  - [Application Events](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#application-events)
 - [Page (System.Web.UI.Page) Class](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#page-systemwebuipage-class)
- - [Page Life Cycle Events](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#page-life-cycle-events)
+  - [Page Life Cycle Events](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#page-life-cycle-events)
 - [Other ASP.NET Features](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#other-aspnet-features)
- - [Control Adapters](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#control-adapters)
- - [ASP.NET Web Parts](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-web-parts)
- - [MobileCapabilities API (obsolete)](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#mobilecapabilities-api-obsolete)
- - [XHTML Standards](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#xhtml-standards)
+  - [Control Adapters](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#control-adapters)
+  - [ASP.NET Web Parts](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-web-parts)
+  - [MobileCapabilities API (obsolete)](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#mobilecapabilities-api-obsolete)
+  - [XHTML Standards](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#xhtml-standards)
 
 #### ASP.NET Building Blocks
 - Web Forms (aspx)
@@ -71,7 +71,7 @@
 </configuration>
 ```
 - `<authentication mode="..." />` - to configure authentication
- - `mode` values: **Windows**, **Forms**, **Passport**, **Federated**, **None**
+  - `mode` values: **Windows**, **Forms**, **Passport**, **Federated**, **None**
 - `<authorization .../>` - to configure authorization
 ```xml
 <allow users="user1, user2" roles="role1, role2" verbs="GET, HEAD" />
@@ -99,16 +99,16 @@
 </compilation>
 ```
 - `<sessionState mode="..." />` – to enable session
- - `mode` values: **SQLServer** (in database), **InProc** (in memory of web server), **StateServer** (in separate process), **Custom** (custom provider), **Off** (session state is disabled)
+  - `mode` values: **SQLServer** (in database), **InProc** (in memory of web server), **StateServer** (in separate process), **Custom** (custom provider), **Off** (session state is disabled)
 
 #### ASP.NET Application Deployment
 - `XCopy` tool commands (direct copy of PE files)
 - `VS->Build->Publish %MyWebApp%` option (for `Web Application` project type)
 - `VS->Copy Website` option (for `Web Site` project type)
 - `VS->ClickOnce Deployment` tool
- - Setup an account with a hosting company
- - Create publish profile
- - Start the deployment via `ClickOnce`
+  - Setup an account with a hosting company
+  - Create publish profile
+  - Start the deployment via `ClickOnce`
 - `MSBuild.exe` tool (direct command):
 
 ```
@@ -122,10 +122,10 @@ msdeploy.exe -source:package="siteName.mvc.zip"
              -setParamFile:"...\...SetParameters.xml
 ```
 
- - `MSBuild.exe` tool (usage via `.deploy.cmd` file). `VS2015->Right-click on Project->Publish->Connection->Web Deploy Package->OK` flow creates the following files in specified location:
-  - [siteName].deploy.cmd
-  - [siteName].zip
-  - [siteName].SetParameters.xml
+  - `MSBuild.exe` tool (usage via `.deploy.cmd` file). `VS2015->Right-click on Project->Publish->Connection->Web Deploy Package->OK` flow creates the following files in specified location:
+    - [siteName].deploy.cmd
+    - [siteName].zip
+    - [siteName].SetParameters.xml
 
  Then run the following command:
 ```
@@ -139,10 +139,10 @@ msdeploy.exe [siteName].deploy.cmd
 Where `/T` - trial run, `/Y` - production run. This command deploys website into default location which is `%windir%\inetpub\wwwroot\%sitename%`.
 
 - Typical deployment tasks
- - Re-configure production version of `web.config` file
- - Specify files/folders that should be copied to production
- - Set the permissions to specified files/folders
- - Precompile the project, etc.
+  - Re-configure production version of `web.config` file
+  - Specify files/folders that should be copied to production
+  - Set the permissions to specified files/folders
+  - Precompile the project, etc.
 
 #### ASP.NET Directives
 - `<%@ Application ... %>` – to define application-specific data used for `global.asax`
@@ -179,20 +179,20 @@ Where `/T` - trial run, `/Y` - production run. This command deploys website into
 
 ###### Validation & Data Source Controls
 - There are two types of validation:
- - Client Side (js)
- - Server Side (code behind)
+  - Client Side (js)
+  - Server Side (code behind)
 - ASP.NET Validation Controls – used to validate other controls
- - `RequiredFieldValidator`, `RangeVaidator`, `ReqularExpressionValidator`, `CustomValidator`, `ValidationSummary`
- - Those controls use `ControlToValidate` property to specify the `ID` of the control they want to apply validation for
+  - `RequiredFieldValidator`, `RangeVaidator`, `ReqularExpressionValidator`, `CustomValidator`, `ValidationSummary`
+  - Those controls use `ControlToValidate` property to specify the `ID` of the control they want to apply validation for
 - ASP.NET Data Source Controls – allow binding to specified data source (file, database, xml)
- - Table-based Data Source Controls: `SqlDataSource`, `ObjectDataSource`, `LinqDataSource`, `AccessDataSource`
- - Hierarchical Data Source Controls: `XmlDataSource`, `SiteMapDataSource`
+  - Table-based Data Source Controls: `SqlDataSource`, `ObjectDataSource`, `LinqDataSource`, `AccessDataSource`
+  - Hierarchical Data Source Controls: `XmlDataSource`, `SiteMapDataSource`
 - Data-Bound Controls – the controls, which are bound to specified data source controls
- - `AdRotator` can be bound to table-based data sources via `AdvertisementFile` property
- - List controls (`ListBox`, `CheckBoxList`, `DropDownList`, etc.) and View controls (`GridView`, `FormView`, `DetailView`) can be bound to table-based data sources via `DataSourceID` property
- - `Menu`, `TreeView` and `SiteMapPath` controls can be bound to hierarchical data sources via `DataSourceID` property
+  - `AdRotator` can be bound to table-based data sources via `AdvertisementFile` property
+  - List controls (`ListBox`, `CheckBoxList`, `DropDownList`, etc.) and View controls (`GridView`, `FormView`, `DetailView`) can be bound to table-based data sources via `DataSourceID` property
+  - `Menu`, `TreeView` and `SiteMapPath` controls can be bound to hierarchical data sources via `DataSourceID` property
 - `Bind` and `Eval` methods – allow to bind data to controls
- - `Eval` – one-way binding, `Bind` – two-way binding
+  - `Eval` – one-way binding, `Bind` – two-way binding
 ```asp
 <asp:Label Text='<%# Eval("ProductID") %>' />
 ```
@@ -215,16 +215,16 @@ Where `/T` - trial run, `/Y` - production run. This command deploys website into
 
 #### ASP.NET Intrinsic Objects
 - `Page.Context` property of `System.Web.HttpContext` type
- - `Request` (`HttpRequest` type)
- - `Response` (`HttpResponse` type)
- - `Server` (`HttpServerUtility` type)
- - `Application` (`HttpApplicationState` type)
- - `Session` (`HttpSessionState` type)
- - `Profile` (`ProfileBase` type)
- - `Cache` (`Cache` type)
+  - `Request` (`HttpRequest` type)
+  - `Response` (`HttpResponse` type)
+  - `Server` (`HttpServerUtility` type)
+  - `Application` (`HttpApplicationState` type)
+  - `Session` (`HttpSessionState` type)
+  - `Profile` (`ProfileBase` type)
+  - `Cache` (`Cache` type)
 - `Control.ViewState` property of `System.Web.UI.StateBag` type
- - `ViewState` serializes and deserializes data into/from hidden fields (`__ViewState`, `base64` format)
- - `ViewState` uses `LosFormatter` and `ObjectStateFormatter` classes for serialization/deserialization
+  - `ViewState` serializes and deserializes data into/from hidden fields (`__ViewState`, `base64` format)
+  - `ViewState` uses `LosFormatter` and `ObjectStateFormatter` classes for serialization/deserialization
 ```cs
 ViewState.TrackViewState(); // enable View State
 ViewState["key1"] = 1; // add new key-value pair into View State
@@ -263,10 +263,10 @@ ViewState.LoadViewState(); // load saved View State
 
 ###### Error Handling
 - Tracing	- allows to add specific information into tracing page
- - Enable tracing in web.config file - `<%@ Page ... Trace="true">`
- - Use `Trace.Write()` method to add extra information into tracing page
+  - Enable tracing in web.config file - `<%@ Page ... Trace="true">`
+  - Use `Trace.Write()` method to add extra information into tracing page
 - Debugging
- - Enable debugging in web.config file - `<compilation debug="true" />`
+  - Enable debugging in web.config file - `<compilation debug="true" />`
 - Custom error redirects
 ```xml
 <customErrors defaultRedirects="errors\DefaultError.aspx" mode="On">
@@ -277,8 +277,8 @@ ViewState.LoadViewState(); // load saved View State
 
 ###### ASP.NET IIS
 - IIS/Application pool configuration
- - **Classic** pipeline mode (IIS 6): Client request -> IIS 6 -> aspnet_isapi.dll -> CLR
- - **Integrated** pipeline mode (IIS 7+): Client request -> IIS 7+ -> CLR
+  - **Classic** pipeline mode (IIS 6): Client request -> IIS 6 -> aspnet_isapi.dll -> CLR
+  - **Integrated** pipeline mode (IIS 7+): Client request -> IIS 7+ -> CLR
 
 | IIS 6 | IIS 7+ |
 | --- | --- |
@@ -286,17 +286,17 @@ ViewState.LoadViewState(); // load saved View State
 | ISAPI extension (aspnet_isapi.dll) | HttpHandler |
 
 - Environment Configuration
- - Precompilation
- - Recycling policies of pool
- - Unexpected restarts
- - Output caching
- - Application warm-up and preloading
+  - Precompilation
+  - Recycling policies of pool
+  - Unexpected restarts
+  - Output caching
+  - Application warm-up and preloading
 
 ###### ASP.NET Compiler
 - `aspnet_compiler.exe` tool - allows to compile web application
- - **In-place compilation** (if site already deployed to production)
- - **Non-updatable full compilation**
- - **Updatable compilation** (it is possible to modify view files, css styles, etc.)
+  - **In-place compilation** (if site already deployed to production)
+  - **Non-updatable full compilation**
+  - **Updatable compilation** (it is possible to modify view files, css styles, etc.)
 
 ###### Monitoring
 - Health Monitoring – monitor the status of the application, errors, etc.
@@ -306,9 +306,9 @@ ViewState.LoadViewState(); // load saved View State
 ```
 
 - Performance Monitoring
- - System Performance Counters (Performance Monitor window)
+  - System Performance Counters (Performance Monitor window)
     - Requests disconnected, applications running, etc.
- - Application Performance Counters
+  - Application Performance Counters
     - Requests per second, number of hits from cache, etc.
 
 ###### Caching Options
@@ -325,17 +325,17 @@ ViewState.LoadViewState(); // load saved View State
 
 ###### Add JavaScript Dynamically
 - To add JS into a page dynamically use `ClientScriptManager` class’ methods:
- - `RegisterClientScriptBlock()`
- - `RegisterClientScriptInclude()`
- - `RegisterStartupScript()`
- - `RegisterOnSubmitStatement()`
+  - `RegisterClientScriptBlock()`
+  - `RegisterClientScriptInclude()`
+  - `RegisterStartupScript()`
+  - `RegisterOnSubmitStatement()`
 
 #### HTTP Handler (`HttpHandler` class)
 - HTTP Handler - attached to specified requests of specified file extensions
 - To create
- - Derive from `IHttpHandler` interface
- - Implement `ProcessRequest(HttpContext context)` method of that interface
- - Add handler into configuration file (see below)
+  - Derive from `IHttpHandler` interface
+  - Implement `ProcessRequest(HttpContext context)` method of that interface
+  - Add handler into configuration file (see below)
 - Usage: RSS feeds, image server, image water marks, etc.
 
 ```xml
@@ -348,16 +348,16 @@ ViewState.LoadViewState(); // load saved View State
 ###### Generic Handler
 - Generic Handler should be called explicitly
 - To create
- - Create .ashx file with `<%@ WebHandler ... >` header
- - Develop code behind similarly to common handlers
+  - Create .ashx file with `<%@ WebHandler ... >` header
+  - Develop code behind similarly to common handlers
 - Usage: Dynamic image generation (`src="Icon.ashx?username=roman"`), to return REST-base XML as JSON data, custom HTML, etc.
 
 #### HTTP Module (`HttpModule` class)
 - HTTP Module – attached to some specified event of each request
 - To create
- - Derive from `IHttpModule` interface
- - Implement `Init()` method of that interface, then attach handler to event you want to change behavior of
- - Implement event handler
+  - Derive from `IHttpModule` interface
+  - Implement `Init()` method of that interface, then attach handler to event you want to change behavior of
+  - Implement event handler
 
 ```cs
 // Init() method
@@ -385,12 +385,12 @@ void OnBeginRequest(...)
 #### Master Pages, Skins and Themes
 ###### Master Pages
 - Creation
- - Create a file with `<%@ Master ... >` header
- - Add HTML skeleton into it (`<html>`, `<head>`, etc.)
- - Add `<asp:ContentPlaceHolder ID="MainBlock" runat="server" >` into all places, where you need to insert specific content
+  - Create a file with `<%@ Master ... >` header
+  - Add HTML skeleton into it (`<html>`, `<head>`, etc.)
+  - Add `<asp:ContentPlaceHolder ID="MainBlock" runat="server" >` into all places, where you need to insert specific content
 - Usage
- - Place `<%@ Page MasterPageFile="Common.Master">` header into some page to use the Master Page
- - Use `<asp:Content ContentPlaceHolderId="MainBlock" runat="server"> ... </asp:Content>` to specify the data which should be inserted instead of corresponding `ContentPlaceHolder` control from Master Page
+  - Place `<%@ Page MasterPageFile="Common.Master">` header into some page to use the Master Page
+  - Use `<asp:Content ContentPlaceHolderId="MainBlock" runat="server"> ... </asp:Content>` to specify the data which should be inserted instead of corresponding `ContentPlaceHolder` control from Master Page
 
 ###### Skins
 - Skin file (.skin) contains styles for controls
@@ -399,10 +399,10 @@ void OnBeginRequest(...)
 
 ###### Themes
 - `App_Themes` folder contains all themes. Each theme has its separate folder
- - BlueTheme
+  - BlueTheme
     - BlueTheme.css
     - Controls.skin
- - PinkTheme
+  - PinkTheme
     - PinkTheme.css
     - PinkTheme.skin
 - Theme can be applied to the website via `<pages />` element in `web.config` file
@@ -414,42 +414,42 @@ void OnBeginRequest(...)
 - *Localizability* - how easy is it to localize the application
 - *Localization* - the process of translation
 - Typical Issues:
- - Language issues
- - String-related issues
- - UI-related issues
- - Formatting issues
+  - Language issues
+  - String-related issues
+  - UI-related issues
+  - Formatting issues
 - Accessibility factors:
- - Flexbile input & output
- - Flexible UI
- - Simplicity & intuitiveness
- - Keyboard navigation support
- - Less use of CSS
- - Image use, standard fonts, controls, etc.
+  - Flexbile input & output
+  - Flexible UI
+  - Simplicity & intuitiveness
+  - Keyboard navigation support
+  - Less use of CSS
+  - Image use, standard fonts, controls, etc.
 
 ###### Helper Classes in .NET
 - `System.Globalization.CultureInfo` class
- - `CurrentCulture` property - the culture of the machine, time, currency and date format, etc.
- - `CurrentUICulture` property - language which is preferred by the application
+  - `CurrentCulture` property - the culture of the machine, time, currency and date format, etc.
+  - `CurrentUICulture` property - language which is preferred by the application
 - `System.Globalization.RegionInfo` class (properties: `CurrentRegion`, `CurrencySymbol`, etc.)
 - `System.DateTime` class - date formatting options (examples for `en-US` culture)
- - `ToShortDateString` method (`M/d/yyyy` => `5/16/2016`)
- - `ToLongDateString` method (`dddd, MMMM dd, yyyy` => `Wednesday, May 16, 2016`)
- - `ToShortTimeString` method (`h:mm tt` => `3:02 AM`)
- - `ToLongTimeString` method (`h:mm:ss tt` => `3:02:15 AM`)
+  - `ToShortDateString` method (`M/d/yyyy` => `5/16/2016`)
+  - `ToLongDateString` method (`dddd, MMMM dd, yyyy` => `Wednesday, May 16, 2016`)
+  - `ToShortTimeString` method (`h:mm tt` => `3:02 AM`)
+  - `ToLongTimeString` method (`h:mm:ss tt` => `3:02:15 AM`)
 
 ###### Localization Resources in ASP.NET
 - Global Resources – stored in `App_GlobalResources` folder. Example – WebResources.resx, WebResources.de.resx, WebResources.fr.resx
 - Local Resources – stored in `App_LocalResources` folder
- - Implicit resources (`<asp:Button ... meta:resourceKey = "button1" />`)
- - Explicit resources (`<asp:Button ... Text = "<%$ Resource:WebResources, button1 %>" />`)
- - Localize static text (`<asp:Localize ... />`)
+  - Implicit resources (`<asp:Button ... meta:resourceKey = "button1" />`)
+  - Explicit resources (`<asp:Button ... Text = "<%$ Resource:WebResources, button1 %>" />`)
+  - Localize static text (`<asp:Localize ... />`)
 
 #### Application (`System.Web.HttpApplication`) Class
 - `System.Web.HttpApplication` class defines ASP.NET application
- - Properties
+  - Properties
     - `Application` (`HttpApplicationState`)
     - `Context`, `Events`, `Modules`, `Request`, `Response`, `Server`, `Session`, etc.
- - Events (in global.asax)
+  - Events (in global.asax)
     - `Application_Start`, `Application_End`
     - `Session_Start`, `Session_End`
 
@@ -459,10 +459,10 @@ void OnBeginRequest(...)
 3. Some top-level items are compiled (e.g., any stuff in `App_Code` folder). Such objects as `HttpContext`, `HttpRequest`, and `HttpResponse` are created
 4. `HttpApplication` instance is created (it might be reused). `Global.asax` is initialized (if exists)
 5. Request is processed by `HttpApplication`
- 1. Validate request
- 2. Perform URL mapping
- 3. `HttpApplication` events (see below)
- 4. Error event - occurs in case of any errors
+   1. Validate request
+   2. Perform URL mapping
+   3. `HttpApplication` events (see below)
+   4. Error event - occurs in case of any errors
 
 ###### Application Events
 1. `BeginRequest` event
@@ -491,7 +491,7 @@ void OnBeginRequest(...)
 
 #### Page (`System.Web.UI.Page`) Class
 - `System.Web.UI.Page` class defines main control, which processes a page
- - Properties
+  - Properties
     - `Application` (`HttpApplicationState`)
     - `Cache`, `Context`, `EnableViewState`, `Events`
     - `Form`, `IsPostBack`, `IsCallback`, `IsCrossPagePostBack`
@@ -521,18 +521,18 @@ III. Page Finalization Stage
 ###### Control Adapters
 - Control adapter allows to render specific control differently in different browsers
 - Standard control adapters for modern browsers are located in `%windir%\Microsoft.net\Framework\%version%\Config\Browsers\` folder
- - `blackberry.browser`
- - `chrome.browser`
- - `default.browser`
- - `firefox.browser`
- - `ie.browser`
- - `safari.browser`
- - `opera.browser`
- - `iphone.browser`, etc.
+  - `blackberry.browser`
+  - `chrome.browser`
+  - `default.browser`
+  - `firefox.browser`
+  - `ie.browser`
+  - `safari.browser`
+  - `opera.browser`
+  - `iphone.browser`, etc.
 - To implement custom control adapter:
- - Inherit from `System.Web.UI.Adapters.ControlAdapter` class (it is `abstract`, also you can inherit from these classes - `WebControlAdapter`, `MenuAdapter`, `DataBoundControlAdapter`, `HierarchicalDataBoundControlAdapter`, etc.)
- - Implement `void Render(HtmlTextWriter writer)` method
- - Apply your custom adapter
+  - Inherit from `System.Web.UI.Adapters.ControlAdapter` class (it is `abstract`, also you can inherit from these classes - `WebControlAdapter`, `MenuAdapter`, `DataBoundControlAdapter`, `HierarchicalDataBoundControlAdapter`, etc.)
+  - Implement `void Render(HtmlTextWriter writer)` method
+  - Apply your custom adapter
     - Create `*.browser` file in `App_Browsers` directory
     - Add the following snippet into `web.config` file:
 
@@ -549,16 +549,16 @@ III. Page Finalization Stage
 
 ###### ASP.NET Web Parts
 - Allows to
- - Dynamically personalize page content
- - Dynamically personalize page layout
- - Export & import controls
- - Create connetions
- - Manage site-level settings
+  - Dynamically personalize page content
+  - Dynamically personalize page layout
+  - Export & import controls
+  - Create connetions
+  - Manage site-level settings
 - Web parts are typically used in SharePoint
 - To create simple page with web parts:
- - Create `.aspx` page
- - Add *zones* to it (see below)
- - Use the page with the web parts
+  - Create `.aspx` page
+  - Add *zones* to it (see below)
+  - Use the page with the web parts
 
 ```xml
 <!-- ... -->
@@ -571,9 +571,9 @@ III. Page Finalization Stage
 ###### `MobileCapabilities` API (`obsolete`)
 - `System.Web.Mobile.MobileCapabilities` class - provides information about browser making the request
 - To define new capability:
- - Create a method that returns `bool` and takes `MobileCapabilities` type as a parameter
- - Add `<filter>` element into `<deviceFilters>` section of `web.config` file
- - Use `((MobileCapabilities) Request.Browser).HasCapability("GpsEnabled", String.Empty);` method to check that new capability
+  - Create a method that returns `bool` and takes `MobileCapabilities` type as a parameter
+  - Add `<filter>` element into `<deviceFilters>` section of `web.config` file
+  - Use `((MobileCapabilities) Request.Browser).HasCapability("GpsEnabled", String.Empty);` method to check that new capability
 
 ```cs
 public static bool IsGpsEnabled(MobileCapabilities mc, string someArg)
@@ -591,23 +591,23 @@ public static bool IsGpsEnabled(MobileCapabilities mc, string someArg)
 ```
 
 - Built-in capabilities of `MobileCapabilities` class
- - `CanInitiateVoiceCall`
- - `CanSendMail`
- - `HasBackButton`
- - `IsMobileDevice`
- - `MobileDeviceManufacturer`, `MobileDeviceModel`
- - `ScreenCharactersHeight`, `ScreenCharactersWidth`
- - `ScreenPixelsHeight`, `ScreenPixelsWidth`
- - `SupportCss`, etc.
+  - `CanInitiateVoiceCall`
+  - `CanSendMail`
+  - `HasBackButton`
+  - `IsMobileDevice`
+  - `MobileDeviceManufacturer`, `MobileDeviceModel`
+  - `ScreenCharactersHeight`, `ScreenCharactersWidth`
+  - `ScreenPixelsHeight`, `ScreenPixelsWidth`
+  - `SupportCss`, etc.
 
 ###### XHTML Standards
 - XHTML - is a W3C standard which guarantees that page is well-formed and will be parsed correctly by any browser
 - XHTML types:
- - XHTML 1.0 Transitional
- - XHTML 1.0 Frameset
- - XHTML 1.0 Strict
- - XHTML 1.1
- - HTML5
+  - XHTML 1.0 Transitional
+  - XHTML 1.0 Frameset
+  - XHTML 1.0 Strict
+  - XHTML 1.1
+  - HTML5
 - Add `!doctype` element to your page to specify XHTML version your page is compliant to
 - For HTML5 use the following snippet:
 
