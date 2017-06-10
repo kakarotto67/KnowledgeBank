@@ -2,32 +2,32 @@
 
 #### Navigation
 - [Basics](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#basics)
- - [Fundamental Examples](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#fundamental-examples)
- - [JS Types](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#js-types)
- - [Undefined and Null Types](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#undefined-and-null-types)
- - [NaN Value](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#nan-value)
- - [JS Arrays](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#js-arrays)
- - [Specific Operators](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#specific-operators)
- - [Conversion Methods](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#conversion-methods)
- - [Date Object](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#date-object)
- - [Typical Loops](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#typical-loops)
- - [JS Events](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#js-events)
+  - [Fundamental Examples](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#fundamental-examples)
+  - [JS Types](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#js-types)
+  - [Undefined and Null Types](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#undefined-and-null-types)
+  - [NaN Value](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#nan-value)
+  - [JS Arrays](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#js-arrays)
+  - [Specific Operators](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#specific-operators)
+  - [Conversion Methods](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#conversion-methods)
+  - [Date Object](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#date-object)
+  - [Typical Loops](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#typical-loops)
+  - [JS Events](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#js-events)
 - [JSON, AJAX](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#json-ajax)
- - [JSON](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#json)
- - [AJAX](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#ajax)
+  - [JSON](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#json)
+  - [AJAX](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#ajax)
 - [JS Regular Expressions](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#js-regular-expressions)
- - [Regular Expression Patters](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#regular-expression-patters)
- - [RegExp Object Methods](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#regexp-object-methods)
+  - [Regular Expression Patters](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#regular-expression-patters)
+  - [RegExp Object Methods](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#regexp-object-methods)
 - [Function, Class, Object, Prototype and Closure](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#function-class-object-prototype-and-closure)
- - [Function, Class and Object Example](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#function-class-and-object-example)
- - [Prototype](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#prototype)
- - [Closure](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#closure)
+  - [Function, Class and Object Example](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#function-class-and-object-example)
+  - [Prototype](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#prototype)
+  - [Closure](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#closure)
 - [JS Classes and Modules](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#js-classes-and-modules)
 - [JS Security](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#js-security)
 - [JS Performance and Memory Management](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#js-performance-and-memory-management)
 - [JS Code Quality](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#js-code-quality)
 - [JQuery Basics](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#jquery-basics)
- - [Common JQuery Functions](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#common-jquery-functions)
+  - [Common JQuery Functions](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md#common-jquery-functions)
 
 #### Basics
 - JavaScript is case-sensitive
@@ -60,10 +60,10 @@ var b = null; // Null
 - `var person = undefined; // Undefined (value and type is undefined)`
 - `var person = null; // Null (value is null, type is an object)`
 - Undefined vs Null gives the following results:
- - `typeof undefined // undefined`
- - `typeof null // object`
- - `null === undefined // false`
- - `null == undefined // true`
+  - `typeof undefined // undefined`
+  - `typeof null // object`
+  - `null === undefined // false`
+  - `null == undefined // true`
 
 ###### NaN Value
 - NaN means *not a number*
@@ -104,9 +104,9 @@ var d = new Date(year, month, day, hours, minutes, seconds, milliseconds);
 ```
 
 - Date object methods
- - `getDate()`, `getYear()`, `getDay()`, `getMonth()`, `getHours()`, `getMinutes()`, `getSeconds()`
- - `setDate()`, `setFullYear()`, `setMonth()`, `setHours()`, `setMinutes()`, `setSeconds()`
- - UTC versions of methods above, etc.
+  - `getDate()`, `getYear()`, `getDay()`, `getMonth()`, `getHours()`, `getMinutes()`, `getSeconds()`
+  - `setDate()`, `setFullYear()`, `setMonth()`, `setHours()`, `setMinutes()`, `setSeconds()`
+  - UTC versions of methods above, etc.
 
 ###### Typical Loops
 - `for`
@@ -116,12 +116,12 @@ var d = new Date(year, month, day, hours, minutes, seconds, milliseconds);
 
 ###### JS Events
 - Typical events:
- - `onchange`
- - `onclick`
- - `onmouseover`
- - `onmouseout`
- - `onkeydown`
- - `onload`, etc.
+  - `onchange`
+  - `onclick`
+  - `onmouseover`
+  - `onmouseout`
+  - `onkeydown`
+  - `onload`, etc.
 - To attach an event:
 
 ```js
@@ -189,9 +189,9 @@ function handler() {
 #### JS Regular Expressions
 - Pattern example: `var regExp1 = /ab[a-zA-Z]+/i`
 - Regular expression modifiers:
- - `i` - case insensitivity
- - `g` - global match
- - `m` - multiline
+  - `i` - case insensitivity
+  - `g` - global match
+  - `m` - multiline
 
 ###### Regular Expression Patters
 
@@ -334,28 +334,28 @@ var jq = $.noConflict(); //  use `jq` instead of `$
 ```
 
 - Common jQuery selectors (examples)
- - `*` - select all
- - `this` - select current HTML element
- - `p.intro` - select all `<p class="intro">` elements
- - `ul li:first-child` - select first `<li>` element of every `<ul>` list
- - `tr:even` - select all even `<tr>` blocks, `tr:odd` - select all odd `<tr>` blocks
+  - `*` - select all
+  - `this` - select current HTML element
+  - `p.intro` - select all `<p class="intro">` elements
+  - `ul li:first-child` - select first `<li>` element of every `<ul>` list
+  - `tr:even` - select all even `<tr>` blocks, `tr:odd` - select all odd `<tr>` blocks
 - Common jQuery events
- - `ready`
- - `mouseenter`
- - `focus`
- - `click`
- - `blur`
- - `hover`
- - `on`, etc.
+  - `ready`
+  - `mouseenter`
+  - `focus`
+  - `click`
+  - `blur`
+  - `hover`
+  - `on`, etc.
 
 ###### Common JQuery Functions
 - Effects
- - `hide()`, `show()`, `animate()`, `fadein()`, `fadeout()`, `stop()`
+  - `hide()`, `show()`, `animate()`, `fadein()`, `fadeout()`, `stop()`
 - HTML/DOM
- - `text()`, `val()`, `attr()`, `html()`, `append()`, `after()`, `before()`, `addClass()`, `removeClass()`, `css()`
+  - `text()`, `val()`, `attr()`, `html()`, `append()`, `after()`, `before()`, `addClass()`, `removeClass()`, `css()`
 - Dimensions
- - `width()`, `height()`, `innerWidth()` (includes padding), `outherWidth()` (includes border), `outherWidth(true)` (includes margin), and the same functions for height
+  - `width()`, `height()`, `innerWidth()` (includes padding), `outherWidth()` (includes border), `outherWidth(true)` (includes margin), and the same functions for height
 - Ancestors
- - `parent()`, `childer()`, `find()`, `siblings()`, `next()`, `prev()`, `first()`, `last()`
+  - `parent()`, `childer()`, `find()`, `siblings()`, `next()`, `prev()`, `first()`, `last()`
 - Ajax
- - `$.ajax()`, `$.get()`, `$.post()`
+  - `$.ajax()`, `$.get()`, `$.post()`
