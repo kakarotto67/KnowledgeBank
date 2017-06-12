@@ -1,7 +1,7 @@
 # Estimation Basics
 
 #### Navigation
-- [Scope](https://github.com/kakarotto67/KnowledgeBank/new/master#scope)
+- [Scope](https://github.com/kakarotto67/KnowledgeBank/blob/master/Estimation/Basics.md#scope)
 
 #### Scope
 - Project Scope
