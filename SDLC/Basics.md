@@ -72,8 +72,14 @@
   - Evaluating the requirements
   - Recommending best technologies
 - **Unit Testing**
-  - Characteristics of unit test: runs quickly, only one thing is tested, isolated, mocks/stubs/fakes are used, code coverage, assertions
-  - Integration testing
+  - Characteristics of a good unit test:
+    - Runs quickly
+    - Only one thing is tested
+    - Isolated
+    - Mocks/stubs/fakes are used
+    - Assertions are used
+    - Code is covered as fully as possible
+  - Other types of testing: UI testing, Performance testing, Integration testing, etc.
 - **Code Review**
   - Roles: Reviewer, Reviewee, Observer, Moderator, Reader
   - Advantages:
