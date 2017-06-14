@@ -3,6 +3,7 @@
 #### Navigation
 - [SDLC Essentials](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#sdlc-essentials)
 - [RUP and AUP](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#rup-and-aup)
+- [Extreme Programming](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#extreme-programming)
 - [SCRUM Process](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#scrum-process)
   - [Scrum Essentials](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#scrum-essentials)
 
@@ -24,6 +25,10 @@
   - Remove unnecessary stuff, learning is important, decide as late as possible, develir fast, responsible team
 - Kanban (as type of LSD)
   - Start with existing process, board with queue of tasks, capacity of each team member
+- Feature-driven Development (FDD) - iterative and incremental process which is base on development by feature
+  - Feature1 >> Feature2 >> ... >> FeatureN
+- Use-Case-driven Process
+  - Attributes are the Actor and the Use Case
 
 #### RUP and AUP
 - Rational Unified Process (RUP) attributes:
@@ -43,8 +48,22 @@
     4. Transition
 - Agile Unified Process (AUP) - derevied from RUP and describes different principles and rules of Agile methodology
   - The flow: Sprint Release 1 >> ... >> Sprint Release N >> Production Release 1 >> Sprint Release N+1 >> ...
-- Use-Case-Driven Process
-  - Attributes are the Actor and the Use Case
+
+#### Extreme Programming
+- Extreme Programming (XP) principles (best practices):
+  - Programming in pairs
+  - Unit testing
+  - Simple and clear code
+  - Managing requirements
+  - Frequent communication with Customer
+  - Planning
+  - Test-driven Development (TDD)
+  - Coding standards
+- XP Activities
+  - Coding
+  - Testing
+  - Designing
+  - Listeting
 
 ## SCRUM Process
 #### Scrum Essentials
