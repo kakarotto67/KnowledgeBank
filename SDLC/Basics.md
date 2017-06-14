@@ -4,6 +4,7 @@
 - [SDLC Essentials](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#sdlc-essentials)
 - [RUP and AUP](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#rup-and-aup)
 - [Extreme Programming](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#extreme-programming)
+- [Engineering Process Planning](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#engineering-process-planning)
 - [SCRUM Process](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#scrum-process)
   - [Scrum Essentials](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#scrum-essentials)
 
@@ -64,6 +65,28 @@
   - Testing
   - Designing
   - Listeting
+
+#### Engineering Process Planning
+- **Evaluating Technical Feasibility**
+  - Requirements development: Business requirements, User requirements, Functional requirements, Quality requirements
+  - Evaluating the requirements
+  - Recommending best technologies
+- **Unit Testing**
+  - Characteristics of unit test: runs quickly, only one thing is tested, isolated, mocks/stubs/fakes are used, code coverage, assertions
+  - Integration testing
+- **Code Review**
+  - Roles: Reviewer, Reviewee, Observer, Moderator, Reader
+  - Advantages:
+    - Better code
+    - Better design
+    - Better responsibility
+    - Knowledge sharing
+  - Areas to look for:
+    - Design
+    - Maintainability
+    - Documentation
+    - Security
+    - Performance (in C#: dispose/using, string vs StringBuilder, exception handling, threading, boxing/unboxing, etc.)
 
 ## SCRUM Process
 #### Scrum Essentials
