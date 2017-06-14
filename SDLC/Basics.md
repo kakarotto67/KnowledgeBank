@@ -2,8 +2,9 @@
 
 #### Navigation
 - [SDLC Essentials](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#sdlc-essentials)
+- [RUP and AUP](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#rup-and-aup)
 - [SCRUM Process](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#scrum-process)
-  - [Essentials](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#essentials)
+  - [Scrum Essentials](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#scrum-essentials)
 
 #### SDLC Essentials
 - Typical Stages
@@ -24,8 +25,29 @@
 - Kanban (as type of LSD)
   - Start with existing process, board with queue of tasks, capacity of each team member
 
+#### RUP and AUP
+- Rational Unified Process (RUP) attributes:
+  - Iterative development, requirements, components, modelling & visualization, testing & quality
+- RUP Static structure:
+  - Who? (Dev, QC, BA, etc.)
+  - How? (Think >> Perform >> Review)
+  - What? (Models, Sources, Documents, Executables, etc.)
+  - When? (The plan)
+- RUP Dynamic structure:
+  - Sequential process (e.g., Waterfall)
+  - Iterative lifecycle (Waterfall1 >> Waterfall2 >> ...)
+  - Phases:
+    1. Inception
+    2. Elaboration
+    3. Construction
+    4. Transition
+- Agile Unified Process (AUP) - derevied from RUP and describes different principles and rules of Agile methodology
+  - The flow: Sprint Release 1 >> ... >> Sprint Release N >> Production Release 1 >> Sprint Release N+1 >> ...
+- Use-Case-Driven Process
+  - Attributes are the Actor and the Use Case
+
 ## SCRUM Process
-#### Essentials
+#### Scrum Essentials
 - Scrum in hierarchy of methodologies: Incremental Development -> Agile -> Scrum
 - 3 main principles of Scrum:
   - Transparency
