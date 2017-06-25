@@ -3,7 +3,7 @@
 #### Navigation
 - [SDLC Essentials](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#sdlc-essentials)
 - [RUP and AUP](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#rup-and-aup)
-- [Waterfall vs Agile/Scrum vs Agile/Kanban](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#rup-and-aup)
+- [Waterfall vs Agile/Scrum vs Agile/Kanban](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#waterfall-vs-agilescrum-vs-agilekanban)
 - [Extreme Programming](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#extreme-programming)
 - [Engineering Process Planning](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#engineering-process-planning)
   - [Requirements Analysis & Evaluating Technical Feasibility](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#requirements-analysis--evaluating-technical-feasibility)
