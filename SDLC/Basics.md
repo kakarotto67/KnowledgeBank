@@ -3,6 +3,7 @@
 #### Navigation
 - [SDLC Essentials](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#sdlc-essentials)
 - [RUP and AUP](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#rup-and-aup)
+- [Waterfall vs Agile/Scrum vs Agile/Kanban](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#rup-and-aup)
 - [Extreme Programming](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#extreme-programming)
 - [Engineering Process Planning](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#engineering-process-planning)
   - [Requirements Analysis & Evaluating Technical Feasibility](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#requirements-analysis--evaluating-technical-feasibility)
@@ -14,7 +15,7 @@
   - [Scrum Essentials](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#scrum-essentials)
 
 #### SDLC Essentials
-- Typical Stages
+- Typical Flow
   - Requirements >> Design >> Implementation >> Verification >> Maintenance
 - Spiral Methodology
   - Determine objectives >> Identify & resolve risks >> Development & testing >> Plan next iteration ...
@@ -57,6 +58,38 @@
     4. Transition
 - Agile Unified Process (AUP) - derevied from RUP and describes different principles and rules of Agile methodology
   - The flow: Sprint Release 1 >> ... >> Sprint Release N >> Production Release 1 >> Sprint Release N+1 >> ...
+
+#### Waterfall vs Agile/Scrum vs Agile/Kanban
+- Waterfall
+  - Terms/artifacts/characteristics
+    - Divided into stages
+    - Difficult to implement the change request
+    - Related to manufacturing industry
+    - Isn't flexible
+    - Flow: Requirements >> Design >> Implementation >> Verification >> Maintenance
+  - Waterfall usage scenarios
+    - Tremendous product development (e.g., space shuttle)
+    - Well-defined requirements
+    - No change requests
+- Agile/Scrum
+  - Terms/artifacts/characteristics
+    - Scrum Team, Scrum Master and Product Owner
+    - Product Backlog, Iteration Backlog, Burndown Chart
+    - Transparency (daily meeting), Inspection (demo), Adaptation (retrospective)
+  - Scrum usage scenarios
+    - Long term project
+    - No well-defined requirements at the initial stage, but you have a backlog and ready for iterative/incremental development
+    - Change requests are expected
+    - You have self-organized team of different specialities (developers, testers, designers, etc.)
+- Agile/Kanban
+  - Terms/artifacts/characteristics
+    - Kanban board (typically has To Do/Active/Done stages)
+    - Team member capacity
+  - Kanban usage scenarios
+    - You don't have a process defined and want to start from something lightweight
+    - Your project is a support project
+    - You don't have well-defined backlog
+    - Your team is specialized on single area (e.g., you have team of DevOps)
 
 #### Extreme Programming
 - Extreme Programming (XP) principles (best practices):
