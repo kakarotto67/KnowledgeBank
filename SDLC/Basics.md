@@ -15,7 +15,12 @@
   - [Scrum Essentials](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#scrum-essentials)
 
 #### SDLC Essentials
-- Typical Flow
+- Typical Phases
+  - Simplified:
+    - Planning >> Analysis >> Design >> Implementation >> Maintenance
+  - Extended:
+    - Initiation >> System Concept Development >> Planning >> Requirements Analysis >> Design >> Integration & Tests >> Implementation >> Operations & Maintenance >> Disposition
+- Typical Waterfall flow
   - Requirements >> Design >> Implementation >> Verification >> Maintenance
 - Spiral Methodology
   - Determine objectives >> Identify & resolve risks >> Development & testing >> Plan next iteration ...
@@ -31,14 +36,21 @@
 - Rapid Application Development (RAD)
   - Iterative methodology + Prototyping
   - Minimun meetings, maximum development, only important features are developed, documentation is important
-- Lean Software Development (LSD)
-  - Remove unnecessary stuff, learning is important, decide as late as possible, develir fast, responsible team, see the whole
 - Kanban
   - Start with existing process, board with queue of tasks, capacity of each team member
+- Lean Software Development (LSD)
+  - Remove unnecessary stuff, learning is important, decide as late as possible, develir fast, responsible team, see the whole
+  - Scrum and Kanban are examples of LSD
 - Feature-driven Development (FDD) - iterative and incremental process which is base on development by feature
   - Feature1 >> Feature2 >> ... >> FeatureN
 - Use-Case-driven Process
   - Attributes are the Actor and the Use Case
+- Other SDLC models
+  - Software prototyping
+  - Joint application development
+  - Object-oriented development
+  - Open source development
+  - End user development
 
 #### RUP and AUP
 - Rational Unified Process (RUP) attributes:
@@ -101,7 +113,7 @@
   - Frequent communication with Customer
   - Planning
   - Test-driven Development (TDD)
-  - Coding standards
+  - Coding standards & conventions
 - XP Activities
   - Coding
   - Testing
@@ -132,6 +144,7 @@
     - Testing/TDD
     - Static Code Analysis
     - Code Review
+  - Manual & automation testing
   - Unit testing
     - Runs quickly
     - Only one thing is tested
@@ -149,7 +162,12 @@
   - Performance/load testing
   - Manual testing
   - UI testing
-  - Other types of testing: security testing, whibox testing, blackbox testing
+  - Other types of testing
+    - Regression testing
+    - User acceptance testing
+    - Security testing
+    - Whitebox testing
+    - Bblackbox testing
 #### Defining Code Review Process
   - Roles: Reviewer, Reviewee, Observer, Moderator, Reader
   - Advantages:
@@ -180,6 +198,12 @@
   - VS Publish Website (for web project)
   - VS Copy Website (for web site)
   - Other tools (WiX Toolset, Setup Factory, Install Shield, InnoSetup, XCopy, etc.)
+- Possible types of app environments
+  - Development environment
+  - Common build environment
+  - Integration testing environment
+  - User acceptance testing environment
+  - Production environment
 
 ## SCRUM Process
 #### Scrum Essentials
