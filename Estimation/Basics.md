@@ -5,11 +5,14 @@
 
 #### Scope
 - Project Scope
-  - PM responsibilities
+  - It is a work performed to deliver a product with the specified features
+    - Management, budget, scheduling, organization, work, etc.
   - Project is needed to create a product
+  - PM is responsible for Project Scope
 - Product Scope
-  - Features & functions of product
-  - BA Responsibilities
+  - Features & functions of a product
+    - All about the product, its characteristics, techincal specifications, business rules, etc.
+  - BA is responsible for Product Scope
 - Scope Creep
   - Business scope creep
   - Features scope creep
