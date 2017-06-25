@@ -15,16 +15,19 @@
   - Determine objectives >> Identify & resolve risks >> Development & testing >> Plan next iteration ...
 - Iterative Methodology
   - Waterfal1 >> Waterfal2 >> ... >> WaterfalN
-- Incremental/Agile Development
-  - Kanban, Scrum, Dynamic System Development
+- Incremental Development
+  - Agile
+    - Scrum
+    - Kanban
+    - Dynamic Systems Development Method (also related to RAD)
 - Prototyping (development approach)
   - Prototype1 >> Prototype2 >> ... >> PrototypeN
 - Rapid Application Development (RAD)
   - Iterative methodology + Prototyping
   - Minimun meetings, maximum development, only important features are developed, documentation is important
 - Lean Software Development (LSD)
-  - Remove unnecessary stuff, learning is important, decide as late as possible, develir fast, responsible team
-- Kanban (as type of LSD)
+  - Remove unnecessary stuff, learning is important, decide as late as possible, develir fast, responsible team, see the whole
+- Kanban
   - Start with existing process, board with queue of tasks, capacity of each team member
 - Feature-driven Development (FDD) - iterative and incremental process which is base on development by feature
   - Feature1 >> Feature2 >> ... >> FeatureN
@@ -55,6 +58,7 @@
   - Programming in pairs
   - Unit testing
   - Simple and clear code
+  - Code review
   - Managing requirements
   - Frequent communication with Customer
   - Planning
@@ -66,33 +70,78 @@
   - Designing
   - Listeting
 
-#### Engineering Process Planning
-- **Evaluating Technical Feasibility**
-  - Requirements development: Business requirements, User requirements, Functional requirements, Quality requirements
+## Engineering Process Planning
+#### Requirements Analysis & Evaluating Technical Feasibility
+  - Requirements development
+    - Business requirements
+    - User requirements
+    - Functional requirements
+    - Non-functional (quality) requirements
   - Evaluating the requirements
-  - Recommending best technologies
-- **Unit Testing**
-  - Characteristics of a good unit test:
+    - Perspective
+    - Prioritization
+    - Completeness
+    - Feasibility
+    - Correctness
+#### Recommending Best Technologies
+  - App type (desktop, web, mobile, service)
+  - 3rd party frameworks, libraries, tools, controls, etc.
+  - App server requirements
+  - Data storage
+  - Security, async messaging, remoting, etc.
+#### Defining Testing Process
+  - Code quality
+    - Testing/TDD
+    - Static Code Analysis
+    - Code Review
+  - Unit testing
     - Runs quickly
     - Only one thing is tested
     - Isolated
     - Mocks/stubs/fakes are used
     - Assertions are used
     - Code is covered as fully as possible
-  - Other types of testing: UI testing, Performance testing, Integration testing, etc.
-- **Code Review**
+  - Integration testing
+    - Create test plan
+    - Execute use cases
+    - Execute load testing
+    - Execute stress testing
+    - Execute globalization testing
+    - Execute security testing
+  - Performance/load testing
+  - Manual testing
+  - UI testing
+  - Other types of testing: security testing, whibox testing, blackbox testing
+#### Defining Code Review Process
   - Roles: Reviewer, Reviewee, Observer, Moderator, Reader
   - Advantages:
     - Better code
     - Better design
     - Better responsibility
     - Knowledge sharing
-  - Areas to look for:
-    - Design
-    - Maintainability
-    - Documentation
-    - Security
-    - Performance (in C#: dispose/using, string vs StringBuilder, exception handling, threading, boxing/unboxing, etc.)
+  - Areas to review:
+    - Design (understandable, with no issues)
+    - Maintainability (unit tests, code coverage)
+    - Documentation (well-documented, commented)
+    - Security (no vulnerabilities)
+    - Performance (no leaks; specific to C#: dispose/using, string vs StringBuilder, exception handling, threading, boxing/unboxing, etc.)
+#### Defining Deployment Process
+- Define the following
+  - Purpose of the app
+  - All target environments
+  - Resource requirements
+  - Configuration requirements
+  - Expected deployment scenarios 
+  - Security & performance plan
+  - Who will completed the deployment
+  - Any pre-existing apps that must be also installed
+- Tools
+  - VS Setup project/VS Web setup
+  - Click-Once deployment (desktop apps deployment)
+  - MS Deploy (web apps deployment)
+  - VS Publish Website (for web project)
+  - VS Copy Website (for web site)
+  - Other tools (WiX Toolset, Setup Factory, Install Shield, InnoSetup, XCopy, etc.)
 
 ## SCRUM Process
 #### Scrum Essentials
