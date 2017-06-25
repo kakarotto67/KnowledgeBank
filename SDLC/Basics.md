@@ -208,25 +208,58 @@
 ## SCRUM Process
 #### Scrum Essentials
 - Scrum in hierarchy of methodologies: Incremental Development -> Agile -> Scrum
+- Forms of Scrum:
+  - Scrum and ...
+  - Scrum but ...
+  - Scrum not ...
 - 3 main principles of Scrum:
-  - Transparency
-  - Inspection
-  - Adaptation
-- Typical Scrum meetings:
-  - Daily meeting (Transparency)
-  - Planning, Demo (Inspection)
-  - Retrospective (Adaptation)
-- Scrum flows/ceremonies:
+  - Transparency (daily meeting)
+  - Inspection (planning, demo)
+  - Adaptation (retrospective)
+- Scrum Meetings/Ceremonies:
   - Sprint Planning (grooming, pre-planning, planning, tasks breakdown)
   - Daily Scrum (daily meeting, stand-up)
   - Reporting (demo)
   - Sprint Review (retrospective)
-- Scrum Rolew:
+- Scrum Artifacts:
+  - Backlog
+    - Product Backlog
+    - Sprint Backlog
+  - Sprint Burndown Chart
+  - Feature Burnup Chart
+  - Scrum Board
+  - Sprint
+  - Feature/Epic, Story, Task
+  - Definition of Done
+- Tasks Decomposition hierarchy
+  - Product >>
+  - Feature/Epic >>
+  - Story >>
+    - Task
+    - Bug
+    - Technical Debt (did something in the fastest way and left to refactor later, didn't know how to do something in the right way, had knowledge but didn't have a time for right implementation, didn't have knowledge of the right implementation)
+- Charts & Metrics
+  - Story Points
+  - Team Velocity
+  - Sprint Burndown Chart
+  - Feature Burnup Chart
+- The Sprint
+  - Release planning (features estimation & prioritization)
+  - Sprint planning
+    - Planning poker
+    - Affinity estimation
+  - Daily scrum
+  - Sprint demo
+  - Retrospective
+    - Story points triangulation
+- Scrum Roles
   - Product Owner (BA, customer, main stakeholder)
   - Scrum Master (responsible for Scrum rules and processes on the project)
   - Development Team (developers, testers, designers etc.)
-- Scrum Artifacts:
-  - Product Backlog
-  - Sprint Backlog
-  - Burndown Chart
-- Scrum scaling - Scrum with multiple teams involved
+- Scrum issues
+  - Maladaptive code
+  - Untestability
+  - Metrics (Code Coverage, LOC, Depth of Inheritance, Cyclomatic Complexity, etc.)
+- Other
+  - Scrum calendar - when to perform any meeting, etc.
+  - Scrum scaling - Scrum with multiple teams involved
