@@ -58,13 +58,13 @@
     - Judgment (use experts' experience to create an estimate)
 
 #### Estimation Activities and Estimation Errors
-The following is list of typical *extra activities* that affect estimate:
+The following is a list of typical *extra activities* that affect estimate:
 - Unit Testing (~25%)
 - Code Review (~10%)
 - Defect Fixing (~15%)
 - Manual Testing (~30%)
 
-The following is list of typical *estimation errors*:
+The following is a list of typical *estimation errors*:
 - Chaotic development process
 - Inaccurate information about the project
 - Omitted activities
@@ -73,7 +73,7 @@ The following is list of typical *estimation errors*:
 - Inexperienced personnel
 
 #### Estimation Size, Efforts and Schedule
-The following is list of three main *Estimation Stages*:
+The following is a list of three main *Estimation Stages*:
 - Estimating Size
   - Size types: Lines of Code (LOC), Story Points, Use Cases, Function Points, GUI Elements, Web Pages, etc.
   - Techniques: Analogy-based, Decomposition, Group Reviews, Delphi method, etc.
@@ -125,7 +125,29 @@ etc.
 | 1 | 5 | 4 | 3.6 | 0.66 | 0.44 |
 
 #### Delphi Method
-TBD
+*Unstructured Delphi Method (Group Reviews)*
+- Each estimator gives its estimate and then group starts discussion
+
+*Structured Delphi Method*
+1. Coordinator gives estimation form to all estimators
+2. Each estimator prepares own estimate
+3. Meeting/discussion about the stuff that should be estimated
+4. Estimators give estimates to coordinator
+5. Coordinator prepares summary form with average estimate
+6. Everybody discuss the result
+7. They vote Yes/No for average estimate, if average isn't ok, they start from #3 again
+8. Final estimate is prepared
 
 #### Pert Analysis
-TBD
+*Project Evaluation and Review Technique (PERT)* consists of the following:
+- Event - main building block on the PERT diagram, represents the task
+  - PERT event, predecessor event, successor event
+- Activity - actual performance of the task, resources required for task completion
+- PERT Time
+  - Optimistic time (O)
+  - Pessimistic time (P)
+  - Most likely time (M)
+  - Expected time (TE)
+    - TE = (O + 4 * M + P) / 6
+- Critical Path - longest possible way from Initial Event to Terminal Event, determines total time required for the project
+- Critical Activity - important activity that cannot be skipped
