@@ -11,6 +11,7 @@
   - [Defining Testing Process](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#defining-testing-process)
   - [Defining Code Review Process](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#defining-code-review-process)
   - [Defining Deployment Process](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#defining-deployment-process)
+  - [MS Security Development Lifecycle](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#ms-security-development-lifecycle)
 - [SCRUM Process](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#scrum-process)
   - [Scrum Essentials](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#scrum-essentials)
 
@@ -193,6 +194,7 @@
   - Any pre-existing apps that must be also installed
 - Tools
   - VS Setup project/VS Web setup
+    - File System Editor, UI Editor, Registry Editor, File Types, Custom Actions, Launch Conditions
   - Click-Once deployment (desktop apps deployment)
   - MS Deploy (web apps deployment)
   - VS Publish Website (for web project)
@@ -204,6 +206,37 @@
   - Integration testing environment
   - User acceptance testing environment
   - Production environment
+#### MS Security Development Lifecycle
+I. Training Phase
+  - Core Security Training
+
+II. Requirements Phase
+  - Establish Security and Privacy Requirements
+  - Create Quality Gates/Bug Bars
+  - Perform Security and Privacy Risks Assessments
+
+III. Design Phase
+  - Establish Design Requirements
+  - Attack Surface Analysis/Reduction
+  - Use Threat Modeling
+
+IV. Implementation Phase
+  - Use Approved Tools
+  - Deprecate Unsafe Functions
+  - Perform Static Analysis
+
+V. Verification Phase
+  - Perform Dynamic Analysis
+  - Fuzz Testing
+  - Attack Surface Review
+
+VI. Release Phase
+  - Create an Incident Response Plan
+  - Conduct Final Security Review
+  - Certify Release and Archive
+
+VII. Response Phase
+  - Execute Incident Response Plan
 
 ## SCRUM Process
 #### Scrum Essentials
