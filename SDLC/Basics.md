@@ -12,6 +12,8 @@
   - [Defining Code Review Process](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#defining-code-review-process)
   - [Defining Deployment Process](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#defining-deployment-process)
   - [MS Security Development Lifecycle](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#ms-security-development-lifecycle)
+  - [Evaluating Application Performance](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#evaluating-application-performance)
+  - [Evaluating Team Performance](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#evaluating-team-performance)
 - [SCRUM Process](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#scrum-process)
   - [Scrum Essentials](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#scrum-essentials)
 
@@ -147,20 +149,34 @@
     - Code Review
   - Manual & automation testing
   - Unit testing
+    - Clear
+    - Independent
     - Runs quickly
     - Only one thing is tested
     - Isolated
     - Mocks/stubs/fakes are used
     - Assertions are used
     - Code is covered as fully as possible
-  - Integration testing
+  - Integration testing (Top-Down, Bottom-Up, Umbrella Testing)
     - Create test plan
     - Execute use cases
     - Execute load testing
     - Execute stress testing
     - Execute globalization testing
     - Execute security testing
+  - Stress testing
+    - Identify key scenarios
+    - Identify workload
+    - Identify metrics
+    - Create test cases
+    - Simulate the load
+    - Analyze results
   - Performance/load testing
+    - Prepare baseline
+    - Collect data
+    - Analyze results
+    - Reconfiguration
+    - Testing and measurement
   - Manual testing
   - UI testing
   - Other types of testing
@@ -169,6 +185,28 @@
     - Security testing
     - Whitebox testing
     - Bblackbox testing
+    - Web/Desktop/Mobile testing (by app type)
+  - Good Test Framework
+    - Test case
+    - Test suite
+    - Test fixture
+  - What have to be tested
+    - Public methods
+    - Protected methods
+    - Private methods
+  - Environment Simulation
+    - Hardware and software have to be similar to production
+    - Clear logs after each test's run
+
+Correlation between product levels and testing types
+
+| Product Level | Type of Testing |
+| --- | --- |
+| Code | Compile |
+| Design | Unit Tests |
+| Architecture | Integration Tests |
+| Requirements | User Acceptance Tests |
+
 #### Defining Code Review Process
   - Roles: Reviewer, Reviewee, Observer, Moderator, Reader
   - Advantages:
@@ -237,6 +275,29 @@ VI. Release Phase
 
 VII. Response Phase
   - Execute Incident Response Plan
+#### Evaluating Application Performance
+- Performance Modeling
+  - Key usage scenarios identification
+  - User & transaction workload
+  - Performance objectives identification
+  - Budget constraints
+  - Identify processing steps
+  - Allocate budget
+  - Evaluate & validate your model
+- Identify application performance spikes
+- Analyze application performance trends
+#### Evaluating Team Performance
+- Team Velocity - the number of User Stories that team can develop per one Sprint. Typically defined as an average based on first 3-4 iterations. Calibration helps identify valid Team Velocity
+- Factors that affect Team Velocity:
+  - Team changes
+  - New tools
+  - Vendor defects
+  - Responsibilities outside the project
+  - Personal issues
+  - Stakeholders
+  - Unclear requirements
+  - Changing requirements
+  - Relocations
 
 ## SCRUM Process
 #### Scrum Essentials
