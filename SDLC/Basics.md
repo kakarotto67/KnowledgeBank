@@ -14,6 +14,8 @@
   - [MS Security Development Lifecycle](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#ms-security-development-lifecycle)
   - [Evaluating Application Performance](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#evaluating-application-performance)
   - [Evaluating Team Performance](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#evaluating-team-performance)
+  - [Distributed Teams](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#distributed-teams)
+  - [Technical Leaders](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#technical-leaders)
 - [SCRUM Process](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#scrum-process)
   - [Scrum Essentials](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#scrum-essentials)
   - [Scrum vs Kanban](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#scrum-vs-kanban)
@@ -300,6 +302,69 @@ VII. Response Phase
   - Unclear requirements
   - Changing requirements
   - Relocations
+#### Distributed Teams
+- Co-located - one single location
+- Outsourced - remote location
+- Distributed - combination of onshore and offshore teams
+- Typicall issues
+  - Communication issues
+  - Code ownership issues
+  - Timezone issues
+  - Transparency & trustability issues
+- Communication
+  - Conference calls
+  - Tickets
+  - Issue tracking systems (TFS, Jira)
+  - Email (Outlook)
+  - Chat (Skype)
+  - Confluence/Wiki
+  - Standup reports
+  - Code comments
+- Things to Do
+  - Create tickets
+  - Share daily continuous build
+  - Daily standups
+  - Meet at fixed time
+  - Team activity stream (TFS, Jira)
+  - Recruit good people
+  - Release a schedule
+- Things to Skip
+  - Too many business travels
+  - Too many conference calls
+  - Too many PMs
+  - Dividing work geographically
+- High-Performing Teams
+  - Wisdom of Teams
+  - Shared values
+  - Retrospective & happinnes survey
+  - Private language
+  - Crossing cultures
+#### Technical Leaders
+- TL must
+  - Work closely with BA, PM and Team
+  - Help BA, QA Lead to design features and prioritize tasks
+  - Assemble releases & drive improvements in the process
+  - Help with recruiting & hiring
+  - Write code
+- TL Checklist
+  - Daily
+    - Stand up reports
+    - Issues, blockers and stoppers tracking
+    - Documentation, wiki
+    - Task assignment
+    - Helping others
+    - Write code
+    - Review Code
+  - Weekly
+    - Review all items in progress
+    - Make sure everybody has a work to do
+  - Biweekly/Monthly
+    - Interviewing
+    - Plannings, breakdowns
+    - Evaluating trial developers
+- TL outsourcing
+  - Find the right outsourcer (specialization, fixed prices, continuous delivery)
+  - Go global (opportunities, full-time attention, long-term retention)
 
 ## SCRUM Process
 #### Scrum Essentials
