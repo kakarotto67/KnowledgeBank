@@ -17,6 +17,7 @@
 - [SCRUM Process](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#scrum-process)
   - [Scrum Essentials](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#scrum-essentials)
   - [Scrum vs Kanban](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#scrum-vs-kanban)
+  - [Scaled Agile Framework](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#scaled-agile-framework)
 
 #### SDLC Essentials
 - Typical Phases
@@ -381,7 +382,7 @@ VII. Response Phase
   - No roles
   - No charts
 
-Applicability
+**Applicability**
 
 | Scrum | Kanban |
 | --- | --- |
@@ -390,3 +391,21 @@ Applicability
 | Typically for one big project | Typically for one small project or a set of small projects (e.g., support projects) |
 | Extended process have to be setup | No process setup needed or lightweight process is needed |
 | Stakeholders are ok with Scrum | No experience in Scrum |
+
+#### Scaled Agile Framework
+- Scaled Agile Framework (SAFe) - is a programming knowledge base that allows large organizations to move tword a more agile way of working
+- SAFe has some similarities with Rational Unified Process (RUP)
+- Release Train - team of teams (typically 50-150 persons)
+- Release Planning consists of 2 days:
+  - 1st day - Product Vision, Architecture Vision, Planning, Draft Plan, Management Review
+  - 2nd day - Planning Adjustments, Final Plan Review, Risk Management, Plan Rework & Retrospective
+- Risk Management
+  - *Risk = Probability * Impact*
+  - Risk can be
+    - Mitigated
+    - Transfered
+    - Avoided/Eliminated
+    - Shared (positive risk/opportunity)
+
+**SAFe in one table**
+TBD
