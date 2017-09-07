@@ -406,8 +406,7 @@ VII. Response Phase
     - Transfered
     - Avoided/Eliminated
     - Shared (positive risk/opportunity)
-
-**SAFe Key Aspects**
+- SAFe Key Aspects
 
 | **Portfolio** - Any Solution |
 | --- |
