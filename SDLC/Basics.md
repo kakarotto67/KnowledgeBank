@@ -16,6 +16,7 @@
   - [Evaluating Team Performance](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#evaluating-team-performance)
 - [SCRUM Process](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#scrum-process)
   - [Scrum Essentials](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#scrum-essentials)
+  - [Scrum vs Kanban](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md#scrum-vs-kanban)
 
 #### SDLC Essentials
 - Typical Phases
@@ -337,6 +338,13 @@ VII. Response Phase
   - Team Velocity
   - Sprint Burndown Chart
   - Feature Burnup Chart
+  - Using charts you can see scope changes and track real progress
+- Efforts estimation
+  - Story Points types
+    - S, M, L
+    - Powers of 2 (1, 2, 4, 8, ...)
+    - Fibonacci numbers (1, 2, 3, 5, 8, ...)
+    - No Estimates approach (small vs need-to-be-split stories)
 - The Sprint
   - Release planning (features estimation & prioritization)
   - Sprint planning
@@ -357,3 +365,28 @@ VII. Response Phase
 - Other
   - Scrum calendar - when to perform any meeting, etc.
   - Scrum scaling - Scrum with multiple teams involved
+
+#### Scrum vs Kanban
+- Similarities with Kanban
+  - Lean & Agile
+  - Work in progress
+  - Transparency
+  - Focus on delivering
+  - Self-organized teams
+  - Plan is optimized continuously
+- Differences in Kanban
+  - Specialized team
+  - No backlog
+  - New items can be added at any time
+  - No roles
+  - No charts
+
+Applicability
+
+| Scrum | Kanban |
+| --- | --- |
+| Cross functional team  | Team is specialized (devops team, support team, database team, etc.) |
+| Product backlog | No product backlog |
+| Typically for one big project | Typically for one small project or a set of small projects (e.g., support projects) |
+| Extended process have to be setup | No process setup needed or lightweight process is needed |
+| Stakeholders are ok with Scrum | No experience in Scrum |
