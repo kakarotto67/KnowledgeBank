@@ -407,5 +407,16 @@ VII. Response Phase
     - Avoided/Eliminated
     - Shared (positive risk/opportunity)
 
-**SAFe in one table**
-TBD
+**SAFe Key Aspects**
+
+| **Portfolio** - Any Solution |
+| --- |
+| **Roles**: Program Manager, Enterprise/Solution Architect<br/>**Areas**: Deliver, maintain and support working software |
+
+|  **Program** - Concrete Program |
+| --- |
+| **Roles**: Release Manager, Product Manager, System Architect, System/Devops Team<br/>**Areas**: Roadmap, Program Backlog, Program Increment, Program Epic, Feature Releases, etc. |
+
+| **Team** - Agile Teams |
+| --- |
+| **Roles**: Product Owner (BA), Scrum Master, Technical Leader, Developers, QCL, QCs, etc.<br/>**Areas**: Team Backlog, Iterations, Stories, Spikes, Code Quality, Development, Testing, etc. |
