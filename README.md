@@ -47,4 +47,4 @@ This project contains .NET/Web stack knowledge base. Different knowledge items a
 #### VIII. Other
 - [IT Essentials](https://github.com/kakarotto67/KnowledgeBank/#) [On Hold for 2.0]
 - [Algorithms](https://github.com/kakarotto67/KnowledgeBank/#) [On Hold for 2.0]
-- [Logical Questions](https://github.com/kakarotto67/KnowledgeBank/blob/master/Experimental/LogicalQuestions.md) [On Hold for 2.0]
+- [Logical Questions](https://github.com/kakarotto67/KnowledgeBank/blob/master/Other/LogicalQuestions.md) [On Hold for 2.0]
