@@ -4,7 +4,7 @@
 - [Definition](https://github.com/kakarotto67/KnowledgeBank/blob/master/Requirements/Basics.md#definition)
 - [Techniques](https://github.com/kakarotto67/KnowledgeBank/blob/master/Requirements/Basics.md#techniques)
 - [Modeling](https://github.com/kakarotto67/KnowledgeBank/blob/master/Requirements/Basics.md#modeling)
-- [Quality Attributes](https://github.com/kakarotto67/KnowledgeBank/blob/master/Requirements/Basics.md#quality-attributes)
+- [Requirements Types](https://github.com/kakarotto67/KnowledgeBank/blob/master/Requirements/Basics.md#requirements-types)
 
 #### Definition
 - Requirements define the needs of stakeholders that are to be solved by software
@@ -12,6 +12,17 @@
   - Customers
   - Users
   - Business Analytics, Developers, Testers, Project Managers, etc.
+- Product Champion - main user in specific group. If users disagree - champion decides
+- User Classes
+  - Favored users
+  - Disfavored users
+  - Ignored users
+  - Other users
+- Assumptions and Constraints
+  - Assumption - factors that are believed to be true, but have not been confirmed
+  - Constraints - restrictions and limitations
+    - Business constraints (time, resources, money)
+    - Technical constraints (technical impact)
 - Requirements Engineering covers
   - Requirements Development
     - Elicitation
@@ -19,19 +30,6 @@
     - Specification
     - Validation
   - Requirements Management
-- Levels of Requirements
-  - Businesss Requirements
-  - User Requirements
-  - Functional Requirements
-  - Non-functional Requirements
-    - Usability
-    - Security
-    - Performance
-    - Maintenability
-    - Testability
-    - Flexibility
-    - Integrity
-    - etc.
 - Requirements specifications do not include design or implementation details
 - Requirements risks
   - Low user involvement
@@ -87,13 +85,20 @@
   - Prototype details of UI, create mockups, etc. Integrate the result with other requirements
 
 #### Modeling
+- Use UML diagrams and SRS documents for requirements modeling
 - Requirements modeling techniques
   - Pseudocode
-  - Final state machines
-  - Desicion tables and trees
-  - Flowcharts
-  - Activity diagrams
-- Entity-Relationships Diagrams (ERD)
+  - UML diagrams
+    - Use Case diagram
+    - Activity diagram
+    - Entity Relationships diagram
+    - Data Flow diagram
+    - Deployment diagram
+    - Component diagram
+    - Package diagram
+    - Sequence diagram
+  - Final state machines, Flowcharts, Decision tables and trees, etc.
+- Entity Relationships Diagrams (ERD)
   - Entities (something important to the domain)
   - Attributes (name, value, description, etc.)
   - Relationships
@@ -117,20 +122,34 @@
     - B. Models
     - C. Issues
 
-#### Quality Attributes
-- Product Champion - main user in specific group. If users disagree - champion decides
-- User Classes
-  - Favored users
-  - Disfavored users
-  - Ignored users
-  - Other users
-- Software Quality Attributes (Non-functional requirements)
+#### Requirements Types
+- Levels of Requirements
+  - Business Requirements
+  - User Requirements
+  - Functional Requirements
+    - Business Rules
+    - Transactions
+    - Administrative Functions
+    - Authentication and Authorization
+    - Audit, Certification, Reporting, etc.
+  - Non-functional Requirements
+    - Usability
+    - Security
+    - Performance
+    - Maintenability
+    - Testability
+    - Flexibility
+    - Integrity
+    - Availability
+    - Scalability
+    - Extensibility
+    - Interoperability
+    - Data Integrity
+    - Portability
+    - Reliability
+    - Modularity
+- Software Quality Attributes (Non-functional requirements) importance
   - For Users
-    - Availability, Efficiency, Flexibility, Integrity, Interoperability, Reliability
+    - Availability, Efficiency, Flexibility, Integrity, Interoperability, Reliability, etc.
   - For Developers
-    - Maintainability, Portability, Reusability, Testability
-- Assumptions and Constraints
-  - Assumption - factors that are believed to be true, but have not been confirmed
-  - Constraints - restrictions and limitations
-    - Business constraints (time, resources, money)
-    - Technical constraints (technical impact)
+    - Maintainability, Portability, Reusability, Scalability, Testability, etc.
