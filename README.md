@@ -23,14 +23,11 @@ This project contains .NET/Web stack knowledge base. Different knowledge items a
 - [Networking](https://github.com/kakarotto67/KnowledgeBank/#) [To Do]
 
 #### IV. Construction - Web
-- Web Server Applications
-  - [ASP.NET Basics](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md) [In Progress, till Oct 28 2017]
-  - [MVC Basics](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md) [In Progress, till Nov 3 2017]
-- Web Services
-  - [Web Services](https://github.com/kakarotto67/KnowledgeBank/blob/master/Services/Basics.md) [To Do]
-- Web UI
-  - [JavaScript](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md) [In Progress, till Nov 12 2017]
-  - [HTML & CSS](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/HtmlCss.md) [To Do]
+- [ASP.NET Basics](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md) [In Progress, till Oct 28 2017]
+- [MVC Basics](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md) [In Progress, till Nov 3 2017]
+- [Web Services](https://github.com/kakarotto67/KnowledgeBank/blob/master/Services/Basics.md) [To Do]
+- [JavaScript](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md) [In Progress, till Nov 12 2017]
+- [HTML & CSS](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/HtmlCss.md) [To Do]
 
 #### V. Construction - Database
 - [SQL](https://github.com/kakarotto67/KnowledgeBank/#) [To Do]
