@@ -1,0 +1,65 @@
+# Requirements Basics
+
+#### Navigation
+- [Definition](https://github.com/kakarotto67/KnowledgeBank/blob/master/Requirements/Basics.md#definition)
+
+#### Definition
+- Requirements define the needs of stakeholders that are to be solved by software
+- Stakeholders are
+  - Customers
+  - Users
+  - Business Analytics, Developers, Testers, Project Managers, etc.
+- Requirements Engineering covers
+  - Requirements Development
+    - Elicitation
+    - Analysis
+    - Specification
+    - Validation
+  - Requirements Management
+- Levels of Requirements
+  - Businesss Requirements
+  - User Requirements
+  - Functional Requirements
+  - Non-functional Requirements
+    - Usability
+    - Security
+    - Performance
+    - Maintenability
+    - Testability
+    - Flexibility
+    - Integrity
+    - etc.
+- Requirements specifications do not include design or implementation details
+- Requirements risks
+  - Low user involvement
+  - Creeping user requirements
+  - Not clear requirements
+  - Gold plating
+  - Minimal specification
+  - Inaccurate planning
+- Reguirement is excellent if it is:
+  - Complete
+  - Correct
+  - Feasible
+  - Necessary
+  - Prioritized
+  - Unambiguous
+  - Verifiable
+- Benefits of excellent requirements
+  - Low defects level
+  - Less rework
+  - Fewer unnecessary features
+  - Faster development
+  - Lower scope creep
+- Costs of requirements errors on different project phases:
+  - Initial phase - 100 (enormous costs)
+  - Final phase - 5-10 (minimal costs)
+- Sources of requirements
+  - Inverviews and discussions
+  - Software Requirements Specification (SRS) documents
+  - Other documents
+  - Problem reports
+  - Surveys
+  - Observing users at work
+  - etc.
+
