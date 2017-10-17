@@ -3,6 +3,8 @@
 #### Navigation
 - [Definition](https://github.com/kakarotto67/KnowledgeBank/blob/master/Requirements/Basics.md#definition)
 - [Techniques](https://github.com/kakarotto67/KnowledgeBank/blob/master/Requirements/Basics.md#techniques)
+- [Modeling](https://github.com/kakarotto67/KnowledgeBank/blob/master/Requirements/Basics.md#modeling)
+- [Quality Attributes](https://github.com/kakarotto67/KnowledgeBank/blob/master/Requirements/Basics.md#quality-attributes)
 
 #### Definition
 - Requirements define the needs of stakeholders that are to be solved by software
@@ -83,3 +85,52 @@
   - Gather elaborative group for linking users with developers
 - Prototyping
   - Prototype details of UI, create mockups, etc. Integrate the result with other requirements
+
+#### Modeling
+- Requirements modeling techniques
+  - Pseudocode
+  - Final state machines
+  - Desicion tables and trees
+  - Flowcharts
+  - Activity diagrams
+- Entity-Relationships Diagrams (ERD)
+  - Entities (something important to the domain)
+  - Attributes (name, value, description, etc.)
+  - Relationships
+  - Metadata
+- Requirements artifacts
+  - Product vision
+  - Conflicting requirements
+  - Scope documents
+    - Business requirements
+    - Vision of solution
+    - Scope and limitations
+    - Business context
+  - SRS documents
+    - Introduction
+    - Overall description
+    - System features
+    - External interfaces requirements
+    - Other non-functional requirements
+    - Other requirements
+    - A. Glossary
+    - B. Models
+    - C. Issues
+
+#### Quality Attributes
+- Product Champion - main user in specific group. If users disagree - champion decides
+- User Classes
+  - Favored users
+  - Disfavored users
+  - Ignored users
+  - Other users
+- Software Quality Attributes (Non-functional requirements)
+  - For Users
+    - Availability, Efficiency, Flexibility, Integrity, Interoperability, Reliability
+  - For Developers
+    - Maintainability, Portability, Reusability, Testability
+- Assumptions and Constraints
+  - Assumption - factors that are believed to be true, but have not been confirmed
+  - Constraints - restrictions and limitations
+    - Business constraints (time, resources, money)
+    - Technical constraints (technical impact)
