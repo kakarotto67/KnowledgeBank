@@ -6,7 +6,7 @@ This project contains .NET/Web stack knowledge base. Different knowledge items a
 #### I. Process Planning, Estimation & Requirements
 - [SDLC Basics](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md)
 - [Estimation Basics](https://github.com/kakarotto67/KnowledgeBank/blob/master/Estimation/Basics.md)
-- [Requirements](https://github.com/kakarotto67/KnowledgeBank/#) [In Progress]
+- [Requirements](https://github.com/kakarotto67/KnowledgeBank/blob/master/Requirements/Basics.md) [In Progress]
 
 #### II. Software Architecture and Design
 - [Object-Oriented Design](https://github.com/kakarotto67/KnowledgeBank/#) [To Do]
