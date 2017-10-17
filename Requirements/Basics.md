@@ -2,6 +2,7 @@
 
 #### Navigation
 - [Definition](https://github.com/kakarotto67/KnowledgeBank/blob/master/Requirements/Basics.md#definition)
+- [Techniques](https://github.com/kakarotto67/KnowledgeBank/blob/master/Requirements/Basics.md#techniques)
 
 #### Definition
 - Requirements define the needs of stakeholders that are to be solved by software
@@ -37,7 +38,7 @@
   - Gold plating
   - Minimal specification
   - Inaccurate planning
-- Reguirement is excellent if it is:
+- Reguirement is excellent if it is
   - Complete
   - Correct
   - Feasible
@@ -51,7 +52,7 @@
   - Fewer unnecessary features
   - Faster development
   - Lower scope creep
-- Costs of requirements errors on different project phases:
+- Costs of requirements errors on different project phases
   - Initial phase - 100 (enormous costs)
   - Final phase - 5-10 (minimal costs)
 - Sources of requirements
@@ -63,3 +64,22 @@
   - Observing users at work
   - etc.
 
+#### Techniques
+- Brainstorming
+  - Idea Generation, Idea Reduction, Idea Prioritization
+- Interviews
+  - Ask important stakeholders and note their answers
+- Surveys
+  - Run surveys with questions to collect some statistics
+- Document Analysis
+  - Analyze existing documents
+- Focus Groups
+  - Gather stakeholders >> Run brainstorming >> Produce report
+- Interface Analysis
+  - Define interfaces and solution components >> Describe how they interact
+- Observation
+  - Watch for a user and note its interaction with the system
+- Requirements Workshops
+  - Gather elaborative group for linking users with developers
+- Prototyping
+  - Prototype details of UI, create mockups, etc. Integrate the result with other requirements
