@@ -9,4 +9,4 @@
 sequence directly, but try to represent existing items as english words, or calculate number of holes in each digit, etc.
 6. Use science. A lot of logical questions can be answered using physical, mathematical, statistical or theory of probability rules, etc.
 
-TBD
+Include this: Examples, etc.
