@@ -1,4 +1,4 @@
-# KnowledgeBank
+# Knowledge Bank
 This project contains .NET/Web stack knowledge base. Different knowledge items are split by folders.
 
 ## Navigation
