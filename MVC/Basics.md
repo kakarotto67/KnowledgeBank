@@ -207,7 +207,7 @@
   - `ActionLink` - to create a link
   - `Partial` - to insert partial view (partial views  stored in `Views\Shared` folder)
 - Layou-related helpers
-  - `@RenderSection` - to insed a section into layout page
+  - `@RenderSection` - to insert a section into layout page
   - `@section MySection { ... }` - to create a section
   - `@RenderBody` - to insert view's body into layout page
 - Other helpers
