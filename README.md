@@ -13,6 +13,7 @@ This project contains .NET/Web stack knowledge base. Different knowledge items a
 - [Database Design](https://github.com/kakarotto67/KnowledgeBank/#) [To Do]
 - [Modeling](https://github.com/kakarotto67/KnowledgeBank/#) [To Do]
 - [Security](https://github.com/kakarotto67/KnowledgeBank/#) [To Do]
+- [Algorithms](https://github.com/kakarotto67/KnowledgeBank/#) [On Hold for 2.0]
 
 #### III. Construction - Essentials
 - [C#/.NET](https://github.com/kakarotto67/KnowledgeBank/#) [To Do]
@@ -43,5 +44,4 @@ This project contains .NET/Web stack knowledge base. Different knowledge items a
 
 #### VIII. Other
 - [IT Essentials](https://github.com/kakarotto67/KnowledgeBank/#) [On Hold for 2.0]
-- [Algorithms](https://github.com/kakarotto67/KnowledgeBank/#) [On Hold for 2.0]
 - [Logical Questions](https://github.com/kakarotto67/KnowledgeBank/blob/master/Other/LogicalQuestions.md) [On Hold for 2.0]
