@@ -6,7 +6,7 @@ This project contains .NET/Web stack knowledge base. Different knowledge items a
 #### I. Process Planning, Estimation & Requirements
 - [SDLC Basics](https://github.com/kakarotto67/KnowledgeBank/blob/master/SDLC/Basics.md)
 - [Estimation Basics](https://github.com/kakarotto67/KnowledgeBank/blob/master/Estimation/Basics.md)
-- [Requirements](https://github.com/kakarotto67/KnowledgeBank/blob/master/Requirements/Basics.md) [In Progress, till Oct 27 2017]
+- [Requirements](https://github.com/kakarotto67/KnowledgeBank/blob/master/Requirements/Basics.md) [In Progress]
 
 #### II. Software Architecture and Design
 - [Object-Oriented Design](https://github.com/kakarotto67/KnowledgeBank/#) [To Do]
@@ -24,10 +24,10 @@ This project contains .NET/Web stack knowledge base. Different knowledge items a
 - [Networking](https://github.com/kakarotto67/KnowledgeBank/#) [To Do]
 
 #### IV. Construction - Web
-- [ASP.NET Basics](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md) [In Progress, till Oct 28 2017]
-- [MVC Basics](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md) [In Progress, till Nov 3 2017]
+- [ASP.NET Basics](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md) [In Progress]
+- [MVC Basics](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md) [In Progress]
 - [Web Services](https://github.com/kakarotto67/KnowledgeBank/blob/master/Services/Basics.md) [To Do]
-- [JavaScript](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md) [In Progress, till Nov 12 2017]
+- [JavaScript](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/JavaScript.md) [In Progress]
 - [HTML & CSS](https://github.com/kakarotto67/KnowledgeBank/blob/master/WebUI/HtmlCss.md) [To Do]
 
 #### V. Construction - Database
