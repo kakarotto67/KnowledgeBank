@@ -15,12 +15,11 @@ This project contains .NET/Web stack knowledge base. Different knowledge items a
 - [Security](https://github.com/kakarotto67/KnowledgeBank/#) [To Do]
 - [Algorithms](https://github.com/kakarotto67/KnowledgeBank/#) [On Hold for 2.0]
 
-#### III. Construction - Essentials
+#### III. Construction - Framework
 - [C#/.NET](https://github.com/kakarotto67/KnowledgeBank/#) [To Do]
 - [Concurrency](https://github.com/kakarotto67/KnowledgeBank/#) [To Do]
 - [Internationalization](https://github.com/kakarotto67/KnowledgeBank/#) [To Do]
 - [Product Deployment](https://github.com/kakarotto67/KnowledgeBank/#) [To Do]
-- [Refactoring](https://github.com/kakarotto67/KnowledgeBank/#) [To Do]
 - [Networking](https://github.com/kakarotto67/KnowledgeBank/#) [To Do]
 
 #### IV. Construction - Web
@@ -36,6 +35,7 @@ This project contains .NET/Web stack knowledge base. Different knowledge items a
 
 #### VI. Quality and Testing
 - [Code Quality](https://github.com/kakarotto67/KnowledgeBank/#) [To Do]
+- [Refactoring](https://github.com/kakarotto67/KnowledgeBank/#) [To Do]
 - [Testing](https://github.com/kakarotto67/KnowledgeBank/#) [To Do]
 
 #### VII. Configuration Management
