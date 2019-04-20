@@ -216,7 +216,7 @@ function handler() {
 | [a-z] | Any letter from a range |
 | n(5) | Repeat `n` five times |
 | m(3, 7) | Repeat `m` from three to seven times |
-| (x`|`y) | Any alternative separated with `|` |
+| (x `\|` y) | Any alternative separated with `\|` |
 
 ###### RegExp Object Methods
 - `test()` method returns `true` or `false`
