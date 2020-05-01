@@ -1,0 +1,88 @@
+# download from web examples
+
+ARG NODE_IMAGE=node:12.2
+FROM mcr.microsoft.com/dotnet/core/aspnet:2.2-nanoserver-1809 AS base
+WORKDIR /app
+EXPOSE 80
+
+
+# Install Node to this container
+FROM ${NODE_IMAGE} as node-build
+WORKDIR /web
+COPY src/Microservices/Bmt.Microservices.Client .
+RUN npm install
+RUN npm run build:prod
+
+
+################################### Install Azure Service Fabric SDK ##################################
+#
+## Use the latest Windows Server Core image with .NET Framework 4.7.1.
+#FROM microsoft/dotnet-framework:4.7.1 as fabricsdk
+#WORKDIR /temp
+#
+## Restore the default Windows shell for correct batch processing below.
+#SHELL ["cmd", "/S", "/C"]
+#
+## Download the Build Tools bootstrapper.
+#ADD https://aka.ms/vs/15/release/vs_buildtools.exe /temp
+##C:\TEMP\vs_buildtools.exe
+#
+## Install Build Tools excluding workloads and components with known issues.
+#
+#RUN /temp/vs_buildtools.exe --quiet --wait --norestart --nocache --installPath /temp --add Microsoft.VisualStudio.Workload.ManagedDesktopBuildTools --add Microsoft.VisualStudio.Workload.NetCoreBuildTools;includeOptional --add Microsoft.VisualStudio.Workload.WebBuildTools --add Microsoft.VisualStudio.Workload.AzureBuildTools;includeOptional || IF "%ERRORLEVEL%"=="3010" EXIT 0
+#
+##RUN C:\TEMP\vs_buildtools.exe --quiet --wait --norestart --nocache `
+    ##--installPath C:\BuildTools `
+    ##--add Microsoft.VisualStudio.Workload.ManagedDesktopBuildTools `
+    ##--add Microsoft.VisualStudio.Workload.NetCoreBuildTools;includeOptional `
+    ##--add Microsoft.VisualStudio.Workload.WebBuildTools `
+    ##--add Microsoft.VisualStudio.Workload.AzureBuildTools;includeOptional `
+ ##|| IF "%ERRORLEVEL%"=="3010" EXIT 0
+#
+## Start developer command prompt with any other commands specified.
+##ENTRYPOINT C:\BuildTools\Common7\Tools\VsDevCmd.bat &&
+#ENTRYPOINT /temp/Common7/Tools/VsDevCmd.bat &&
+#
+## Default to PowerShell if no other command specified.
+#CMD ["powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]
+#
+###
+## Install Service Fabric SDK - the download links are avaiable in the Service Fabric Release Notes as Windows Developer Set-up and Windows .NET SDK 
+###
+#ADD https://download.microsoft.com/download/D/D/D/DDD408E4-6802-47FB-B0A1-ECF657BEB35F/MicrosoftServiceFabric.6.4.617.9590.exe /temp/MicrosoftServiceFabricRuntime.exe
+#
+#ADD https://download.microsoft.com/download/D/D/D/DDD408E4-6802-47FB-B0A1-ECF657BEB35F/MicrosoftServiceFabricSDK.3.3.617.msi /temp/MicrosoftServiceFabricSDK.msi
+#
+#RUN /temp/MicrosoftServiceFabricRuntime.exe /accepteula /sdkcontainerclient /quiet
+#
+#RUN msiexec.exe /i "/temp/MicrosoftServiceFabricSDK.msi" /qn 
+#
+#############################################################
+
+
+FROM mcr.microsoft.com/dotnet/core/sdk:2.2-nanoserver-1809 AS build
+WORKDIR /src
+
+COPY ["Microservices/Bmt.Microservices.Client/Bmt.Microservices.Client.csproj", "Microservices/Bmt.Microservices.Client/"]
+
+ARG RUN=pwd
+RUN ${RUN}
+
+#RUN dotnet restore "Microservices/Bmt.Microservices.Client/Bmt.Microservices.Client.csproj"
+COPY . .
+COPY --from=node-build /web/wwwroot /src/src/Microservices/Bmt.Microservices.Client/wwwroot/
+WORKDIR "/src/src/Microservices/Bmt.Microservices.Client"
+#RUN dotnet build "Bmt.Microservices.Client.csproj" -c Release -o /app
+RUN dotnet publish -c Release -o /app
+
+FROM build AS publish
+#RUN dotnet publish "Bmt.Microservices.Client.csproj" -c Release -o /app
+
+#FROM mcr.microsoft.com/service-fabric/reverse-proxy:windows-0.20.0 AS reverseproxy
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app .
+#COPY --from=reverseproxy /app .
+#COPY --from=fabricsdk /temp .
+ENTRYPOINT ["dotnet", "Bmt.Microservices.Client.dll"]

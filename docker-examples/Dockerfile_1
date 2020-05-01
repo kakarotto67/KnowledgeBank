@@ -1,0 +1,23 @@
+# api on csproj example
+
+FROM mcr.microsoft.com/dotnet/core/aspnet:2.2-nanoserver-1809 AS base
+WORKDIR /app
+EXPOSE 80
+
+FROM mcr.microsoft.com/dotnet/core/sdk:2.2-nanoserver-1809 AS build
+WORKDIR /src
+
+COPY ["Microservices/Bmt.Microservices.SnowForecastCenter/Bmt.Microservices.SnowForecastCenter.csproj", "Microservices/Bmt.Microservices.SnowForecastCenter/"]
+
+RUN dotnet restore "Microservices/Bmt.Microservices.SnowForecastCenter/Bmt.Microservices.SnowForecastCenter.csproj" -p:RestoreUseSkipNonexistentTargets=false -nowarn:msb3202,nu1503
+COPY . .
+WORKDIR "/src/Microservices/Bmt.Microservices.SnowForecastCenter"
+RUN dotnet build "Bmt.Microservices.SnowForecastCenter.csproj" -c Release -o /app
+
+FROM build AS publish
+RUN dotnet publish "Bmt.Microservices.SnowForecastCenter.csproj" -c Release -o /app
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app .
+ENTRYPOINT ["dotnet", "Bmt.Microservices.SnowForecastCenter.dll"]
