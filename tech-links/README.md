@@ -24,6 +24,20 @@
 
 ### Business Domains
 
+#### E-Wallet
+- [Digital wallet](https://en.wikipedia.org/wiki/Digital_wallet)
+- [Payment gateway](https://en.wikipedia.org/wiki/Payment_gateway)
+- [Payment service provider](https://en.wikipedia.org/wiki/Payment_service_provider)
+- [Cashier as a service](https://en.wikipedia.org/wiki/Cashier_as_a_service)
+- [Mastercard Contactless](https://en.wikipedia.org/wiki/Mastercard#Mastercard_Contactless)
+- [Google Pay](https://en.wikipedia.org/wiki/Google_Pay)
+- [Apple Pay](https://en.wikipedia.org/wiki/Apple_Pay)
+- [Payment terminal](https://en.wikipedia.org/wiki/Payment_terminal)
+
+#### Online Gambling
+- [When It Comes to Betting Platform Development – Don’t Gamble](https://igniteoutsourcing.com/gaming/online-betting-custom-development/)
+- [How to make a betting app](https://thinkmobiles.com/blog/how-make-betting-app/)
+
 #### ERP
 - [Enterprise resource planning](https://en.wikipedia.org/wiki/Enterprise_resource_planning)
 
@@ -66,6 +80,8 @@
 ### Real World Scenarios
 
 #### Cases
+- [How Apple Pay Works Under the Hood](https://www.freecodecamp.org/news/how-apple-pay-works-under-the-hood-8c3978238324/)
+- [Building Real-time Streaming Applications Using .NET Core and Kafka](https://medium.com/@srigumm/building-realtime-streaming-applications-using-net-core-and-kafka-ad45ed081b31)
 - [Architecting Cloud-Native Apps with AKS and Cosmos DB](https://azure.microsoft.com/en-us/resources/videos/build-2019-architecting-cloud-native-apps-with-aks-and-cosmos-db/)
 - [Fault Tolerance in a High Volume, Distributed System](https://netflixtechblog.com/fault-tolerance-in-a-high-volume-distributed-system-91ab4faae74a)
 
@@ -193,6 +209,7 @@
 - [Get started with Service Bus queues](https://docs.microsoft.com/en-gb/azure/service-bus-messaging/service-bus-dotnet-get-started-with-queues)
 - [Multi-tenant SaaS database tenancy patterns](https://docs.microsoft.com/en-us/azure/sql-database/saas-tenancy-app-design-patterns)
 - [Background jobs](https://docs.microsoft.com/en-us/azure/architecture/best-practices/background-jobs)
+- [Azure Media Services](https://azure.microsoft.com/en-us/services/media-services/)
 
 #### Azure Functions
 - [Create a function in Azure that is triggered by a timer](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-scheduled-function)
@@ -311,6 +328,7 @@
 - [AutoMapper](http://automapper.org/)
 - [Moq Wiki](https://github.com/Moq/moq4/wiki/Quickstart)
 - [Top 5 .NET Based CMS (Content Management System)](https://www.codeproject.com/Articles/717523/Top-5-NET-Based-CMS-Content-Management-System)
+- [Confluent's .NET Client for Apache Kafka](https://github.com/confluentinc/confluent-kafka-dotnet)
 
 ### Examples & How To's
 - [How to: Use Named Pipes for Network Interprocess Communication](https://docs.microsoft.com/en-us/dotnet/standard/io/how-to-use-named-pipes-for-network-interprocess-communication)
