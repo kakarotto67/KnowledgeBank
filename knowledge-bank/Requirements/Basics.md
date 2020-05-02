@@ -1,10 +1,10 @@
 # Requirements Basics
 
 #### Navigation
-- [Definition](Requirements/Basics.md#definition)
-- [Techniques](Requirements/Basics.md#techniques)
-- [Modeling](Requirements/Basics.md#modeling)
-- [Requirements Types](Requirements/Basics.md#requirements-types)
+- [Definition](Basics.md#definition)
+- [Techniques](Basics.md#techniques)
+- [Modeling](Basics.md#modeling)
+- [Requirements Types](Basics.md#requirements-types)
 
 #### Definition
 - Requirements define the needs of stakeholders that are to be solved by software

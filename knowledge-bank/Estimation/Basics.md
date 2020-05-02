@@ -1,15 +1,15 @@
 # Estimation Basics
 
 #### Navigation
-- [Scope](Estimation/Basics.md#scope)
-- [Definition and Basics](Estimation/Basics.md#definition-and-basics)
-- [Estimation Activities and Estimation Errors](Estimation/Basics.md#estimation-activities-and-estimation-errors)
-- [Estimation Size, Efforts and Schedule](Estimation/Basics.md#estimation-size-efforts-and-schedule)
-- [Documenting and Presenting Estimates](Estimation/Basics.md#documenting-and-presenting-estimates)
-- [Cone of Uncertainty and Diseconomies of Scale](Estimation/Basics.md#cone-of-uncertainty-and-diseconomies-of-scale)
-- [Work Breakdown Structure](Estimation/Basics.md#work-breakdown-structure)
-- [Delphi Method](Estimation/Basics.md#delphi-method)
-- [Pert Analysis](Estimation/Basics.md#pert-analysis)
+- [Scope](Basics.md#scope)
+- [Definition and Basics](Basics.md#definition-and-basics)
+- [Estimation Activities and Estimation Errors](Basics.md#estimation-activities-and-estimation-errors)
+- [Estimation Size, Efforts and Schedule](Basics.md#estimation-size-efforts-and-schedule)
+- [Documenting and Presenting Estimates](Basics.md#documenting-and-presenting-estimates)
+- [Cone of Uncertainty and Diseconomies of Scale](Basics.md#cone-of-uncertainty-and-diseconomies-of-scale)
+- [Work Breakdown Structure](Basics.md#work-breakdown-structure)
+- [Delphi Method](Basics.md#delphi-method)
+- [Pert Analysis](Basics.md#pert-analysis)
 
 #### Scope
 - Project Scope

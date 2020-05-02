@@ -1,21 +1,21 @@
 # ASP.NET/MVC General
 
 #### Navigation
-- [MVC Overview (`System.Web.MVC`)](MVC/Basics.md#mvc-overview-systemwebmvc)
-  - [The Model](MVC/Basics.md#the-model)
-  - [The View](MVC/Basics.md#the-view)
-  - [The Controller](MVC/Basics.md#the-controller)
-  - [Controllers, Views and Action Methods](MVC/Basics.md#controllers-views-and-action-methods)
-  - [Passing Model to a View](MVC/Basics.md#passing-model-to-a-view)
-  - [Passing Data via Dynamic Properties](MVC/Basics.md#passing-data-via-dynamic-properties)
-  - [Special Views](MVC/Basics.md#special-views)
-  - [Layout Page](MVC/Basics.md#layout-page)
-- [Razor View Engine](MVC/Basics.md#razor-view-engine)
-- [MVC Routing](MVC/Basics.md#mvc-routing)
-- [MVC Filtering](MVC/Basics.md#mvc-filtering)
-- [MVC Security Notes](MVC/Basics.md#mvc-security-notes)
-- [Deployment](MVC/Basics.md#deployment)
-  - [Deployment to Azure - General Steps](MVC/Basics.md#deployment-to-azure---general-steps)
+- [MVC Overview (`System.Web.MVC`)](Basics.md#mvc-overview-systemwebmvc)
+  - [The Model](Basics.md#the-model)
+  - [The View](Basics.md#the-view)
+  - [The Controller](Basics.md#the-controller)
+  - [Controllers, Views and Action Methods](Basics.md#controllers-views-and-action-methods)
+  - [Passing Model to a View](Basics.md#passing-model-to-a-view)
+  - [Passing Data via Dynamic Properties](Basics.md#passing-data-via-dynamic-properties)
+  - [Special Views](Basics.md#special-views)
+  - [Layout Page](Basics.md#layout-page)
+- [Razor View Engine](Basics.md#razor-view-engine)
+- [MVC Routing](Basics.md#mvc-routing)
+- [MVC Filtering](Basics.md#mvc-filtering)
+- [MVC Security Notes](Basics.md#mvc-security-notes)
+- [Deployment](Basics.md#deployment)
+  - [Deployment to Azure - General Steps](Basics.md#deployment-to-azure---general-steps)
 
 #### MVC Overview (`System.Web.MVC`)
 ###### The Model
@@ -99,7 +99,7 @@
   - `EmptyResult`, etc.
 - All relations mentioned above are illustrated at the image below. There is `MoviesController` controller inside `Controllers` folder. It has some action methods, such as `Index`, `Create`, `Delete`, etc. All those methods represent appropriate views from corresponding `Views\Movies` folder. The image also represents typical MVC project structure
 
-![MVC project structure](MVC/mvc-structure.png)
+![MVC project structure](mvc-structure.png)
 
 ###### Passing Model to a View
 - You can pass data between controller and view by using of view constructor
