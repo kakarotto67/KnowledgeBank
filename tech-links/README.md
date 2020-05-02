@@ -101,6 +101,18 @@
 - [Design patterns for microservices](https://docs.microsoft.com/en-us/azure/architecture/microservices/design/patterns)
 - [CI/CD for microservices architectures](https://docs.microsoft.com/en-us/azure/architecture/microservices/ci-cd)
 
+### Frameworks & Libraries
+- [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
+- [NServiceBus](https://particular.net/nservicebus)
+- [Rebus](https://rebus.fm/what-is-rebus/)
+
+
+---
+<br/><br/>
+
+
+## Architecture - Containers & Orchestration
+
 #### Containers & Docker
 - [Prep Windows for containers](https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/set-up-environment?tabs=Windows-10-Client)
 - [Windows container version compatibility](https://docs.microsoft.com/en-us/virtualization/windowscontainers/deploy-containers/version-compatibility?tabs=windows-server-1909%2Cwindows-10-1909)
@@ -130,10 +142,6 @@
 - [Create, debug, deploy and upgrade a multi-service Service Fabric Mesh app](https://docs.microsoft.com/en-us/azure/service-fabric-mesh/service-fabric-mesh-tutorial-create-dotnetcore)
 - [Create your first Service Fabric container application on Linux](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-get-started-containers-linux)
 
-### Frameworks & Libraries
-- [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
-- [NServiceBus](https://particular.net/nservicebus)
-- [Rebus](https://rebus.fm/what-is-rebus/)
 
 ---
 <br/><br/>
