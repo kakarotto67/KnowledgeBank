@@ -2,10 +2,20 @@
 
 ## Navigation
 
-- [Architecture - Process & Business](README.md#architecture---process--business-1)
-  - [Architectural Blogs](README.md#architectural-blogs)
-  - [Architecture in Pre-Sales](README.md#architecture-in-pre-sales)
-  - [Business Domains](README.md#business-domains)
+- [Architecture - Process & Business](#architecture---process--business-1)
+  - [Architectural Blogs](#architectural-blogs)
+  - [Architecture in Pre-Sales](#architecture-in-pre-sales)
+  - [Business Domains](#business-domains)
+
+- [Architecture - Essentials](#architecture---essentials)
+  - [Patterns](#patterns)
+  - [Anti-Patterns](#anti-patterns)
+  - [Aspect-Oriented Programming](#aspect-oriented-programming)
+  - [Inversion of Control](#inversion-of-control)
+  - [Cache](#cache)
+  - [Blockchain](#blockchain)
+  - [ELK](#elk)
+  - [Real World Scenarios](#real-world-scenarios)
 
 
 ---
