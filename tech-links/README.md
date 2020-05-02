@@ -94,10 +94,46 @@
 - [EDA](https://www.youtube.com/watch?v=fgTF9RN_Sys)
 
 ### Microservices
+- [Microservices architecture style](https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices)
+- [Using domain analysis to model microservices](https://docs.microsoft.com/en-us/azure/architecture/microservices/model/domain-analysis)
+- [Designing a microservices architecture](https://docs.microsoft.com/en-us/azure/architecture/microservices/design/)
+- [Building microservices on Azure](https://docs.microsoft.com/en-us/azure/architecture/microservices/)
+- [Design patterns for microservices](https://docs.microsoft.com/en-us/azure/architecture/microservices/design/patterns)
+- [CI/CD for microservices architectures](https://docs.microsoft.com/en-us/azure/architecture/microservices/ci-cd)
 
+#### Containers & Docker
+- [Prep Windows for containers](https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/set-up-environment?tabs=Windows-10-Client)
+- [Windows container version compatibility](https://docs.microsoft.com/en-us/virtualization/windowscontainers/deploy-containers/version-compatibility?tabs=windows-server-1909%2Cwindows-10-1909)
+- [Docker Compose deployment support in Azure Service Fabric](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-docker-compose)
+- [Docker Angular Build](https://github.com/joelbrinkley/docker-angular-build/blob/master/Dockerfile)
 
-#### Orchestration
+#### Orchestration - AKS
+- [Microservices architecture on Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/microservices/aks)
+- [Monitoring a microservices architecture in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/architecture/microservices/logging-monitoring)
+
+#### Orchestration - Service Fabric
+- [Develop C# Service Fabric applications with Visual Studio Code](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-develop-csharp-applications-with-vs-code)
+- [Overview of Azure Service Fabric](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-overview)
+- [Service Fabric programming model overview](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-choose-framework)
+- [Microservices architecture on Azure Service Fabric](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/microservices/service-fabric)
+- [Using Service Fabric to decompose monolithic applications](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/infrastructure/service-fabric-microservices)
+- [Debug Windows containers in Azure Service Fabric using Visual Studio 2019](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-how-to-debug-windows-containers)
+- [Connect-ServiceFabricCluster](https://docs.microsoft.com/en-us/powershell/module/servicefabric/connect-servicefabriccluster?view=azureservicefabricps)
+- [Container deployment is not supported on the node](https://github.com/Azure/service-fabric-mesh-preview/issues/267)
+
+#### Orchestration - Other
 - [Rancher](https://rancher.com/)
+
+#### Application Examples
+- [.NET Microservices Sample Reference Application (eShopOnContainersNethttps://github.com/dotnet-architecture/eShopOnContainers)
+- [Create and deploy an application with an ASP.NET Core Web API front-end service and a stateful back-end service](https://docs.microsoft.com/en-in/azure/service-fabric/service-fabric-tutorial-create-dotnet-app)
+- [Create, debug, deploy and upgrade a multi-service Service Fabric Mesh app](https://docs.microsoft.com/en-us/azure/service-fabric-mesh/service-fabric-mesh-tutorial-create-dotnetcore)
+- [Create your first Service Fabric container application on Linux](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-get-started-containers-linux)
+
+### Frameworks & Libraries
+- [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
+- [NServiceBus](https://particular.net/nservicebus)
+- [Rebus](https://rebus.fm/what-is-rebus/)
 
 ---
 <br/><br/>
@@ -106,6 +142,7 @@
 ## Architecture - Cloud
 
 ### Azure
+- [Reliable Services overview](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-reliable-services-introduction)
 - [Azure SignalR Messaging With .Net Core Console App Server And Client](https://www.c-sharpcorner.com/article/azure-signalr-messaging-with-net-core-console-app-server-and-client/)
 - [Get started with Service Bus queues](https://docs.microsoft.com/en-gb/azure/service-bus-messaging/service-bus-dotnet-get-started-with-queues)
 
@@ -123,6 +160,9 @@
 ## Data Science
 - [Extract, transform, load](https://www.wikiwand.com/en/Extract,_transform,_load)
 - [Machine Learning by Jeremy Howard](https://www.youtube.com/user/howardjeremyp/playlists)
+- [Machine Learning for Humans](https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12)
+- [Notes on Artificial Intelligence, Machine Learning and Deep Learning for curious people](https://towardsdatascience.com/notes-on-artificial-intelligence-ai-machine-learning-ml-and-deep-learning-dl-for-56e51a2071c2)
+- [ML.NET Tutorial](https://dotnet.microsoft.com/learn/ml-dotnet/get-started-tutorial/intro)
 
 ---
 <br/><br/>
@@ -213,6 +253,7 @@
 - [SQL Server Error Message - Errors 1 to 500](http://www.sql-server-helper.com/error-messages/msg-1-500.aspx)
 
 ### SQL Server - Advanced
+- [Compare and Analyze Execution Plans](https://docs.microsoft.com/en-us/sql/relational-databases/performance/compare-and-analyze-execution-plans?view=sql-server-2017)
 - [Snapshot Replication](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2012/ms151832(v=sql.110))
 - [High Availability Solutions (SQL Server)](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2012/ms190202(v=sql.110))
 - [Step By Step: SQL Server 2012 AlwaysOn Availability Groups Lab Setup Using VirtualBox](http://binyoga.blogspot.com/2013/05/step-by-step-sql-server-2012-alwayson.html)
@@ -224,6 +265,11 @@
 - [Using EF Core in a Separate Class Library project](https://garywoodfine.com/using-ef-core-in-a-separate-class-library-project/)
 - [Enable Entity Framework Core Migrations in Visual Studio 2017](https://benjii.me/2017/05/enable-entity-framework-core-migrations-visual-studio-2017/)
 - [Implement CRUD Functionality with the Entity Framework in ASP.NET MVC](https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/getting-started-with-ef-using-mvc/implementing-basic-crud-functionality-with-the-entity-framework-in-asp-net-mvc-application)
+- [Expression and Projection Magic for Entity Framework Core](https://benjii.me/2018/01/expression-projection-magic-entity-framework-core/)
+- [Fastest Way of Inserting in Entity Framework](https://stackoverflow.com/questions/5940225/fastest-way-of-inserting-in-entity-framework/5942176#5942176)
+- [Entity Framework - Best practices](https://thecodegarden.net/entity-framework-best-practices)
+- [Entity Framework Core Best Practices](https://medium.com/@fatih_yildizli/entity-framework-core-best-practices-dd567c998054)
+- [EF Core 2.1 Best Practices, Tips & Tricks](http://www.samulihaverinen.com/web-development/dotnet/2018/06/04/EF-core-2-1-best-practices/)
 
 ### Repository
 - [Implementing the Repository and Unit of Work Patterns in an ASP.NET MVC Application](https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application)
@@ -234,6 +280,30 @@
 
 ### NoSQL
 - [MongoDB](https://www.mongodb.com/)
+- [NoSQL Databases Explained](https://www.mongodb.com/nosql-explained)
+- [Everything you need to know about NoSQL databases](https://dev.to/lmolivera/everything-you-need-to-know-about-nosql-databases-3o3h)
+- [Data Replication in NoSQL Databases Explained](https://academy.datastax.com/planet-cassandra/data-replication-in-nosql-databases-explained)
+
+### Scaling
+- [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem)
+- [Partition (database)](https://en.wikipedia.org/wiki/Partition_%28database%29)
+- [Database Sharding](https://www.acodersjourney.com/database-sharding/)
+
+---
+<br/><br/>
+
+
+## Networking
+- [Basic Home Networking Course for Beginners](https://stevessmarthomeguide.com/basic-networking-course/)
+- [The TCP/IP Model and Protocol Suite Explained for Beginners](http://www.steves-internet-guide.com/internet-protocol-suite-explained/)
+- [How to Set Up a Home Network- Beginners Guide](https://stevessmarthomeguide.com/build-home-network/)
+
+### HTTP
+- [Understanding HTTP Basics](http://www.steves-internet-guide.com/http-basics/)
+- [Hypertext Transfer Protocol Version 2 (HTTP/2)](https://httpwg.org/specs/rfc7540.html)
+
+### SSL/TLS
+- [Let's Encrypt](https://letsencrypt.org/)
 
 
 ---
@@ -243,9 +313,6 @@
 ## API
 - [API Rules – Guardrails for Good Governance and Best Practices](https://smartbear.com/blog/develop/api-rules-%E2%80%93-guardrails-for-good-governance-and-bes/)
 - [Richardson Maturity Model - Steps toward the glory of REST](https://martinfowler.com/articles/richardsonMaturityModel.html)
-
-### HTTP
-- [Hypertext Transfer Protocol Version 2 (HTTP/2)](https://httpwg.org/specs/rfc7540.html)
 
 ### Tools
 - [Restify](http://restify.com/)
@@ -383,7 +450,12 @@
 - [Protect your source code from decompiling or reverse engineering](http://arunendapally.com/post/protect-your-source-code-from-decompiling-or-reverse-engineering)
 - [ConfuserEx](https://github.com/yck1509/ConfuserEx/wiki/Documentation)
 
+### Authentication
+- [Compare and contrast the authentication types](http://java.boot.by/wcd-guide/ch05s03.html)
+- [Facebook, Google, and external provider authentication in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/?view=aspnetcore-2.2&tabs=visual-studio)
+
 ### ASP.NET Security
+- [Overview of ASP.NET Core Security](https://docs.microsoft.com/en-us/aspnet/core/security/?view=aspnetcore-2.2)
 - [XSRF/CSRF Prevention in ASP.NET MVC and Web Pages](https://docs.microsoft.com/en-us/aspnet/mvc/overview/security/xsrfcsrf-prevention-in-aspnet-mvc-and-web-pages)
 
 ### WCF Security
@@ -391,6 +463,7 @@
 - [Windows Communication Foundation Security](https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/security)
 - [How to: Use a Custom User Name and Password Validator](https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/how-to-use-a-custom-user-name-and-password-validator)
 - [Authorization in WCF](https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/authorization-in-wcf)
+
 
 ---
 <br/><br/>
