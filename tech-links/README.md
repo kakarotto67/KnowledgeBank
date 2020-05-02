@@ -21,7 +21,7 @@
 
 ## Back-End
 
-### CS
+### C#
 - [Predicate Builder](http://www.albahari.com/nutshell/predicatebuilder.aspx)
 
 ## Database Design
