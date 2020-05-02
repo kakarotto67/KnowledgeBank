@@ -49,6 +49,7 @@
 
 
 ---
+<br/><br/>
 
 
 ## Architecture - Enterprise Patterns
@@ -60,6 +61,7 @@
 
 
 ---
+<br/><br/>
 
 
 ## Architecture - Cloud
@@ -76,6 +78,7 @@
 
 
 ---
+<br/><br/>
 
 
 ## Data Science
@@ -83,6 +86,7 @@
 
 
 ---
+<br/><br/>
 
 
 ## Back-End
@@ -157,6 +161,7 @@
 
 
 ---
+<br/><br/>
 
 
 ## Database Design
@@ -193,6 +198,7 @@
 
 
 ---
+<br/><br/>
 
 
 ## API
@@ -204,6 +210,7 @@
 
 
 ---
+<br/><br/>
 
 ## Front-End
 
@@ -254,6 +261,7 @@
 
 
 ---
+<br/><br/>
 
 
 ## 3D & Design
@@ -261,6 +269,7 @@
 
 
 ---
+<br/><br/>
 
 
 ## Algorithms
@@ -272,6 +281,7 @@
 
 
 ---
+<br/><br/>
 
 
 ## Ecosystem
@@ -314,6 +324,7 @@
 
 
 ---
+<br/><br/>
 
 
 ## Security
@@ -336,6 +347,7 @@
 - [Authorization in WCF](https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/authorization-in-wcf)
 
 ---
+<br/><br/>
 
 
 ## Code Quality
@@ -364,6 +376,7 @@
 
 
 ---
+<br/><br/>
 
 
 ## Version Control
@@ -375,6 +388,7 @@
 
 
 ---
+<br/><br/>
 
 
 ## CI/CD
@@ -386,6 +400,7 @@
 
 
 ---
+<br/><br/>
 
 
 ## Code Examples
@@ -403,6 +418,7 @@
 
 
 ---
+<br/><br/>
 
 
 ## Management
@@ -419,6 +435,7 @@
 
 
 ---
+<br/><br/>
 
 
 
@@ -433,6 +450,7 @@
 
 
 ---
+<br/><br/>
 
 
 ## Certification
@@ -442,6 +460,7 @@
 
 
 ---
+<br/><br/>
 
 
 ## Interview
@@ -449,6 +468,7 @@
 
 
 ---
+<br/><br/>
 
 
 ## Online Learning
@@ -459,7 +479,12 @@
 
 
 ---
+<br/><br/>
 
 
 ## Online Work
 - [Upwork](https://www.upwork.com/i/how-it-works/freelancer/)
+
+
+---
+<br/><br/>
