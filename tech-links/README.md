@@ -8,9 +8,7 @@
 
 ### Patterns
 - [GoF Patterns Cheatsheet](http://www.mcdonaldland.info/files/designpatterns/designpatternscard.pdf)
-- [Implementing the Repository and Unit of Work Patterns in an ASP.NET MVC Application](https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application)
-- [Using the Repository and Unit Of Work Pattern in .net core](https://garywoodfine.com/generic-repository-pattern-net-core/)
-- [Repository is the new Singleton](https://ayende.com/blog/3955/repository-is-the-new-singleton)
+- [.NET Design Patterns](https://www.dofactory.com/net/design-patterns)
 
 ### Anti-Patterns
 - [Enterprise Modeling Anti-Patterns](http://agilemodeling.com/essays/enterpriseModelingAntiPatterns.htm#30000Feet)
@@ -23,10 +21,7 @@
 ### Inversion of Control
 - [Inversion of Control Containers and the Dependency Injection pattern](https://martinfowler.com/articles/injection.html)
 - [DI Container Benchmarks](https://github.com/stebet/DependencyInjectorBenchmarks/blob/master/README.md)
-
-### API
-- [API Rules – Guardrails for Good Governance and Best Practices](https://smartbear.com/blog/develop/api-rules-%E2%80%93-guardrails-for-good-governance-and-bes/)
-- [Richardson Maturity Model - Steps toward the glory of REST](https://martinfowler.com/articles/richardsonMaturityModel.html)
+- [How not to do dependency injection - the static or singleton container](https://www.devtrends.co.uk/blog/how-not-to-do-dependency-injection-the-static-or-singleton-container)
 
 ### Cache
 - [Distributed cache](https://www.wikiwand.com/en/Distributed_cache)
@@ -83,6 +78,13 @@
 ---
 
 
+## Data Science
+- [Extract, transform, load](https://www.wikiwand.com/en/Extract,_transform,_load)
+
+
+---
+
+
 ## Back-End
 
 ### .NET/C#
@@ -90,23 +92,101 @@
 - [C# Course](https://docs.google.com/document/d/19Gfj71qbpKlHXIiye7m_PZDk4jA7M1G21bxRzauVP8w/edit#)
 - [.NET Reference Source](https://referencesource.microsoft.com/)
 - [Predicate Builder](http://www.albahari.com/nutshell/predicatebuilder.aspx)
+- [New Features in C# 7.0](https://devblogs.microsoft.com/dotnet/new-features-in-c-7-0/)
+- [CLR implementation of virtual method calls to interface members](https://stackoverflow.com/questions/9808982/clr-implementation-of-virtual-method-calls-to-interface-members)
+- [User-defined conversion operators](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/user-defined-conversion-operators)
+- [Implementing a Dispose method](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/implementing-dispose)
 
-### Libraries
+### C# Rare Features
+- [volatile](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/volatile)
+- [in (Generic Modifier)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/in-generic-modifier)
+- [out (generic modifier](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/out-generic-modifier)
+- [fixed Statement](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/fixed-statement)
+- [checked](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/checked)
+- [unchecked](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/unchecked)
+- [extern](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/extern)
+- [sizeof operator](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/sizeof)
+- [stackalloc expression](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/stackalloc)
+- [add](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/add)
+- [remove](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/remove)
+- [:: operator](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/namespace-alias-qualifier)
+- [yield](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/yield)
+- [extern alias](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/extern-alias)
+- [partial method](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/partial-method)
+
+### ASP.NET/ASP.NET MVC
+- [ASP.NET MVC 5 Application Lifecylce](https://www-asp.azureedge.net/v-2016-03-10-004/media/4773381/lifecycle-of-an-aspnet-mvc-5-application.pdf)
+- [ASP.NET Application Life Cycle Overview for IIS 7.0](https://docs.microsoft.com/en-us/previous-versions/aspnet/bb470252(v=vs.100))
+- [Getting started with ASP.NET MVC 5](https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/introduction/getting-started)
+- [Upload and download files using ASP.NET MVC](https://rachelappel.com/2015/04/02/upload-and-download-files-using-asp-net-mvc/)
+- [ASP.NET MVC 4 Dependency Injection](https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions/hands-on-labs/aspnet-mvc-4-dependency-injection)
+- [Dynamic vs Strongly Typed Views](https://docs.microsoft.com/en-us/archive/blogs/rickandy/dynamic-v-strongly-typed-views)
+- [SQL Server Connection Strings for ASP.NET Web Applications](https://docs.microsoft.com/en-us/previous-versions/aspnet/jj653752(v=vs.110))
+- [BindAttribute Class](https://docs.microsoft.com/en-us/dotnet/api/system.web.mvc.bindattribute?view=aspnet-mvc-5.2)
+
+### SignalR
+- [Real-time ASP.NET with SignalR](https://dotnet.microsoft.com/apps/aspnet/signalr)
+- [Introduction to SignalR](https://docs.microsoft.com/en-us/aspnet/signalr/overview/getting-started/introduction-to-signalr)
+
+### .NET Core
+- [Using .NET Core in Visual Studio Code](https://code.visualstudio.com/docs/languages/dotnet)
+- [Create an ASP.NET Core app with user data protected by authorization](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/secure-data?view=aspnetcore-2.2)
+- [Writing Clean Code in ASP.NET Core with Dependency Injection](https://docs.microsoft.com/en-us/archive/msdn-magazine/2016/may/asp-net-writing-clean-code-in-asp-net-core-with-dependency-injection)
+
+### API
+- [Develop Service-Oriented Applications with WCF](https://docs.microsoft.com/en-us/dotnet/framework/wcf/)
+- [WCF Data Services Overview](https://docs.microsoft.com/en-us/previous-versions/dotnet/wcf-data-services/cc668794(v=vs.103))
+
+
+### Frameworks & Libraries
 - [Microsoft.IO.RecyclableMemoryStream](https://github.com/Microsoft/Microsoft.IO.RecyclableMemoryStream)
 - [LightInject](http://www.lightinject.net/)
 - [MoreLinq](https://www.nuget.org/packages/morelinq/)
 - [AutoMapper](http://automapper.org/)
 - [Moq Wiki](https://github.com/Moq/moq4/wiki/Quickstart)
+- [Top 5 .NET Based CMS (Content Management System)](https://www.codeproject.com/Articles/717523/Top-5-NET-Based-CMS-Content-Management-System)
+
+### Examples & How To's
+- [How to: Use Named Pipes for Network Interprocess Communication](https://docs.microsoft.com/en-us/dotnet/standard/io/how-to-use-named-pipes-for-network-interprocess-communication)
+
+#### Active Directory
+- [Using Active Directory in .NET](https://www.codemag.com/Article/1312041)
+- [Active Directory and .NET](https://www.c-sharpcorner.com/article/active-directory-and-net/)
+- [One Scenario Where The System.DirectoryServices. AccountManagement API Falls Down](https://elegantcode.com/2009/03/21/one-scenario-where-the-systemdirectoryservices-accountmanagement-api-falls-down/)
+- [Configuring Active Directory Federation Services 2.0](https://docs.microsoft.com/en-us/archive/blogs/card/configuring-active-directory-federation-services-2-0)
+
 
 ---
 
 
 ## Database Design
+
+### SQL Server
 - [SQL Server Index Design Guide](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-guides/jj835095(v=sql.110))
 - [Hard and Fast rule for include columns in index](https://dba.stackexchange.com/questions/12922/hard-and-fast-rule-for-include-columns-in-index)
 - [FROM - Using PIVOT and UNPIVOT](https://docs.microsoft.com/en-us/sql/t-sql/queries/from-using-pivot-and-unpivot?view=sql-server-2017)
 - [SQL Server CROSS APPLY and OUTER APPLY](https://www.mssqltips.com/sqlservertip/1958/sql-server-cross-apply-and-outer-apply/)
+- [SQL Server Error Message - Errors 1 to 500](http://www.sql-server-helper.com/error-messages/msg-1-500.aspx)
 
+### SQL Server - Advanced
+- [Snapshot Replication](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2012/ms151832(v=sql.110))
+- [High Availability Solutions (SQL Server)](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2012/ms190202(v=sql.110))
+- [Step By Step: SQL Server 2012 AlwaysOn Availability Groups Lab Setup Using VirtualBox](http://binyoga.blogspot.com/2013/05/step-by-step-sql-server-2012-alwayson.html)
+- [Failover Clustering Overview](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831579(v=ws.11))
+
+### Entity Framework
+- [What difference does .AsNoTracking() make](https://stackoverflow.com/questions/12211680/what-difference-does-asnotracking-make)
+- [EF Core](https://github.com/dotnet/efcore)
+- [Using EF Core in a Separate Class Library project](https://garywoodfine.com/using-ef-core-in-a-separate-class-library-project/)
+- [Enable Entity Framework Core Migrations in Visual Studio 2017](https://benjii.me/2017/05/enable-entity-framework-core-migrations-visual-studio-2017/)
+- [Implement CRUD Functionality with the Entity Framework in ASP.NET MVC](https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/getting-started-with-ef-using-mvc/implementing-basic-crud-functionality-with-the-entity-framework-in-asp-net-mvc-application)
+
+### Repository
+- [Implementing the Repository and Unit of Work Patterns in an ASP.NET MVC Application](https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application)
+- [Using the Repository and Unit Of Work Pattern in .net core](https://garywoodfine.com/generic-repository-pattern-net-core/)
+- [Repository is the new Singleton](https://ayende.com/blog/3955/repository-is-the-new-singleton)
+- [Generic Repository](https://metanit.com/sharp/entityframework/3.13.php)
+- [Generic Repository Pattern - Entity Framework, ASP.NET MVC and Unit Testing Triangle](http://www.tugberkugurlu.com/archive/generic-repository-pattern-entity-framework-asp-net-mvc-and-unit-testing-triangle)
 
 ### NoSQL
 - [MongoDB](https://www.mongodb.com/)
@@ -115,30 +195,69 @@
 ---
 
 
+## API
+- [API Rules – Guardrails for Good Governance and Best Practices](https://smartbear.com/blog/develop/api-rules-%E2%80%93-guardrails-for-good-governance-and-bes/)
+- [Richardson Maturity Model - Steps toward the glory of REST](https://martinfowler.com/articles/richardsonMaturityModel.html)
+
+### Tools
+- [Restify](http://restify.com/)
+
+
+---
+
 ## Front-End
-
-### ASP.NET/ASP.NET MVC
-- [Upload and download files using ASP.NET MVC](https://rachelappel.com/2015/04/02/upload-and-download-files-using-asp-net-mvc/)
-
-### SignalR
-- [Real-time ASP.NET with SignalR](https://dotnet.microsoft.com/apps/aspnet/signalr)
 
 ### JavaScript
 - [Window.sessionStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage)
+- [Memory Management in JavaScript (UA)](https://codeguida.com/post/1045)
+- [Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
+- [Scalable JavaScript Design Patterns](https://addyosmani.com/scalablejs/)
+- [JavaScript Module Pattern: In-Depth](http://www.adequatelygood.com/JavaScript-Module-Pattern-In-Depth.html)
+- [Scalable JavaScript Application Architecture](https://www.youtube.com/watch?v=mKouqShWI4o)
+- [Journey Through The JavaScript MVC Jungle](https://www.smashingmagazine.com/2012/07/journey-through-the-javascript-mvc-jungle/)
+- [Isomorphic JavaScript: #DevBeat Master Class](https://www.slideshare.net/spikebrehm/a-28174727)
+- [The WebSocket API](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
+- [Cross-Domain requests in Javascript](https://jvaneyck.wordpress.com/2014/01/07/cross-domain-requests-in-javascript/)
+- [ES6 Features](http://es6-features.org/)
+- [How it feels to learn JavaScript in 2016](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f#.fw0ro93ss)
+
+### jQuery
+- [jQuery UIx Multiselect](https://github.com/yanickrochon/jquery.uix.multiselect)
 
 ### HTML/CSS
+- [HTML5 Introduction](https://www.w3schools.com/html/html5_intro.asp)
+- [15 Useful HTML5 Tutorials And Cheat Sheets](https://webdesignledger.com/15-useful-html5-tutorials-and-cheat-sheets/)
+- [HTML 5 and CSS 3: The Techniques You'll Soon Be Using](https://code.tutsplus.com/tutorials/html-5-and-css-3-the-techniques-youll-soon-be-using--net-5708)
+- [HTML5 Templates](https://html5up.net/)
+- [Bootstrap Get Started](https://www.w3schools.com/bootstrap/bootstrap_get_started.asp)
+
+
+### SPA
+- [Single-page application](https://www.wikiwand.com/en/Single-page_application)
+- [ASP.NET - Single-Page Applications: Build Modern, Responsive Web Apps with ASP.NET](https://docs.microsoft.com/en-us/archive/msdn-magazine/2013/november/asp-net-single-page-applications-build-modern-responsive-web-apps-with-asp-net)
+
+### Angular
+- [Angular](https://angular.io/)
+- [External JavaScript dependencies in Typescript and Angular 2](https://weblog.west-wind.com/posts/2016/Sep/12/External-JavaScript-dependencies-in-Typescript-and-Angular-2)
 
 ### Controls
 - [Slider for Bootstrap](http://seiyria.com/bootstrap-slider/)
 - [Range Sliders](https://bootsnipp.com/snippets/4Pxn)
 - [JQuery lightSlider Settings](http://sachinchoolur.github.io/lightslider/settings.html)
 
-
-### Front-End Frameworks
+### Front-End Frameworks & Tools
 - [npm Documentation](https://docs.npmjs.com/)
 - [Bootstrap](https://getbootstrap.com/)
 - [Backbone.js](https://backbonejs.org/)
 - [AngularJs](https://angularjs.org/)
+- [RequireJs API](https://requirejs.org/docs/api.html)
+
+
+---
+
+
+## 3D & Design
+- [Unity terrain tutorial](https://www.youtube.com/watch?v=SyTwUotTkBM)
 
 
 ---
@@ -165,10 +284,10 @@
 - [.NET Fiddle](https://dotnetfiddle.net/)
 - [.NET Assembly Strong-Name Signer](https://brutaldev.com/post/NET-Assembly-Strong-Name-Signer)
 - [Code UML](http://www.codeuml.com/)
-
-- [SQL Tuning](https://sql-tuning.com/)
+- [Mocky](https://www.mocky.io/)
 - [Find Your Favorite Visual Studio Extension](https://devblogs.microsoft.com/visualstudio/find-your-favorite-visual-studio-extension/)
 - [Orleans](http://dotnet.github.io/orleans/)
+- [Codeply](https://www.codeply.com/)
 
 ### Deployment Tools
 - [WIX Toolset](https://wixtoolset.org/)
@@ -177,16 +296,21 @@
 - [StyleCop](http://www.stylecop.com/docs/StyleCop%20Rules.html)
 - [JSON Lint](https://jsonlint.com/)
 
-#### Performance Profilers
+### Performance Profilers
 - [dotMemory](https://www.jetbrains.com/dotmemory/)
 - [dotTrace](https://www.jetbrains.com/profiler/)
 - [NProfiler]](https://www.nprofiler.com/)
 - [ANTS Performance Profiler](https://www.red-gate.com/products/dotnet-development/ants-performance-profiler/)
 - [Glimpse](https://github.com/glimpse/glimpse)
 - [BenchmarkDotNet](https://github.com/dotnet/BenchmarkDotNet)
+
+### Database Tools
 - [DTM DB Stress](http://www.sqledit.com/stress/testing-sql-server.html)
 - [SqlLoadGenerator](https://archive.codeplex.com/?p=sqlloadgenerator)
 - [SQLStress - A SQL Server Stress Test Tool](http://www.sqlstress.com/)
+- [Database Performance Analyzer for SQL Performance](https://www.solarwinds.com/database-performance-analyzer-sql-server)
+- [Killer tools for SQL Server](https://www.apexsql.com/)
+- [SQL Tuning](https://sql-tuning.com/)
 
 
 ---
@@ -198,6 +322,18 @@
 - [OWASP Top Ten](https://owasp.org/www-project-top-ten/)
 - [SQL Injection](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2008-r2/ms161953(v=sql.105))
 
+### Obfuscation
+- [Protect your source code from decompiling or reverse engineering](http://arunendapally.com/post/protect-your-source-code-from-decompiling-or-reverse-engineering)
+- [ConfuserEx](https://github.com/yck1509/ConfuserEx/wiki/Documentation)
+
+### ASP.NET Security
+- [XSRF/CSRF Prevention in ASP.NET MVC and Web Pages](https://docs.microsoft.com/en-us/aspnet/mvc/overview/security/xsrfcsrf-prevention-in-aspnet-mvc-and-web-pages)
+
+### WCF Security
+- [Programming WCF Security](https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/programming-wcf-security)
+- [Windows Communication Foundation Security](https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/security)
+- [How to: Use a Custom User Name and Password Validator](https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/how-to-use-a-custom-user-name-and-password-validator)
+- [Authorization in WCF](https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/authorization-in-wcf)
 
 ---
 
@@ -205,6 +341,12 @@
 ## Code Quality
 - [The Joel Test: 12 Steps to Better Code](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
 - [Using Code Review to Improve Quality](https://channel9.msdn.com/Series/Visual-Studio-2012-Premium-and-Ultimate-Overview/Visual-Studio-Ultimate-2012-Using-Code-Review-to-Improve-Quality)
+
+### Conventions & Style Guides
+- [C# Coding Conventions](https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2013/ff926074(v=vs.120))
+- [XML Documentation Comments (C# Programming Guide)](https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2013/b2s063f7(v=vs.120))
+- [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+- [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml)
 
 ### Refactoring
 - [Catalog of Refactoring](https://refactoring.guru/refactoring/catalog)
