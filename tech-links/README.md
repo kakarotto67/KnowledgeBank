@@ -2,7 +2,10 @@
 
 ## Navigation
 
-### [Architecture - Process & Business](README.md#Architecture---Process-&-Business)
+- [Architecture - Process & Business](README.md#architecture---process--business-1)
+  - [Architectural Blogs](README.md#architectural-blogs)
+  - [Architecture in Pre-Sales](README.md#architecture-in-pre-sales)
+  - [Business Domains](README.md#business-domains)
 
 
 ---
