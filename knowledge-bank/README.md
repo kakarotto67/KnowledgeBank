@@ -13,7 +13,7 @@ This folder contains .NET/Web stack knowledge base. Different knowledge items ar
 - [Database Design](#) [To Do]
 - [Modeling](#) [To Do]
 - [Security](#) [To Do]
-- [Algorithms](#) [To Do]
+- [Algorithms](Algorithms/Basics.md) [To Finalize]
 
 #### III. Construction - Framework
 - [C#/.NET](#) [To Do]
