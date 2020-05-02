@@ -3,23 +3,26 @@
 ## Navigation
 
 - [Architecture - Process & Business](#architecture---process--business)
-  - [Architectural Blogs](#architectural-blogs)
-  - [Architecture in Pre-Sales](#architecture-in-pre-sales)
-  - [Business Domains](#business-domains)
-
 - [Architecture - Essentials](#architecture---essentials)
-  - [Patterns](#patterns)
-  - [Anti-Patterns](#anti-patterns)
-  - [Aspect-Oriented Programming](#aspect-oriented-programming)
-  - [Inversion of Control](#inversion-of-control)
-  - [Cache](#cache)
-  - [Blockchain](#blockchain)
-  - [ELK](#elk)
-  - [Real World Scenarios](#real-world-scenarios)
-
 - [Architecture - Enterprise Patterns](#architecture---enterprise-patterns)
-  - [Microservices](#microservices)
-  - [Framework and Libraries](#frameworks--libraries)
+- [Architecture - Modeling](#architecture---modeling)
+- [Architecture - Containers & Orchestration](#architecture---containers--orchestration)
+- [Architecture - Cloud](#architecture---cloud)
+- [Data Science](#data-science)
+- [Back-End](#back-end)
+- [Database Design](#database-design)
+- [Networking](#networking)
+- [API](#api-1)
+- [Front-End](#front-end)
+- [Algorithms](#algorithms)
+- [Ecosystem](#ecosystem)
+- [Security](#security)
+- [Code Quality](#code-quality)
+- [Version Control](#version-control)
+- [CI/CD](#cicd)
+- [Management](#management)
+- [Books](#books)
+- [Other](#other)
 
 ---
 <br/><br/>
@@ -368,7 +371,6 @@
 - [Develop Service-Oriented Applications with WCF](https://docs.microsoft.com/en-us/dotnet/framework/wcf/)
 - [WCF Data Services Overview](https://docs.microsoft.com/en-us/previous-versions/dotnet/wcf-data-services/cc668794(v=vs.103))
 
-
 ### Frameworks & Libraries
 - [Microsoft.IO.RecyclableMemoryStream](https://github.com/Microsoft/Microsoft.IO.RecyclableMemoryStream)
 - [LightInject](http://www.lightinject.net/)
@@ -386,6 +388,19 @@
 - [Active Directory and .NET](https://www.c-sharpcorner.com/article/active-directory-and-net/)
 - [One Scenario Where The System.DirectoryServices. AccountManagement API Falls Down](https://elegantcode.com/2009/03/21/one-scenario-where-the-systemdirectoryservices-accountmanagement-api-falls-down/)
 - [Configuring Active Directory Federation Services 2.0](https://docs.microsoft.com/en-us/archive/blogs/card/configuring-active-directory-federation-services-2-0)
+
+## OOP Examples
+- [Generic Methods & Interfaces](https://dotnetfiddle.net/nd9Klv)
+- [LCOM](https://dotnetfiddle.net/nNmu07)
+- [High Coupling](https://dotnetfiddle.net/EHkKCN)
+- [SRP Violation](https://dotnetfiddle.net/TrhTt4)
+- [SRP](https://dotnetfiddle.net/TvnZXC)
+- [Open-Closed Example](https://dotnetfiddle.net/7mQyx3)
+- [Liskov Substitution Example](https://dotnetfiddle.net/f8XRPM)
+- [Interface Seggregation Violation](https://dotnetfiddle.net/vHoFHZ)
+- [Interface Seggregation](https://dotnetfiddle.net/yKA8as)
+- [Dependency Inversion Principle Violation](https://dotnetfiddle.net/n8Z50W)
+- [Dependency Inversion Principle](https://dotnetfiddle.net/Ood61c)
 
 
 ---
@@ -535,12 +550,7 @@
 - [AngularJs](https://angularjs.org/)
 - [RequireJs API](https://requirejs.org/docs/api.html)
 
-
----
-<br/><br/>
-
-
-## 3D & Design
+### 3D & Design
 - [Unity terrain tutorial](https://www.youtube.com/watch?v=SyTwUotTkBM)
 
 
@@ -662,7 +672,6 @@
 - [Cohesion metrics](https://www.aivosto.com/project/help/pm-oo-cohesion.html)
 
 
-
 ---
 <br/><br/>
 
@@ -687,23 +696,6 @@
 - [Quickstart: Create an ASP.NET Core web app in Azure](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-get-started-dotnet)
 - [Git - Comparing Workflows](https://www.atlassian.com/git/tutorials/comparing-workflows)
 
----
-<br/><br/>
-
-
-## Code Examples
-- [Generic Methods & Interfaces](https://dotnetfiddle.net/nd9Klv)
-- [LCOM](https://dotnetfiddle.net/nNmu07)
-- [High Coupling](https://dotnetfiddle.net/EHkKCN)
-- [SRP Violation](https://dotnetfiddle.net/TrhTt4)
-- [SRP](https://dotnetfiddle.net/TvnZXC)
-- [Open-Closed Example](https://dotnetfiddle.net/7mQyx3)
-- [Liskov Substitution Example](https://dotnetfiddle.net/f8XRPM)
-- [Interface Seggregation Violation](https://dotnetfiddle.net/vHoFHZ)
-- [Interface Seggregation](https://dotnetfiddle.net/yKA8as)
-- [Dependency Inversion Principle Violation](https://dotnetfiddle.net/n8Z50W)
-- [Dependency Inversion Principle](https://dotnetfiddle.net/Ood61c)
-
 
 ---
 <br/><br/>
@@ -727,7 +719,6 @@
 <br/><br/>
 
 
-
 ## Books
 - [Software Architecture in Practice](https://www.amazon.com/Software-Architecture-Practice-3rd-Engineering/dp/0321815734)
 - [Documenting Software Architectures: Views and Beyond](https://www.amazon.com/Documenting-Software-Architectures-Views-Beyond/dp/0321552687/ref=sr_1_1)
@@ -737,41 +728,27 @@
 - [Controlling the Chaos](https://www.oreilly.com/library/view/controlling-the-chaos/9781634623438/)
 
 
-
 ---
 <br/><br/>
 
 
-## Certification
+## Other
+
+### Certification
 - [Your Dashboard](https://www.microsoft.com/en-us/learning/dashboard.aspx)
 - [Computer Training](https://www.microsoft.com/en-us/learning/default.aspx)
 - [Certified ScrumMaster](https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster)
 
-
----
-<br/><br/>
-
-
-## Interview
+### Interview
 - [123 Tasks from Interviews](https://tproger.ru/articles/problems/)
 
-
----
-<br/><br/>
-
-
-## Online Learning
+### Online Learning
 - [MS Learn](https://docs.microsoft.com/en-us/learn/)
 - [CodeAcademy](https://www.codecademy.com/learn/learn-html)
 - [CodeAcademy - Learn SQL](https://www.codecademy.com/learn/learn-sql)
 - [CodeAcademy - SQL: Analyzing Business Metrics](https://www.codecademy.com/learn/sql-analyzing-business-metrics)
 
-
----
-<br/><br/>
-
-
-## Online Work
+### Online Work
 - [Upwork](https://www.upwork.com/i/how-it-works/freelancer/)
 
 
