@@ -1,7 +1,33 @@
 # Technical Links
 
+## Architecture - Process & Business
+- [Software Engineering Institute](https://www.sei.cmu.edu/research-capabilities/all-work/display.cfm?customel_datapageid_4050=21328)
+- [IASA](https://iasaglobal.org/)
+- [Architecture Tradeoff Analysis Method Collection](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=513908)
+- [Architectural Decision Records](https://adr.github.io/)
 
-## Architecture - General
+### Architectural Blogs
+- [Netflix Technology Blog](https://medium.com/@NetflixTechBlog)
+- [Uber Engineering](https://eng.uber.com/)
+- [97 Things Every X Should Know](https://github.com/97-things)
+
+### Architecture in Pre-Sales
+- [Software Architecture in the Presales Process](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=89486)
+- [What it’s like working as a Pre-Sales Solutions Architect](https://community.dynamics.com/crm/b/365lyf/posts/what-it-s-like-working-as-a-pre-sales-solutions-architect)
+- [An Introduction to Pre-Sales Requirements Engineering](https://pdfs.semanticscholar.org/2956/78b36e22779c318ef1b867f0a90f5c22d1b3.pdf)
+- [How to start projects with IT vendors. Part 1: presales in IT](https://www.itransition.com/blog/how-to-work-with-it-vendors-part-1-pre-sale)
+- [How to Build a Winning Pre-Sales Process](https://www.lucidchart.com/blog/what-is-the-pre-sales-process)
+- [Presale Strategy: How to Set Up a Successful Presale](https://www.businessnewsdaily.com/15170-how-to-start-presale.html)
+- [So you want to be a pre sales architect or consultant](https://www.slideshare.net/kmdfaizal/so-you-want-to-be-a-pre-sales-architect-or-consultant)
+- [What is Presales](https://www.slideshare.net/VijayaDevi/session-1-18164230)
+- [Software Sales Proposal](https://www.pandadoc.com/software-sales-proposal-template/)
+
+
+---
+<br/><br/>
+
+
+## Architecture - Essentials
 
 ### Workers
 - [Background jobs](https://docs.microsoft.com/en-us/azure/architecture/best-practices/background-jobs)
@@ -28,8 +54,16 @@
 - [Data Points - Second-Level Caching in the Entity Framework and AppFabric](https://docs.microsoft.com/en-us/archive/msdn-magazine/2011/september/data-points-second-level-caching-in-the-entity-framework-and-appfabric)
 - [EF Cache](https://github.com/moozzyk/EFCache)
 
+### Blockchain
+- [Blockchain Tutorial](https://www.tutorialspoint.com/blockchain/index.htm)
+
+### ELK
+- [What is the ELK Stack](https://www.elastic.co/what-is/elk-stack)
 
 ### Real World Scenarios
+
+#### Cases
+- [Fault Tolerance in a High Volume, Distributed System](https://netflixtechblog.com/fault-tolerance-in-a-high-volume-distributed-system-91ab4faae74a)
 
 #### Custom Fields
 - [High Performance Custom Fields for Multi-Tenant SaaS Architectures](https://www.izenda.com/high-performance-custom-fields-for-multi-tenant-saas-architectures/)
@@ -53,12 +87,17 @@
 
 
 ## Architecture - Enterprise Patterns
+- [The top 5 software architecture patterns: How to make the right choice](https://techbeacon.com/app-dev-testing/top-5-software-architecture-patterns-how-make-right-choice)
+- [Serverless Architectures](https://martinfowler.com/articles/serverless.html)
 - [CQRS](https://martinfowler.com/bliki/CQRS.html)
 - [SOA](https://www.youtube.com/watch?v=gpId5uesiN4)
 - [EDA](https://www.youtube.com/watch?v=fgTF9RN_Sys)
 
 ### Microservices
 
+
+#### Orchestration
+- [Rancher](https://rancher.com/)
 
 ---
 <br/><br/>
@@ -83,7 +122,7 @@
 
 ## Data Science
 - [Extract, transform, load](https://www.wikiwand.com/en/Extract,_transform,_load)
-
+- [Machine Learning by Jeremy Howard](https://www.youtube.com/user/howardjeremyp/playlists)
 
 ---
 <br/><br/>
@@ -205,6 +244,9 @@
 - [API Rules – Guardrails for Good Governance and Best Practices](https://smartbear.com/blog/develop/api-rules-%E2%80%93-guardrails-for-good-governance-and-bes/)
 - [Richardson Maturity Model - Steps toward the glory of REST](https://martinfowler.com/articles/richardsonMaturityModel.html)
 
+### HTTP
+- [Hypertext Transfer Protocol Version 2 (HTTP/2)](https://httpwg.org/specs/rfc7540.html)
+
 ### Tools
 - [Restify](http://restify.com/)
 
@@ -273,11 +315,13 @@
 
 
 ## Algorithms
+- [Hash Tables tutorial](https://simpledevcode.wordpress.com/2015/07/07/hash-tables-tutorial-c-c-java/)
 - [Breadth First Vs Depth First](https://stackoverflow.com/questions/687731/breadth-first-vs-depth-first)
 - [When is it practical to use Depth-First Search (DFS) vs Breadth-First Search (BFS)](https://stackoverflow.com/questions/3332947/when-is-it-practical-to-use-depth-first-search-dfs-vs-breadth-first-search-bf)
 
 ### Online Coding
 - [Kata Codewars](https://www.codewars.com/kata/)
+- [Katacoda](https://www.katacoda.com/)
 
 
 ---
@@ -285,6 +329,8 @@
 
 
 ## Ecosystem
+- [Programmer Competency Matrix](https://sijinjoseph.com/programmer-competency-matrix/)
+- [Microsoft Visual Studio](https://www.youtube.com/user/VisualStudio/videos)
 - [Create a package using the nuget.exe CLI](https://docs.microsoft.com/en-us/nuget/create-packages/creating-a-package)
 
 ### Generic Tools
@@ -397,7 +443,7 @@
 - [Local Git deployment to Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/deploy-local-git)
 - [Automated Deploying and Testing of Services in Azure](http://www.software-architects.com/devblog/2011/02/14/Automated-deploying-and-testing-of-services-in-Azure)
 - [Quickstart: Create an ASP.NET Core web app in Azure](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-get-started-dotnet)
-
+- [Git - Comparing Workflows](https://www.atlassian.com/git/tutorials/comparing-workflows)
 
 ---
 <br/><br/>
