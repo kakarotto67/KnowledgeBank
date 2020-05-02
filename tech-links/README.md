@@ -29,9 +29,6 @@
 
 ## Architecture - Essentials
 
-### Workers
-- [Background jobs](https://docs.microsoft.com/en-us/azure/architecture/best-practices/background-jobs)
-
 ### Patterns
 - [GoF Patterns Cheatsheet](http://www.mcdonaldland.info/files/designpatterns/designpatternscard.pdf)
 - [.NET Design Patterns](https://www.dofactory.com/net/design-patterns)
@@ -56,6 +53,7 @@
 
 ### Blockchain
 - [Blockchain Tutorial](https://www.tutorialspoint.com/blockchain/index.htm)
+- [Building A Blockchain In .NET Core - Basic Blockchain](https://www.c-sharpcorner.com/article/blockchain-basics-building-a-blockchain-in-net-core/)
 
 ### ELK
 - [What is the ELK Stack](https://www.elastic.co/what-is/elk-stack)
@@ -116,8 +114,16 @@
 #### Containers & Docker
 - [Prep Windows for containers](https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/set-up-environment?tabs=Windows-10-Client)
 - [Windows container version compatibility](https://docs.microsoft.com/en-us/virtualization/windowscontainers/deploy-containers/version-compatibility?tabs=windows-server-1909%2Cwindows-10-1909)
+- [Containerize a .NET Core App](https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/building-sample-app)
+- [Overview of docker-compose CLI](https://docs.docker.com/compose/reference/overview/)
 - [Docker Compose deployment support in Azure Service Fabric](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-docker-compose)
 - [Docker Angular Build](https://github.com/joelbrinkley/docker-angular-build/blob/master/Dockerfile)
+- [Docker Tagging: Best practices for tagging and versioning docker images](https://docs.microsoft.com/en-us/archive/blogs/stevelasker/docker-tagging-best-practices-for-tagging-and-versioning-docker-images)
+- [Node Windows](https://hub.docker.com/r/stefanscherer/node-windows/)
+- [Deploy a Docker Container to your local Service Fabric Cluster](https://koukia.ca/deploy-a-docker-container-to-your-local-service-fabric-cluster-cb95eb22b376)
+- [Docker Compose - Resources](https://docs.docker.com/compose/compose-file/#resources)
+- [Stop and remove all docker containers and images](https://blog.baudson.de/blog/stop-and-remove-all-docker-containers-and-images)
+- [Developing inside a Container](https://code.visualstudio.com/docs/remote/containers)
 
 #### Orchestration - AKS
 - [Microservices architecture on Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/microservices/aks)
@@ -132,6 +138,7 @@
 - [Debug Windows containers in Azure Service Fabric using Visual Studio 2019](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-how-to-debug-windows-containers)
 - [Connect-ServiceFabricCluster](https://docs.microsoft.com/en-us/powershell/module/servicefabric/connect-servicefabriccluster?view=azureservicefabricps)
 - [Container deployment is not supported on the node](https://github.com/Azure/service-fabric-mesh-preview/issues/267)
+- [Set up a Linux Service Fabric cluster on your Windows developer machine](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-local-linux-cluster-windows)
 
 #### Orchestration - Other
 - [Rancher](https://rancher.com/)
@@ -150,9 +157,12 @@
 ## Architecture - Cloud
 
 ### Azure
+- [Choose an Azure compute service for your application](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-decision-tree)
 - [Reliable Services overview](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-reliable-services-introduction)
 - [Azure SignalR Messaging With .Net Core Console App Server And Client](https://www.c-sharpcorner.com/article/azure-signalr-messaging-with-net-core-console-app-server-and-client/)
 - [Get started with Service Bus queues](https://docs.microsoft.com/en-gb/azure/service-bus-messaging/service-bus-dotnet-get-started-with-queues)
+- [Multi-tenant SaaS database tenancy patterns](https://docs.microsoft.com/en-us/azure/sql-database/saas-tenancy-app-design-patterns)
+- [Background jobs](https://docs.microsoft.com/en-us/azure/architecture/best-practices/background-jobs)
 
 #### Azure Functions
 - [Create a function in Azure that is triggered by a timer](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-scheduled-function)
@@ -160,6 +170,10 @@
 - [Programmatically Stop an Azure function and start it back again](https://stackoverflow.com/questions/44010655/programmatically-stop-an-azure-function-and-start-it-back-again)
 - [Azure Function With Entity Framework](https://www.c-sharpcorner.com/article/azure-function-with-entity-framework/)
 
+#### Examples
+- [How to scale up and scale out an App Service](https://www.youtube.com/watch?v=DY5ZHMDZv94)
+- [How to buy and configure an App Service certificate](https://www.youtube.com/watch?v=TmIZok_e8pA)
+- [How to purchase a domain name in Azure and map it to a Web App](https://www.youtube.com/watch?v=Ow6ye2VyI3M)
 
 ---
 <br/><br/>
@@ -179,6 +193,7 @@
 ## Back-End
 
 ### .NET/C#
+- [.NET Architecture Guides](https://dotnet.microsoft.com/learn/dotnet/architecture-guides?utm_source=aspnet-start-page&utm_campaign=vside)
 - [C# Presentations](http://kottans.org/csharp-slides/)
 - [C# Course](https://docs.google.com/document/d/19Gfj71qbpKlHXIiye7m_PZDk4jA7M1G21bxRzauVP8w/edit#)
 - [.NET Reference Source](https://referencesource.microsoft.com/)
@@ -187,6 +202,7 @@
 - [CLR implementation of virtual method calls to interface members](https://stackoverflow.com/questions/9808982/clr-implementation-of-virtual-method-calls-to-interface-members)
 - [User-defined conversion operators](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/user-defined-conversion-operators)
 - [Implementing a Dispose method](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/implementing-dispose)
+- [Delegates and Events](https://csharpindepth.com/Articles/Events)
 
 ### C# Rare Features
 - [volatile](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/volatile)
@@ -215,14 +231,26 @@
 - [SQL Server Connection Strings for ASP.NET Web Applications](https://docs.microsoft.com/en-us/previous-versions/aspnet/jj653752(v=vs.110))
 - [BindAttribute Class](https://docs.microsoft.com/en-us/dotnet/api/system.web.mvc.bindattribute?view=aspnet-mvc-5.2)
 
-### SignalR
-- [Real-time ASP.NET with SignalR](https://dotnet.microsoft.com/apps/aspnet/signalr)
-- [Introduction to SignalR](https://docs.microsoft.com/en-us/aspnet/signalr/overview/getting-started/introduction-to-signalr)
-
 ### .NET Core
 - [Using .NET Core in Visual Studio Code](https://code.visualstudio.com/docs/languages/dotnet)
+- [Building a Reverse Proxy in .NET Core](https://auth0.com/blog/building-a-reverse-proxy-in-dot-net-core/)
+
+### ASP.NET Core
+- [ASP.NET documentation](https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-2.2)
+- [ASP.NET Core Middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-2.2)
+- [Migrate HTTP handlers and modules to ASP.NET Core middleware](https://docs.microsoft.com/en-us/aspnet/core/migration/http-modules?view=aspnetcore-2.2)
+- [Use, Run, and Map](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-2.2#use-run-and-map)
 - [Create an ASP.NET Core app with user data protected by authorization](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/secure-data?view=aspnetcore-2.2)
 - [Writing Clean Code in ASP.NET Core with Dependency Injection](https://docs.microsoft.com/en-us/archive/msdn-magazine/2016/may/asp-net-writing-clean-code-in-asp-net-core-with-dependency-injection)
+- [Get started with ASP.NET Core Blazor](https://docs.microsoft.com/en-us/aspnet/core/blazor/get-started?view=aspnetcore-3.1&tabs=visual-studio-code&viewFallbackFrom=aspnetcore-3.0)
+- [Blazor - app building workshop](https://github.com/dotnet-presentations/blazor-workshop/)
+- [Full stack web development with ASP.NET Core 3.0 and Blazor](https://www.youtube.com/watch?v=y7LAbdoNBJA&t=391s)
+
+### SignalR
+- [ASP.NET Core SignalR Overview](https://www.youtube.com/watch?v=u0_vkWYYXRc&t=912s)
+- [Real-time web applications with ASP.NET Core SignalR](https://www.youtube.com/watch?v=YwezzKWrFuo&t=38s)
+- [Real-time ASP.NET with SignalR](https://dotnet.microsoft.com/apps/aspnet/signalr)
+- [Introduction to SignalR](https://docs.microsoft.com/en-us/aspnet/signalr/overview/getting-started/introduction-to-signalr)
 
 ### API
 - [Develop Service-Oriented Applications with WCF](https://docs.microsoft.com/en-us/dotnet/framework/wcf/)
@@ -261,6 +289,7 @@
 - [SQL Server Error Message - Errors 1 to 500](http://www.sql-server-helper.com/error-messages/msg-1-500.aspx)
 
 ### SQL Server - Advanced
+- [Row-Level Security](https://docs.microsoft.com/en-us/sql/relational-databases/security/row-level-security?view=sql-server-2017)
 - [Compare and Analyze Execution Plans](https://docs.microsoft.com/en-us/sql/relational-databases/performance/compare-and-analyze-execution-plans?view=sql-server-2017)
 - [Snapshot Replication](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2012/ms151832(v=sql.110))
 - [High Availability Solutions (SQL Server)](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2012/ms190202(v=sql.110))
@@ -344,6 +373,7 @@
 - [Cross-Domain requests in Javascript](https://jvaneyck.wordpress.com/2014/01/07/cross-domain-requests-in-javascript/)
 - [ES6 Features](http://es6-features.org/)
 - [How it feels to learn JavaScript in 2016](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f#.fw0ro93ss)
+- [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
 ### jQuery
 - [jQuery UIx Multiselect](https://github.com/yanickrochon/jquery.uix.multiselect)
@@ -354,7 +384,7 @@
 - [HTML 5 and CSS 3: The Techniques You'll Soon Be Using](https://code.tutsplus.com/tutorials/html-5-and-css-3-the-techniques-youll-soon-be-using--net-5708)
 - [HTML5 Templates](https://html5up.net/)
 - [Bootstrap Get Started](https://www.w3schools.com/bootstrap/bootstrap_get_started.asp)
-
+- [Sass Basics](https://sass-lang.com/guide)
 
 ### SPA
 - [Single-page application](https://www.wikiwand.com/en/Single-page_application)
@@ -362,7 +392,16 @@
 
 ### Angular
 - [Angular](https://angular.io/)
+- [Angular 8 - Creating a Webpack Configuration from Scratch](https://angular-guru.com/blog/angular-webpack)
+- [Angular CLI: Custom webpack Config](https://alligator.io/angular/custom-webpack-config/)
 - [External JavaScript dependencies in Typescript and Angular 2](https://weblog.west-wind.com/posts/2016/Sep/12/External-JavaScript-dependencies-in-Typescript-and-Angular-2)
+- [Use the Angular project template with ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/angular?view=aspnetcore-2.2&tabs=visual-studio)
+- [How to build an Angular Application with ASP.NET Core in Visual Studio 2017](https://medium.com/@levifuller/building-an-angular-application-with-asp-net-core-in-visual-studio-2017-visualized-f4b163830eaa)
+- [Angular 5 and ASP.NET Core](https://www.toptal.com/angular/angular-5-asp-net-core)
+- [SportStore App Example](https://github.com/Apress/esntl-angular-for-asp.net-core-mvc/tree/master/Chapter%2003/SportsStore)
+- [Using Angular 9 in ASP.NET MVC 5 with Angular CLI and Visual Studio 2017/2019](https://www.mithunvp.com/angular-asp-net-mvc-5-angular-cli-visual-studio-2017/)
+- [Angular Elements - How to use in ASP.NET Core using Angular CLI](https://www.mithunvp.com/using-angular-elements-asp-net-core-angular-cli-visual-studio/)
+- [Deploy an Angular App From Visual Studio Code to Azure](https://dzone.com/articles/deploy-an-angular-app-from-visual-studio-code-to-a-1)
 
 ### Controls
 - [Slider for Bootstrap](http://seiyria.com/bootstrap-slider/)
@@ -419,6 +458,7 @@
 - [Find Your Favorite Visual Studio Extension](https://devblogs.microsoft.com/visualstudio/find-your-favorite-visual-studio-extension/)
 - [Orleans](http://dotnet.github.io/orleans/)
 - [Codeply](https://www.codeply.com/)
+- [VS Code Extensions](https://marketplace.visualstudio.com/search?target=VSCode&category=Azure&sortBy=Relevance)
 
 ### Deployment Tools
 - [WIX Toolset](https://wixtoolset.org/)
