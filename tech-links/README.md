@@ -22,6 +22,11 @@
 - [What is Presales](https://www.slideshare.net/VijayaDevi/session-1-18164230)
 - [Software Sales Proposal](https://www.pandadoc.com/software-sales-proposal-template/)
 
+### Business Domains
+
+#### ERP
+- [Enterprise resource planning](https://en.wikipedia.org/wiki/Enterprise_resource_planning)
+
 
 ---
 <br/><br/>
@@ -61,6 +66,7 @@
 ### Real World Scenarios
 
 #### Cases
+- [Architecting Cloud-Native Apps with AKS and Cosmos DB](https://azure.microsoft.com/en-us/resources/videos/build-2019-architecting-cloud-native-apps-with-aks-and-cosmos-db/)
 - [Fault Tolerance in a High Volume, Distributed System](https://netflixtechblog.com/fault-tolerance-in-a-high-volume-distributed-system-91ab4faae74a)
 
 #### Custom Fields
@@ -96,8 +102,13 @@
 - [Using domain analysis to model microservices](https://docs.microsoft.com/en-us/azure/architecture/microservices/model/domain-analysis)
 - [Designing a microservices architecture](https://docs.microsoft.com/en-us/azure/architecture/microservices/design/)
 - [Building microservices on Azure](https://docs.microsoft.com/en-us/azure/architecture/microservices/)
-- [Design patterns for microservices](https://docs.microsoft.com/en-us/azure/architecture/microservices/design/patterns)
 - [CI/CD for microservices architectures](https://docs.microsoft.com/en-us/azure/architecture/microservices/ci-cd)
+
+### Microservices Patterns
+- [Design patterns for microservices](https://docs.microsoft.com/en-us/azure/architecture/microservices/design/patterns)
+- [Pattern: Saga](https://microservices.io/patterns/data/saga.html)
+- [Saga Pattern | Application transactions using Microservices – Part I](https://blog.couchbase.com/saga-pattern-implement-business-transactions-using-microservices-part/)
+- [Pattern: Event sourcing](https://microservices.io/patterns/data/event-sourcing.html)
 
 ### Frameworks & Libraries
 - [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
@@ -109,7 +120,18 @@
 <br/><br/>
 
 
+## Architecture - Modeling
+- [Structurizr](https://structurizr.com/)
+- [The C4 model for visualising software architecture](https://c4model.com/)
+- [PlantUML in a nutshell](https://plantuml.com/)
+- [Enterprise Architect](https://sparxsystems.com/)
+
+---
+<br/><br/>
+
+
 ## Architecture - Containers & Orchestration
+- [Docker + MongoDB + .NET Core = a good time](https://medium.com/@kristaps.strals/docker-mongodb-net-core-a-good-time-e21f1acb4b7b)
 
 #### Containers & Docker
 - [Prep Windows for containers](https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/set-up-environment?tabs=Windows-10-Client)
@@ -124,10 +146,18 @@
 - [Docker Compose - Resources](https://docs.docker.com/compose/compose-file/#resources)
 - [Stop and remove all docker containers and images](https://blog.baudson.de/blog/stop-and-remove-all-docker-containers-and-images)
 - [Developing inside a Container](https://code.visualstudio.com/docs/remote/containers)
+- [Working with containers](https://code.visualstudio.com/docs/containers/overview)
 
-#### Orchestration - AKS
+#### Orchestration - Kubernetes & AKS
+- [Kubernetes deployment strategies](https://blog.container-solutions.com/kubernetes-deployment-strategies)
+- [k8s deployment strategies](https://github.com/ContainerSolutions/k8s-deployment-strategies)
 - [Microservices architecture on Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/microservices/aks)
 - [Monitoring a microservices architecture in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/architecture/microservices/logging-monitoring)
+- [Prepare an application for Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/tutorial-kubernetes-prepare-app)
+- [Azure Kubernetes Service Workshop](https://docs.microsoft.com/en-us/learn/modules/aks-workshop/)
+- [Working with Kubernetes in VS Code](https://code.visualstudio.com/docs/azure/kubernetes)
+- [az aks create](https://docs.microsoft.com/en-us/cli/azure/aks?toc=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Faks%2FTOC.json&bc=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fbread%2Ftoc.json&view=azure-cli-latest#az-aks-create)
+- [Create an ingress controller in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/ingress-basic?view=azure-cli-latest)
 
 #### Orchestration - Service Fabric
 - [Develop C# Service Fabric applications with Visual Studio Code](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-develop-csharp-applications-with-vs-code)
@@ -181,10 +211,27 @@
 
 ## Data Science
 - [Extract, transform, load](https://www.wikiwand.com/en/Extract,_transform,_load)
+
+### Github Resources
+- [Data Scientist Roadmap](https://github.com/MrMimic/data-scientist-roadmap)
+- [Awesome Data Science](https://github.com/academic/awesome-datascience)
+- [Data Science Collected Resources](https://github.com/tirthajyoti/Data-science-best-resources/blob/master/README.md)
+- [Data Science Cheatsheets](https://github.com/FavioVazquez/ds-cheatsheets)
+- [Data Science Resources](https://github.com/jonathan-bower/DataScienceResources)
+
+### AI
+- [AI School](https://aischool.microsoft.com/en-us/home)
+- [Introduction to Artificial Intelligence (AI)](https://aischool.microsoft.com/en-us/machine-learning/learning-paths/introduction-to-artificial-intelligence/introduction-to-artificial-intelligence)
+- [Notes on Artificial Intelligence, Machine Learning and Deep Learning for curious people](https://towardsdatascience.com/notes-on-artificial-intelligence-ai-machine-learning-ml-and-deep-learning-dl-for-56e51a2071c2)
+
+
+### ML
+- [ML Crash Course](https://aischool.microsoft.com/en-us/machine-learning/learning-paths/ml-crash-course)
+- [ML.NET Tutorial](https://dotnet.microsoft.com/learn/ml-dotnet/get-started-tutorial/intro)
+- [Machine Learning](https://aischool.microsoft.com/en-us/machine-learning/learning-paths)
 - [Machine Learning by Jeremy Howard](https://www.youtube.com/user/howardjeremyp/playlists)
 - [Machine Learning for Humans](https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12)
-- [Notes on Artificial Intelligence, Machine Learning and Deep Learning for curious people](https://towardsdatascience.com/notes-on-artificial-intelligence-ai-machine-learning-ml-and-deep-learning-dl-for-56e51a2071c2)
-- [ML.NET Tutorial](https://dotnet.microsoft.com/learn/ml-dotnet/get-started-tutorial/intro)
+
 
 ---
 <br/><br/>
@@ -351,6 +398,12 @@
 - [API Rules – Guardrails for Good Governance and Best Practices](https://smartbear.com/blog/develop/api-rules-%E2%80%93-guardrails-for-good-governance-and-bes/)
 - [Richardson Maturity Model - Steps toward the glory of REST](https://martinfowler.com/articles/richardsonMaturityModel.html)
 
+### .NET Web API
+- [Web API design](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design)
+- [Designing APIs for microservices](https://docs.microsoft.com/en-us/azure/architecture/microservices/design/api-design)
+- [ASP.NET Core web API help pages with Swagger / OpenAPI](https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-2.2)
+
+
 ### Tools
 - [Restify](http://restify.com/)
 
@@ -359,6 +412,7 @@
 <br/><br/>
 
 ## Front-End
+- [9 Projects you can do to become a Frontend Master in 2020](https://dev.to/simonholdorf/9-projects-you-can-do-to-become-a-frontend-master-in-2020-n2h)
 
 ### JavaScript
 - [Window.sessionStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage)
@@ -492,6 +546,7 @@
 - [Microsoft Security Response Center](https://www.microsoft.com/en-us/msrc?rtc=1)
 - [How to Write Insecure Code](https://owasp.org/www-community/How_to_write_insecure_code)
 - [OWASP Top Ten](https://owasp.org/www-project-top-ten/)
+- [OWASP Top Ten 2017](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/)
 - [SQL Injection](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2008-r2/ms161953(v=sql.105))
 
 ### Obfuscation
