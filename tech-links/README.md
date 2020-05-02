@@ -7,18 +7,25 @@
 - [Background jobs](https://docs.microsoft.com/en-us/azure/architecture/best-practices/background-jobs)
 
 ### Patterns
-- [Inversion of Control Containers and the Dependency Injection pattern](https://martinfowler.com/articles/injection.html)
+- [GoF Patterns Cheatsheet](http://www.mcdonaldland.info/files/designpatterns/designpatternscard.pdf)
 - [Implementing the Repository and Unit of Work Patterns in an ASP.NET MVC Application](https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application)
 - [Using the Repository and Unit Of Work Pattern in .net core](https://garywoodfine.com/generic-repository-pattern-net-core/)
+- [Repository is the new Singleton](https://ayende.com/blog/3955/repository-is-the-new-singleton)
 
 ### Anti-Patterns
 - [Enterprise Modeling Anti-Patterns](http://agilemodeling.com/essays/enterpriseModelingAntiPatterns.htm#30000Feet)
 
+## Inversion of Control
+- [Inversion of Control Containers and the Dependency Injection pattern](https://martinfowler.com/articles/injection.html)
+- [DI Container Benchmarks](https://github.com/stebet/DependencyInjectorBenchmarks/blob/master/README.md)
+
 ### API
 - [API Rules – Guardrails for Good Governance and Best Practices](https://smartbear.com/blog/develop/api-rules-%E2%80%93-guardrails-for-good-governance-and-bes/)
+- [Richardson Maturity Model - Steps toward the glory of REST](https://martinfowler.com/articles/richardsonMaturityModel.html)
 
 ### Azure
 - [Azure SignalR Messaging With .Net Core Console App Server And Client](https://www.c-sharpcorner.com/article/azure-signalr-messaging-with-net-core-console-app-server-and-client/)
+- [Get started with Service Bus queues](https://docs.microsoft.com/en-gb/azure/service-bus-messaging/service-bus-dotnet-get-started-with-queues)
 
 #### Azure Functions
 - [Create a function in Azure that is triggered by a timer](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-scheduled-function)
@@ -37,10 +44,9 @@
 - [HTML to PDF - page break with PdfSharp and HtmlRenderer](https://stackoverflow.com/questions/37660448/html-to-pdf-page-break-with-pdfsharp-and-htmlrenderer)
 - [PDFsharp Sample: Concatenate Documents](http://www.pdfsharp.net/wiki/ConcatenateDocuments-sample.ashx?AspxAutoDetectCookieSupport=1)
 
-
 #### Mathematics & Algorithms
+- [Find day of the week for a given date](https://www.geeksforgeeks.org/find-day-of-the-week-for-a-given-date/)
 - [Calculate distance, bearing and more between Latitude/Longitude points](https://www.movable-type.co.uk/scripts/latlong.html)
-
 
 #### Unsorted
 - [Database design for a survey](https://stackoverflow.com/questions/1764435/database-design-for-a-survey)
@@ -58,6 +64,11 @@
 - [.NET Reference Source](https://referencesource.microsoft.com/)
 - [Predicate Builder](http://www.albahari.com/nutshell/predicatebuilder.aspx)
 
+
+## Libraries
+- [Microsoft.IO.RecyclableMemoryStream](https://github.com/Microsoft/Microsoft.IO.RecyclableMemoryStream)
+- [LightInject](http://www.lightinject.net/)
+- [MoreLinq](https://www.nuget.org/packages/morelinq/)
 
 
 ---
@@ -96,15 +107,18 @@
 
 
 ## Algorithms
-
+- [Breadth First Vs Depth First](https://stackoverflow.com/questions/687731/breadth-first-vs-depth-first)
+- [When is it practical to use Depth-First Search (DFS) vs Breadth-First Search (BFS)](https://stackoverflow.com/questions/3332947/when-is-it-practical-to-use-depth-first-search-dfs-vs-breadth-first-search-bf)
 
 ### Online Coding
-- (Kata Codewars)[https://www.codewars.com/kata/]
+- [Kata Codewars](https://www.codewars.com/kata/)
 
 
 ---
 
+
 ## Ecosystem
+- [Create a package using the nuget.exe CLI](https://docs.microsoft.com/en-us/nuget/create-packages/creating-a-package)
 
 ### Tools
 - [Online regex tester](https://regex101.com/)
@@ -114,15 +128,31 @@
 - [.NET Assembly Strong-Name Signer](https://brutaldev.com/post/NET-Assembly-Strong-Name-Signer)
 - [Code UML](http://www.codeuml.com/)
 - [JSON Lint](https://jsonlint.com/)
+- [WIX Toolset](https://wixtoolset.org/)
+- [SQL Tuning](https://sql-tuning.com/)
+- [Find Your Favorite Visual Studio Extension](https://devblogs.microsoft.com/visualstudio/find-your-favorite-visual-studio-extension/)
 
 
 ---
 
 
 ## Code Quality
+- [The Joel Test: 12 Steps to Better Code](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
+
+### Automated Testing
+- [Creating load tests using HTTP archive](https://devblogs.microsoft.com/devops/feature-preview-creating-load-tests-using-http-archive/?wt.mc_id=DX_841334)
+
+### Metrics
 - [Chidamber & Kemerer object-oriented metrics suite](https://www.aivosto.com/project/help/pm-oo-ck.html)
 - [Cohesion metrics](https://www.aivosto.com/project/help/pm-oo-cohesion.html)
 
+
+
+---
+
+
+## Version Control
+- [Git Cheatsheet](http://www.ndpsoftware.com/git-cheatsheet.html)
 
 
 ---
