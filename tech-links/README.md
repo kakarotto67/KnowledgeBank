@@ -176,6 +176,7 @@
 - [Create an ingress controller in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/ingress-basic?view=azure-cli-latest)
 
 #### Orchestration - Service Fabric
+- [Reliable Services overview](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-reliable-services-introduction)
 - [Develop C# Service Fabric applications with Visual Studio Code](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-develop-csharp-applications-with-vs-code)
 - [Overview of Azure Service Fabric](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-overview)
 - [Service Fabric programming model overview](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-choose-framework)
@@ -201,15 +202,36 @@
 
 
 ## Architecture - Cloud
-
-### Azure
-- [Choose an Azure compute service for your application](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-decision-tree)
-- [Reliable Services overview](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-reliable-services-introduction)
-- [Azure SignalR Messaging With .Net Core Console App Server And Client](https://www.c-sharpcorner.com/article/azure-signalr-messaging-with-net-core-console-app-server-and-client/)
-- [Get started with Service Bus queues](https://docs.microsoft.com/en-gb/azure/service-bus-messaging/service-bus-dotnet-get-started-with-queues)
+- [Azure Application Architecture Guide](https://docs.microsoft.com/en-us/azure/architecture/guide/)
+- [Cloud Design Patterns](https://docs.microsoft.com/en-us/azure/architecture/patterns/)
+- [Big data architectures](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/)
 - [Multi-tenant SaaS database tenancy patterns](https://docs.microsoft.com/en-us/azure/sql-database/saas-tenancy-app-design-patterns)
 - [Background jobs](https://docs.microsoft.com/en-us/azure/architecture/best-practices/background-jobs)
+
+### Azure Services
+- [Choose an Azure compute service for your application](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-decision-tree)
+- [Azure SignalR Messaging With .Net Core Console App Server And Client](https://www.c-sharpcorner.com/article/azure-signalr-messaging-with-net-core-console-app-server-and-client/)
 - [Azure Media Services](https://azure.microsoft.com/en-us/services/media-services/)
+- [What is Azure Resource Manager?](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/overview)
+- [Azure Event Grid documentation](https://docs.microsoft.com/en-us/azure/event-grid/)
+- [Azure Key Vault basic concepts](https://docs.microsoft.com/en-us/azure/key-vault/general/basic-concepts)
+- [What is Application Insights?](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)
+
+#### API Management Service & AKS
+- [About API Management](https://docs.microsoft.com/en-us/azure/api-management/api-management-key-concepts)
+- [Create a new Azure API Management service instance](https://docs.microsoft.com/en-us/azure/api-management/get-started-create-service-instance)
+- [How to connect Azure Api Management (APIM) to your Azure Kubernetes Service (AKS)](https://lurumad.github.io/how-to-connect-azure-api-management-to-your-azure-kubernetes-service)
+- [Control ingress to AKS with Azure API Management](https://pumpingco.de/blog/control-ingress-to-aks-with-azure-api-management/)
+
+#### Azure Active Directory
+- [Create a new tenant in Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-access-create-new-tenant)
+- [What is Azure Active Directory?](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis)
+
+#### Service Bus
+- [Get started with Service Bus topics](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dotnet-how-to-use-topics-subscriptions)
+- [Get started with Service Bus queues](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dotnet-get-started-with-queues)
+- [Use Azure portal to create a Service Bus queue](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-quickstart-portal)
+- [Use the Azure portal to create a Service Bus topic and subscriptions to the topic](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-quickstart-topics-subscriptions-portal)
 
 #### Azure Functions
 - [Create a function in Azure that is triggered by a timer](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-scheduled-function)
@@ -221,6 +243,7 @@
 - [How to scale up and scale out an App Service](https://www.youtube.com/watch?v=DY5ZHMDZv94)
 - [How to buy and configure an App Service certificate](https://www.youtube.com/watch?v=TmIZok_e8pA)
 - [How to purchase a domain name in Azure and map it to a Web App](https://www.youtube.com/watch?v=Ow6ye2VyI3M)
+- [Create your first workflow by using Azure Logic Apps - Azure portal](https://docs.microsoft.com/en-us/azure/logic-apps/quickstart-create-first-logic-app-workflow)
 
 ---
 <br/><br/>
@@ -668,10 +691,11 @@
 - [V-Model](https://www.wikiwand.com/en/V-Model_(software_development))
 - [Tuckman's stages of group development](https://www.wikiwand.com/en/Tuckman%27s_stages_of_group_development)
 
-### Leading
+### Leadership
+- [5 Levels of Leadership](https://peagama.files.wordpress.com/2012/10/5levels_fullsize.jpg)
+- [13 Behaviors of a High Trust Leader](https://ardencoaching.com/thirteen-behaviors-of-a-high-trust-leader/)
 - [5 Tips for Being an Effective Tech Lead](https://www.thoughtworks.com/insights/blog/5-tips-being-effective-tech-lead)
 - [5 Communication Habits of Highly Successful Leaders](https://www.inc.com/marla-tabaka/5-communication-habits-of-highly-successful-leaders.html?cid=sf01002&sr_share=facebook)
-
 
 
 ---
