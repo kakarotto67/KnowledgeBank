@@ -7,6 +7,7 @@
 - [Background jobs](https://docs.microsoft.com/en-us/azure/architecture/best-practices/background-jobs)
 
 ### Patterns
+- [Inversion of Control Containers and the Dependency Injection pattern](https://martinfowler.com/articles/injection.html)
 - [Implementing the Repository and Unit of Work Patterns in an ASP.NET MVC Application](https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application)
 - [Using the Repository and Unit Of Work Pattern in .net core](https://garywoodfine.com/generic-repository-pattern-net-core/)
 
@@ -51,7 +52,10 @@
 
 ## Back-End
 
-### C#
+### .NET/C#
+- [C# Presentations](http://kottans.org/csharp-slides/)
+- [C# Course](https://docs.google.com/document/d/19Gfj71qbpKlHXIiye7m_PZDk4jA7M1G21bxRzauVP8w/edit#)
+- [.NET Reference Source](https://referencesource.microsoft.com/)
 - [Predicate Builder](http://www.albahari.com/nutshell/predicatebuilder.aspx)
 
 
@@ -115,6 +119,32 @@
 ---
 
 
+## Code Quality
+- [Chidamber & Kemerer object-oriented metrics suite](https://www.aivosto.com/project/help/pm-oo-ck.html)
+- [Cohesion metrics](https://www.aivosto.com/project/help/pm-oo-cohesion.html)
+
+
+
+---
+
+
+## Code Examples
+- [Generic Methods & Interfaces](https://dotnetfiddle.net/nd9Klv)
+- [LCOM](https://dotnetfiddle.net/nNmu07)
+- [High Coupling](https://dotnetfiddle.net/EHkKCN)
+- [SRP Violation](https://dotnetfiddle.net/TrhTt4)
+- [SRP](https://dotnetfiddle.net/TvnZXC)
+- [Open-Closed Example](https://dotnetfiddle.net/7mQyx3)
+- [Liskov Substitution Example](https://dotnetfiddle.net/f8XRPM)
+- [Interface Seggregation Violation](https://dotnetfiddle.net/vHoFHZ)
+- [Interface Seggregation](https://dotnetfiddle.net/yKA8as)
+- [Dependency Inversion Principle Violation](https://dotnetfiddle.net/n8Z50W)
+- [Dependency Inversion Principle](https://dotnetfiddle.net/Ood61c)
+
+
+---
+
+
 ## Management
 
 ### SDLC
@@ -161,6 +191,9 @@
 
 ## Online Learning
 - [MS Learn](https://docs.microsoft.com/en-us/learn/)
+- [CodeAcademy](https://www.codecademy.com/learn/learn-html)
+- [CodeAcademy - Learn SQL](https://www.codecademy.com/learn/learn-sql)
+- [CodeAcademy - SQL: Analyzing Business Metrics](https://www.codecademy.com/learn/sql-analyzing-business-metrics)
 
 
 ---
