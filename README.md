@@ -7,4 +7,4 @@
 - [Knowledge Bank](knowledge-bank/README.md)
 
 #### Other
-- [Technical Links](docker-examples/)
+- [Docker Examples](docker-examples/)
