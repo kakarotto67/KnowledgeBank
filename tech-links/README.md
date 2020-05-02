@@ -91,6 +91,15 @@
 ---
 
 
+## Algorithms
+
+
+### Online Coding
+- (Kata Codewars)[https://www.codewars.com/kata/]
+
+
+---
+
 ## Ecosystem
 
 ### Tools
@@ -106,11 +115,15 @@
 ---
 
 
-## Soft Skills
+## Management
+
+### SDLC
+- [Tuckman's stages of group development](https://www.wikiwand.com/en/Tuckman%27s_stages_of_group_development)
 
 ### Leading
 - [5 Tips for Being an Effective Tech Lead](https://www.thoughtworks.com/insights/blog/5-tips-being-effective-tech-lead)
 - [5 Communication Habits of Highly Successful Leaders](https://www.inc.com/marla-tabaka/5-communication-habits-of-highly-successful-leaders.html?cid=sf01002&sr_share=facebook)
+
 
 
 ---
@@ -133,6 +146,15 @@
 ## Certification
 - [Your Dashboard](https://www.microsoft.com/en-us/learning/dashboard.aspx)
 - [Computer Training](https://www.microsoft.com/en-us/learning/default.aspx)
+- [Certified ScrumMaster](https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster)
+
+
+---
+
+
+## Interview
+- [123 Tasks from Interviews](https://tproger.ru/articles/problems/)
+
 
 ---
 
