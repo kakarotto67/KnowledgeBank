@@ -1,21 +1,21 @@
 # ASP.NET/MVC General
 
 #### Navigation
-- [MVC Overview (`System.Web.MVC`)](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#mvc-overview-systemwebmvc)
-  - [The Model](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#the-model)
-  - [The View](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#the-view)
-  - [The Controller](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#the-controller)
-  - [Controllers, Views and Action Methods](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#controllers-views-and-action-methods)
-  - [Passing Model to a View](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#passing-model-to-a-view)
-  - [Passing Data via Dynamic Properties](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#passing-data-via-dynamic-properties)
-  - [Special Views](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#special-views)
-  - [Layout Page](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#layout-page)
-- [Razor View Engine](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#razor-view-engine)
-- [MVC Routing](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#mvc-routing)
-- [MVC Filtering](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#mvc-filtering)
-- [MVC Security Notes](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#mvc-security-notes)
-- [Deployment](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#deployment)
-  - [Deployment to Azure - General Steps](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/Basics.md#deployment-to-azure---general-steps)
+- [MVC Overview (`System.Web.MVC`)](MVC/Basics.md#mvc-overview-systemwebmvc)
+  - [The Model](MVC/Basics.md#the-model)
+  - [The View](MVC/Basics.md#the-view)
+  - [The Controller](MVC/Basics.md#the-controller)
+  - [Controllers, Views and Action Methods](MVC/Basics.md#controllers-views-and-action-methods)
+  - [Passing Model to a View](MVC/Basics.md#passing-model-to-a-view)
+  - [Passing Data via Dynamic Properties](MVC/Basics.md#passing-data-via-dynamic-properties)
+  - [Special Views](MVC/Basics.md#special-views)
+  - [Layout Page](MVC/Basics.md#layout-page)
+- [Razor View Engine](MVC/Basics.md#razor-view-engine)
+- [MVC Routing](MVC/Basics.md#mvc-routing)
+- [MVC Filtering](MVC/Basics.md#mvc-filtering)
+- [MVC Security Notes](MVC/Basics.md#mvc-security-notes)
+- [Deployment](MVC/Basics.md#deployment)
+  - [Deployment to Azure - General Steps](MVC/Basics.md#deployment-to-azure---general-steps)
 
 #### MVC Overview (`System.Web.MVC`)
 ###### The Model
@@ -99,7 +99,7 @@
   - `EmptyResult`, etc.
 - All relations mentioned above are illustrated at the image below. There is `MoviesController` controller inside `Controllers` folder. It has some action methods, such as `Index`, `Create`, `Delete`, etc. All those methods represent appropriate views from corresponding `Views\Movies` folder. The image also represents typical MVC project structure
 
-![MVC project structure](https://github.com/kakarotto67/KnowledgeBank/blob/master/MVC/mvc-structure.png)
+![MVC project structure](MVC/mvc-structure.png)
 
 ###### Passing Model to a View
 - You can pass data between controller and view by using of view constructor
@@ -369,7 +369,7 @@
 - Do not use `Get` action methods for inserts, updates and deletes
 
 #### Deployment
-- Check [this link](https://github.com/kakarotto67/KnowledgeBank/blob/master/ASP.NET/Basics.md#aspnet-application-deployment) to get more information
+- Check [this link](ASP.NET/Basics.md#aspnet-application-deployment) to get more information
 
 ###### Deployment to Azure - General Steps
 1. Register on [MS Azure](https://azure.microsoft.com) website

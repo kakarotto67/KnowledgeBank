@@ -1,10 +1,10 @@
 # Requirements Basics
 
 #### Navigation
-- [Definition](https://github.com/kakarotto67/KnowledgeBank/blob/master/Requirements/Basics.md#definition)
-- [Techniques](https://github.com/kakarotto67/KnowledgeBank/blob/master/Requirements/Basics.md#techniques)
-- [Modeling](https://github.com/kakarotto67/KnowledgeBank/blob/master/Requirements/Basics.md#modeling)
-- [Requirements Types](https://github.com/kakarotto67/KnowledgeBank/blob/master/Requirements/Basics.md#requirements-types)
+- [Definition](Requirements/Basics.md#definition)
+- [Techniques](Requirements/Basics.md#techniques)
+- [Modeling](Requirements/Basics.md#modeling)
+- [Requirements Types](Requirements/Basics.md#requirements-types)
 
 #### Definition
 - Requirements define the needs of stakeholders that are to be solved by software

@@ -1,6 +1,6 @@
 # Logical Questions
 
-#### Common Strategies
+#### General Solving Strategy
 1. Start from simpler version of the problem, try to find some logic/trend and then project the solution to the original problem
 2. Start from the end (expected result of the problem) and try to go to the beginning to find the solution
 3. Try to find some trend or regularity. This especially can be applied to some numerical sequences, etc.
@@ -9,4 +9,4 @@
 sequence directly, but try to represent existing items as english words, or calculate number of holes in each digit, etc.
 6. Use science. A lot of logical questions can be answered using physical, mathematical, statistical or theory of probability rules, etc.
 
-Include this: Examples, etc.
+TODO: Add examples

@@ -1,15 +1,15 @@
 # Estimation Basics
 
 #### Navigation
-- [Scope](https://github.com/kakarotto67/KnowledgeBank/blob/master/Estimation/Basics.md#scope)
-- [Definition and Basics](https://github.com/kakarotto67/KnowledgeBank/blob/master/Estimation/Basics.md#definition-and-basics)
-- [Estimation Activities and Estimation Errors](https://github.com/kakarotto67/KnowledgeBank/blob/master/Estimation/Basics.md#estimation-activities-and-estimation-errors)
-- [Estimation Size, Efforts and Schedule](https://github.com/kakarotto67/KnowledgeBank/blob/master/Estimation/Basics.md#estimation-size-efforts-and-schedule)
-- [Documenting and Presenting Estimates](https://github.com/kakarotto67/KnowledgeBank/blob/master/Estimation/Basics.md#documenting-and-presenting-estimates)
-- [Cone of Uncertainty and Diseconomies of Scale](https://github.com/kakarotto67/KnowledgeBank/blob/master/Estimation/Basics.md#cone-of-uncertainty-and-diseconomies-of-scale)
-- [Work Breakdown Structure](https://github.com/kakarotto67/KnowledgeBank/blob/master/Estimation/Basics.md#work-breakdown-structure)
-- [Delphi Method](https://github.com/kakarotto67/KnowledgeBank/blob/master/Estimation/Basics.md#delphi-method)
-- [Pert Analysis](https://github.com/kakarotto67/KnowledgeBank/blob/master/Estimation/Basics.md#pert-analysis)
+- [Scope](Estimation/Basics.md#scope)
+- [Definition and Basics](Estimation/Basics.md#definition-and-basics)
+- [Estimation Activities and Estimation Errors](Estimation/Basics.md#estimation-activities-and-estimation-errors)
+- [Estimation Size, Efforts and Schedule](Estimation/Basics.md#estimation-size-efforts-and-schedule)
+- [Documenting and Presenting Estimates](Estimation/Basics.md#documenting-and-presenting-estimates)
+- [Cone of Uncertainty and Diseconomies of Scale](Estimation/Basics.md#cone-of-uncertainty-and-diseconomies-of-scale)
+- [Work Breakdown Structure](Estimation/Basics.md#work-breakdown-structure)
+- [Delphi Method](Estimation/Basics.md#delphi-method)
+- [Pert Analysis](Estimation/Basics.md#pert-analysis)
 
 #### Scope
 - Project Scope
