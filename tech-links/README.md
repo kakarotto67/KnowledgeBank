@@ -2,7 +2,7 @@
 
 ## Navigation
 
-- [Architecture - Process & Business](#architecture---process--business-1)
+- [Architecture - Process & Business](#architecture---process--business)
   - [Architectural Blogs](#architectural-blogs)
   - [Architecture in Pre-Sales](#architecture-in-pre-sales)
   - [Business Domains](#business-domains)
@@ -17,6 +17,9 @@
   - [ELK](#elk)
   - [Real World Scenarios](#real-world-scenarios)
 
+- [Architecture - Enterprise Patterns](#architecture---enterprise-patterns)
+  - [Microservices](#microservices)
+  - [Framework and Libraries](#frameworks--libraries)
 
 ---
 <br/><br/>
@@ -142,7 +145,7 @@
 - [Building microservices on Azure](https://docs.microsoft.com/en-us/azure/architecture/microservices/)
 - [CI/CD for microservices architectures](https://docs.microsoft.com/en-us/azure/architecture/microservices/ci-cd)
 
-### Microservices Patterns
+#### Microservices Patterns
 - [Design patterns for microservices](https://docs.microsoft.com/en-us/azure/architecture/microservices/design/patterns)
 - [Pattern: Saga](https://microservices.io/patterns/data/saga.html)
 - [Saga Pattern | Application transactions using Microservices – Part I](https://blog.couchbase.com/saga-pattern-implement-business-transactions-using-microservices-part/)
