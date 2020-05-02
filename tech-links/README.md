@@ -30,7 +30,7 @@
 - [PDFsharp Sample: Concatenate Documents](http://www.pdfsharp.net/wiki/ConcatenateDocuments-sample.ashx?AspxAutoDetectCookieSupport=1)
 
 #### Unsorted
-- [Database design for a survey(https://stackoverflow.com/questions/1764435/database-design-for-a-survey)
+- [Database design for a survey](https://stackoverflow.com/questions/1764435/database-design-for-a-survey)
 
 
 ---
@@ -39,7 +39,7 @@
 
 ## Back-End
 
-### CS
+### C#
 - [Predicate Builder](http://www.albahari.com/nutshell/predicatebuilder.aspx)
 
 
