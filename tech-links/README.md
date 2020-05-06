@@ -295,6 +295,7 @@
 
 ### ML
 - [ML Crash Course](https://aischool.microsoft.com/en-us/machine-learning/learning-paths/ml-crash-course)
+- [ML Crash Cource (MS Learn)](https://docs.microsoft.com/en-us/learn/paths/ml-crash-course/)
 - [ML.NET Tutorial](https://dotnet.microsoft.com/learn/ml-dotnet/get-started-tutorial/intro)
 - [Machine Learning](https://aischool.microsoft.com/en-us/machine-learning/learning-paths)
 - [Machine Learning by Jeremy Howard](https://www.youtube.com/user/howardjeremyp/playlists)
