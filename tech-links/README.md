@@ -493,6 +493,7 @@
 ---
 <br/><br/>
 
+
 ## Front-End
 - [9 Projects you can do to become a Frontend Master in 2020](https://dev.to/simonholdorf/9-projects-you-can-do-to-become-a-frontend-master-in-2020-n2h)
 
@@ -510,6 +511,13 @@
 - [ES6 Features](http://es6-features.org/)
 - [How it feels to learn JavaScript in 2016](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f#.fw0ro93ss)
 - [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+- [Scopes in JavaScript](https://towardsdatascience.com/still-confused-in-js-scopes-f7dae62c16ee)
+- [Explaining Value vs Reference in JavaScript](https://codeburst.io/explaining-value-vs-reference-in-javascript-647a975e12a0)
+- [Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+- [Lambda and Arrow Functions](https://www.vinta.com.br/blog/2015/javascript-lambda-and-arrow-functions/)
+- [Currying](https://javascript.info/currying-partials)
+- [Destructuring Assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+- [Spread Syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
 
 ### jQuery
 - [jQuery UIx Multiselect](https://github.com/yanickrochon/jquery.uix.multiselect)
@@ -521,10 +529,14 @@
 - [HTML5 Templates](https://html5up.net/)
 - [Bootstrap Get Started](https://www.w3schools.com/bootstrap/bootstrap_get_started.asp)
 - [Sass Basics](https://sass-lang.com/guide)
+- [BEM](http://getbem.com/introduction/)
 
 ### SPA
 - [Single-page application](https://www.wikiwand.com/en/Single-page_application)
 - [ASP.NET - Single-Page Applications: Build Modern, Responsive Web Apps with ASP.NET](https://docs.microsoft.com/en-us/archive/msdn-magazine/2013/november/asp-net-single-page-applications-build-modern-responsive-web-apps-with-asp-net)
+
+### TypeScript
+- [Decorators](https://www.typescriptlang.org/docs/handbook/decorators.html)
 
 ### Angular
 - [Angular](https://angular.io/)
@@ -538,6 +550,18 @@
 - [Using Angular 9 in ASP.NET MVC 5 with Angular CLI and Visual Studio 2017/2019](https://www.mithunvp.com/angular-asp-net-mvc-5-angular-cli-visual-studio-2017/)
 - [Angular Elements - How to use in ASP.NET Core using Angular CLI](https://www.mithunvp.com/using-angular-elements-asp-net-core-angular-cli-visual-studio/)
 - [Deploy an Angular App From Visual Studio Code to Azure](https://dzone.com/articles/deploy-an-angular-app-from-visual-studio-code-to-a-1)
+- [Introduction to Angular Concepts](https://angular.io/guide/architecture)
+- [Angular Decorators](https://medium.com/@madhavmahesh/list-of-all-decorators-available-in-angular-71bdf4ad6976)
+- [AsyncPipe](https://angular.io/api/common/AsyncPipe)
+- [AsyncPipe: How to use it properly](https://malcoded.com/posts/angular-async-pipe/)
+- [Ng-Container](https://angular.io/guide/structural-directives#ng-container)
+- [NgTemplateOutlet](https://angular.io/api/common/NgTemplateOutlet)
+- [Angular Ng-Template, Ng-Container and NgTemplateOutlet](https://blog.angular-university.io/angular-ng-template-ng-container-ngtemplateoutlet/)
+- [Reactive Forms](https://angular.io/guide/reactive-forms)
+- [RxJS](https://angular.io/guide/rx-library)
+- [Angular JWT Authentication](https://blog.angular-university.io/angular-jwt-authentication/)
+- [Angular Authentication using Http Interceptors](https://medium.com/@ryanchenkie_40935/angular-authentication-using-the-http-client-and-http-interceptors-2f9d1540eb8)
+- [Angular Secutiry](https://angular.io/guide/security)
 
 ### Controls
 - [Slider for Bootstrap](http://seiyria.com/bootstrap-slider/)
@@ -550,6 +574,7 @@
 - [Backbone.js](https://backbonejs.org/)
 - [AngularJs](https://angularjs.org/)
 - [RequireJs API](https://requirejs.org/docs/api.html)
+- [Gulp Tasks](https://gulpjs.com/docs/en/getting-started/creating-tasks/)
 
 ### 3D & Design
 - [Unity terrain tutorial](https://www.youtube.com/watch?v=SyTwUotTkBM)
@@ -714,7 +739,7 @@
 - [13 Behaviors of a High Trust Leader](https://ardencoaching.com/thirteen-behaviors-of-a-high-trust-leader/)
 - [5 Tips for Being an Effective Tech Lead](https://www.thoughtworks.com/insights/blog/5-tips-being-effective-tech-lead)
 - [5 Communication Habits of Highly Successful Leaders](https://www.inc.com/marla-tabaka/5-communication-habits-of-highly-successful-leaders.html?cid=sf01002&sr_share=facebook)
-
+- [4 Components of Emotional Intelligence](https://www.ocelotbot.com/articles/4-components-emotional-intelligence-eq/)
 
 ---
 <br/><br/>
