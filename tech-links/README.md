@@ -650,6 +650,7 @@
 - [OWASP Top Ten](https://owasp.org/www-project-top-ten/)
 - [OWASP Top Ten 2017](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/)
 - [SQL Injection](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2008-r2/ms161953(v=sql.105))
+- [MITRE](https://www.mitre.org/)
 
 ### Obfuscation
 - [Protect your source code from decompiling or reverse engineering](http://arunendapally.com/post/protect-your-source-code-from-decompiling-or-reverse-engineering)
